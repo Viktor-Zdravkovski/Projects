@@ -1,0 +1,441 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.WebApp\\MovieRental.WebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj",
+        "projectName": "MovieRental.DataBase",
+        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj"
+              },
+              "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj",
+        "projectName": "MovieRental.Domain",
+        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj",
+        "projectName": "MovieRental.Dtos",
+        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Mapper\\MovieRental.Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Mapper\\MovieRental.Mapper.csproj",
+        "projectName": "MovieRental.Mapper",
+        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Mapper\\MovieRental.Mapper.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Mapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Service\\MovieRental.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Service\\MovieRental.Service.csproj",
+        "projectName": "MovieRental.Service",
+        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Service\\MovieRental.Service.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj"
+              },
+              "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj"
+              },
+              "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Mapper\\MovieRental.Mapper.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Mapper\\MovieRental.Mapper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.WebApp\\MovieRental.WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.WebApp\\MovieRental.WebApp.csproj",
+        "projectName": "MovieRental.WebApp",
+        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.WebApp\\MovieRental.WebApp.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj"
+              },
+              "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Service\\MovieRental.Service.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Service\\MovieRental.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

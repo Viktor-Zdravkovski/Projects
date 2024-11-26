@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|c:\\users\\justi\\desktop\\check\\finalproject\\backend\\project\\dropshipping.webapp\\dropshipping.services\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|solutionrelative:dropshipping.services\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|c:\\users\\justi\\desktop\\check\\finalproject\\backend\\project\\dropshipping.webapp\\dropshipping.services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|solutionrelative:dropshipping.services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A28D7F93-094D-454E-A96D-54CFDECEAF8F}|DropShipping.DataBase\\DropShipping.DataBase.csproj|c:\\users\\justi\\desktop\\check\\finalproject\\backend\\project\\dropshipping.webapp\\dropshipping.database\\implementations\\efimpementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A28D7F93-094D-454E-A96D-54CFDECEAF8F}|DropShipping.DataBase\\DropShipping.DataBase.csproj|solutionrelative:dropshipping.database\\implementations\\efimpementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2903E2E1-AB72-4764-8879-CFFFA8306BC0}|DropShipping\\DropShipping.csproj|c:\\users\\justi\\desktop\\check\\finalproject\\backend\\project\\dropshipping.webapp\\dropshipping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2903E2E1-AB72-4764-8879-CFFFA8306BC0}|DropShipping\\DropShipping.csproj|solutionrelative:dropshipping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2903E2E1-AB72-4764-8879-CFFFA8306BC0}|DropShipping\\DropShipping.csproj|c:\\users\\justi\\desktop\\check\\finalproject\\backend\\project\\dropshipping.webapp\\dropshipping\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2903E2E1-AB72-4764-8879-CFFFA8306BC0}|DropShipping\\DropShipping.csproj|solutionrelative:dropshipping\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|c:\\users\\justi\\desktop\\check\\finalproject\\backend\\project\\dropshipping.webapp\\dropshipping.services\\dropshipping.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|solutionrelative:dropshipping.services\\dropshipping.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\Implementations\\OrderService.cs",
+              "RelativeDocumentMoniker": "DropShipping.Services\\Implementations\\OrderService.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\Implementations\\OrderService.cs",
+              "RelativeToolTip": "DropShipping.Services\\Implementations\\OrderService.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAIwKgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:07:23.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "DropShipping.Services\\Implementations\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\Implementations\\CategoryService.cs",
+              "RelativeToolTip": "DropShipping.Services\\Implementations\\CategoryService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwGEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:06:55.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\Implementations\\EFImpementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DropShipping.DataBase\\Implementations\\EFImpementations\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\Implementations\\EFImpementations\\UserRepository.cs",
+              "RelativeToolTip": "DropShipping.DataBase\\Implementations\\EFImpementations\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:05:47.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping\\Program.cs",
+              "RelativeDocumentMoniker": "DropShipping\\Program.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping\\Program.cs",
+              "RelativeToolTip": "DropShipping\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:04:55.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DropShipping.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\DropShipping.Services.csproj",
+              "RelativeDocumentMoniker": "DropShipping.Services\\DropShipping.Services.csproj",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\DropShipping.Services.csproj",
+              "RelativeToolTip": "DropShipping.Services\\DropShipping.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T14:25:18.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "DropShipping\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "DropShipping\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAuwHQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T17:15:32.56Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

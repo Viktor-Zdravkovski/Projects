@@ -1,0 +1,15 @@
+﻿@model MovieDto
+
+
+<div class="movie-details">
+	<h1 class="movie-title">@Model.Title</h1>
+	<div class="movie-info">
+		<p><strong>Genre:</strong> @Model.Genre</p>
+		<p><strong>Language:</strong> @Model.Language</p>
+		<p><strong>Release Date:</strong> @Model.ReleaseDate.ToString("MMMM d, yyyy")</p>
+		<p><strong>Length:</strong> @Model.Length</p>
+		<p><strong>Age Restriction:</strong> @Model.AgeRestriction</p>
+		<p><strong>Quantity Available:</strong> @Model.Quantity</p>
+	</div>
+</div>
+

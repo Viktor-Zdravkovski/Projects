@@ -1,0 +1,83 @@
+﻿@model Location
+
+<partial name="_Notification" />
+
+@* <form method="post" asp-action="DeletePOST">
+    <input asp-for="Id" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-body-emphasis">Delete Location </h2>
+            <hr />
+        </div>
+        <div class="mb-3">
+            <label asp-for="LocationName" class="form-label"></label>
+            <input asp-for="LocationName" disabled class="form-control" />
+
+        </div>
+        <div class="mb-3">
+            <label asp-for="Address" class="form-label"></label>
+            <input asp-for="Address" type="number" disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="OpensAt" class="form-label"></label>
+            <input asp-for="OpensAt"  disabled class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="ClosesAt" class="form-label"></label>
+            <input asp-for="ClosesAt"  disabled class="form-control" />
+        </div>
+
+            <div class="text-end">
+                <button type="submit" class="btn btn-primary" style="width:150px">Delete</button>
+                <a asp-controller="Location" asp-action="Index" class="btn btn-danger" style="width:150px">Back to menu</a>
+            </div>
+        </div>
+    </div>
+</form> *@
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h3 class="text-center">Are you sure you want to delete this?</h3>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-4 mb-3">
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd class="col-sm-8 mb-3">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+                <dt class="col-sm-4 mb-3">
+                    @Html.DisplayNameFor(model => model.Address)
+                </dt>
+                <dd class="col-sm-8 mb-3">
+                    @Html.DisplayFor(model => model.Address)
+                </dd>
+                <dt class="col-sm-4 mb-3">
+                    @Html.DisplayNameFor(model => model.OpensAt)
+                </dt>
+                <dd class="col-sm-8 mb-3">
+                    @Html.DisplayFor(model => model.OpensAt)
+                </dd>
+                <dt class="col-sm-4 mb-3">
+                    @Html.DisplayNameFor(model => model.ClosesAt)
+                </dt>
+                <dd class="col-sm-8 mb-3">
+                    @Html.DisplayFor(model => model.ClosesAt)
+                </dd>
+            </dl>
+            <form asp-action="DeletePOST" class="mt-4 text-end">
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <input type="submit" value="Delete" class="btn btn-danger me-2" style="width:150px" /> 
+                    <a asp-controller="Location" asp-action="Index" class="btn btn-secondary" style="width:150px">Back to List</a>
+                </div>
+            </form>
+            @*  <div class="text-end m-4">
+                <button type="submit" class="btn btn-primary" style="width:150px">Delete</button>
+                <a asp-controller="Location" asp-action="Index" class="btn btn-danger" style="width:150px">Back to menu</a>
+            </div> *@
+        </div>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+﻿@* @model IEnumerable<MovieDto>
+
+<h2>Rented Movies</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Language</th>
+            <th>Release Date</th>
+            <th>Length</th>
+            <th>Age Restriction</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td>@movie.Title</td>
+                <td>@movie.Genre</td>
+                <td>@movie.Language</td>
+                <td>@movie.ReleaseDate.ToShortDateString()</td>
+                <td>@movie.Length</td>
+                <td>@movie.AgeRestriction</td>
+            </tr>
+        }
+    </tbody>
+</table>
+ *@
+
+@model IEnumerable<MovieDto>
+
+<h2>Rented Movies</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Language</th>
+            <th>Release Date</th>
+            <th>Length</th>
+            <th>Age Restriction</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td>@movie.Title</td>
+                <td>@movie.Genre</td>
+                <td>@movie.Language</td>
+                <td>@movie.ReleaseDate.ToShortDateString()</td>
+                <td>@movie.Length</td>
+                <td>@movie.AgeRestriction</td>
+            </tr>
+        }
+    </tbody>
+</table>

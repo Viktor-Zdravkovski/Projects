@@ -1,0 +1,42 @@
+﻿@model MovieDto
+
+@{
+    ViewData["Title"] = "Rent Movie";
+}
+
+<h1>@Model.Title</h1>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<form asp-controller="Movie" asp-action="RentMovie" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <div>
+        <h4>Details</h4>
+        <dl class="row">
+            <dt class="col-sm-3">Title</dt>
+            <dd class="col-sm-9">@Model.Title</dd>
+            <dt class="col-sm-3">Genre</dt>
+            <dd class="col-sm-9">@Model.Genre</dd>
+            <dt class="col-sm-3">Language</dt>
+            <dd class="col-sm-9">@Model.Language</dd>
+            <dt class="col-sm-3">Release Date</dt>
+            <dd class="col-sm-9">@Model.ReleaseDate.ToShortDateString()</dd>
+            <dt class="col-sm-3">Length</dt>
+            <dd class="col-sm-9">@Model.Length</dd>
+            <dt class="col-sm-3">Age Restriction</dt>
+            <dd class="col-sm-9">@Model.AgeRestriction</dd>
+            <dt class="col-sm-3">Available Quantity</dt>
+            <dd class="col-sm-9">@Model.Quantity</dd>
+        </dl>
+    </div>
+
+    <button type="submit" class="btn btn-primary" @(Model.IsAvailable ? "" : "disabled")>
+        Rent
+    </button>
+</form>
