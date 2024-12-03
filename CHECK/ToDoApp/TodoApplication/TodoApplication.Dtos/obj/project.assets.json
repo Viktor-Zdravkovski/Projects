@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Dtos\\TodoApplication.Dtos.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Dtos\\TodoApplication.Dtos.csproj",
       "projectName": "TodoApplication.Dtos",
-      "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Dtos\\TodoApplication.Dtos.csproj",
+      "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Dtos\\TodoApplication.Dtos.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Dtos\\obj\\",
+      "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Dtos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj": {}
+    "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj": {
+    "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj",
         "projectName": "NotesApp.DataAccess",
-        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj",
+        "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\NotesApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\NotesApp.Domain.csproj"
+              "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\NotesApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\NotesApp.Domain.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\NotesApp.Domain.csproj": {
+    "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\NotesApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\NotesApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\NotesApp.Domain.csproj",
         "projectName": "NotesApp.Domain",
-        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\NotesApp.Domain.csproj",
+        "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\NotesApp.Domain.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",

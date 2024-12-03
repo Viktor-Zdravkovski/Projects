@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BurgerShop.WebApp.props" />
+</Project>

@@ -1987,11 +1987,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Services\\TodoApplication.Services.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Services\\TodoApplication.Services.csproj",
       "projectName": "TodoApplication.Services",
-      "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Services\\TodoApplication.Services.csproj",
+      "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Services\\TodoApplication.Services.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Services\\obj\\",
+      "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2009,14 +2009,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Dtos\\TodoApplication.Dtos.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Dtos\\TodoApplication.Dtos.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Dtos\\TodoApplication.Dtos.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Dtos\\TodoApplication.Dtos.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Mapper\\TodoApplication.Mapper.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Mapper\\TodoApplication.Mapper.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Mapper\\TodoApplication.Mapper.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.Mapper\\TodoApplication.Mapper.csproj"
             }
           }
         }

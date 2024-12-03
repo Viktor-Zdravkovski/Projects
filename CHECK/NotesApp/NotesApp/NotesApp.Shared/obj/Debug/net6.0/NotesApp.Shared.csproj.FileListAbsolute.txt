@@ -1,0 +1,12 @@
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\bin\Debug\net6.0\NotesApp.Shared.deps.json
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\bin\Debug\net6.0\NotesApp.Shared.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\bin\Debug\net6.0\NotesApp.Shared.pdb
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\obj\Debug\net6.0\NotesApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\obj\Debug\net6.0\NotesApp.Shared.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\obj\Debug\net6.0\NotesApp.Shared.AssemblyInfo.cs
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\obj\Debug\net6.0\NotesApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\obj\Debug\net6.0\NotesApp.Shared.sourcelink.json
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\obj\Debug\net6.0\NotesApp.Shared.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\obj\Debug\net6.0\refint\NotesApp.Shared.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\obj\Debug\net6.0\NotesApp.Shared.pdb
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NotesApp.Shared\obj\Debug\net6.0\ref\NotesApp.Shared.dll

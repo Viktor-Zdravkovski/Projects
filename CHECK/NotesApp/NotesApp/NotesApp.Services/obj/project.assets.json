@@ -2150,11 +2150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\NotesApp.Services.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\NotesApp.Services.csproj",
       "projectName": "NotesApp.Services",
-      "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\NotesApp.Services.csproj",
+      "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\NotesApp.Services.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\obj\\",
+      "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2172,17 +2172,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NoteApp.Dto\\NotesApp.Dto.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NoteApp.Dto\\NotesApp.Dto.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NoteApp.Dto\\NotesApp.Dto.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NoteApp.Dto\\NotesApp.Dto.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\NotesApp.DataAccess.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Mappers\\NotesApp.Mappers.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Mappers\\NotesApp.Mappers.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Mappers\\NotesApp.Mappers.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Mappers\\NotesApp.Mappers.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj": {}
+    "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj": {
+    "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj",
         "projectName": "NotesApp.Shared",
-        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj",
+        "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\NotesApp.Shared.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\obj\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2054,11 +2054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj",
       "projectName": "MovieRental.DataBase",
-      "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj",
+      "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\MovieRental.DataBase.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\obj\\",
+      "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.DataBase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2076,11 +2076,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Domain\\MovieRental.Domain.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.Dtos\\MovieRental.Dtos.csproj"
             }
           }
         }

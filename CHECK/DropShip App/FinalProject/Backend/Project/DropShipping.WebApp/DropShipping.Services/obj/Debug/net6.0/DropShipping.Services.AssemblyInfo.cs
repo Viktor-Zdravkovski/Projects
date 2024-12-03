@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DropShipping.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd920590c42d9576f9379e87bb27cc696438809e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DropShipping.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DropShipping.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

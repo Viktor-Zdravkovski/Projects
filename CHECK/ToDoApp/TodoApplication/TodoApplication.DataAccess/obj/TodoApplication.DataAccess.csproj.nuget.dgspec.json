@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj": {}
+    "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj": {
+    "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj",
         "projectName": "TodoApplication.DataAccess",
-        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj",
+        "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\TodoApplication.DataAccess.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\TodoApplication.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\TodoApplication.Domain.csproj": {
-                "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\TodoApplication.Domain.csproj"
+              "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\TodoApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\TodoApplication.Domain.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\TodoApplication.Domain.csproj": {
+    "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\TodoApplication.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\TodoApplication.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\TodoApplication.Domain.csproj",
         "projectName": "TodoApplication.Domain",
-        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\TodoApplication.Domain.csproj",
+        "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\TodoApplication.Domain.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\obj\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\ToDoApp\\TodoApplication\\Todoapplication.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",

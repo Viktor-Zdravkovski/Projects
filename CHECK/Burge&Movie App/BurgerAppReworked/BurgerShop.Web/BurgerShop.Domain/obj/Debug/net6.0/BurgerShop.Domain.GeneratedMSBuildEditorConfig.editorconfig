@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BurgerShop.Domain
-build_property.ProjectDir = C:\Users\justi\Desktop\CHECK\Burge&Movie App\BurgerAppReworked\BurgerShop.Web\BurgerShop.Domain\
+build_property.ProjectDir = C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\BurgerAppReworked\BurgerShop.Web\BurgerShop.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

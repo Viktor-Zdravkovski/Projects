@@ -1,0 +1,12 @@
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\bin\Debug\net6.0\TodoApplication.Domain.deps.json
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\bin\Debug\net6.0\TodoApplication.Domain.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\bin\Debug\net6.0\TodoApplication.Domain.pdb
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\obj\Debug\net6.0\TodoApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\obj\Debug\net6.0\TodoApplication.Domain.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\obj\Debug\net6.0\TodoApplication.Domain.AssemblyInfo.cs
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\obj\Debug\net6.0\TodoApplication.Domain.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\obj\Debug\net6.0\TodoApplication.Domain.sourcelink.json
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\obj\Debug\net6.0\TodoApplication.Domain.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\obj\Debug\net6.0\refint\TodoApplication.Domain.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\obj\Debug\net6.0\TodoApplication.Domain.pdb
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\ToDoApp\TodoApplication\Todoapplication.Model\obj\Debug\net6.0\ref\TodoApplication.Domain.dll

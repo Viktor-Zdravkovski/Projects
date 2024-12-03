@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uK41pT/aTEI=",
+  "dgSpecHash": "/2BOjWd4WO4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Service\\BurgerShop.Service.csproj",
+  "projectFilePath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Service\\BurgerShop.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

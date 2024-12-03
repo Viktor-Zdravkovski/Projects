@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tPWmf7qNNQc=",
+  "dgSpecHash": "EbseBmNKxak=",
   "success": true,
-  "projectFilePath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\DropShipping.Services.csproj",
+  "projectFilePath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\DropShipping.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\justi\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\commonservicelocator\\1.3.0\\commonservicelocator.1.3.0.nupkg.sha512",

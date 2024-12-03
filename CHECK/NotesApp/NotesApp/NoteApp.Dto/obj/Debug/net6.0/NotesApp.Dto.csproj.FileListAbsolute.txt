@@ -1,0 +1,16 @@
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\bin\Debug\net6.0\NotesApp.Dto.deps.json
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\bin\Debug\net6.0\NotesApp.Dto.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\bin\Debug\net6.0\NotesApp.Dto.pdb
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\bin\Debug\net6.0\NotesApp.Domain.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\bin\Debug\net6.0\NotesApp.Domain.pdb
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\NotesApp.Dto.csproj.AssemblyReference.cache
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\NotesApp.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\NotesApp.Dto.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\NotesApp.Dto.AssemblyInfo.cs
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\NotesApp.Dto.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\NotesApp.Dto.sourcelink.json
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\NotesApp.A5BB15EA.Up2Date
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\NotesApp.Dto.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\refint\NotesApp.Dto.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\NotesApp.Dto.pdb
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\NotesApp\NotesApp\NoteApp.Dto\obj\Debug\net6.0\ref\NotesApp.Dto.dll

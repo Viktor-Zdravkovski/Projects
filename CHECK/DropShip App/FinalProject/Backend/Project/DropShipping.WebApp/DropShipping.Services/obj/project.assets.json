@@ -6812,11 +6812,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\DropShipping.Services.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\DropShipping.Services.csproj",
       "projectName": "DropShipping.Services",
-      "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\DropShipping.Services.csproj",
+      "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\DropShipping.Services.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\obj\\",
+      "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6834,17 +6834,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\DropShipping.DataBase.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\DropShipping.DataBase.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\DropShipping.DataBase.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\DropShipping.DataBase.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Dto\\DropShipping.Dto.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Dto\\DropShipping.Dto.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Dto\\DropShipping.Dto.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Dto\\DropShipping.Dto.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Mappers\\DropShipping.Mappers.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Mappers\\DropShipping.Mappers.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Mappers\\DropShipping.Mappers.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Mappers\\DropShipping.Mappers.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Shared\\DropShipping.Shared.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Shared\\DropShipping.Shared.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Shared\\DropShipping.Shared.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Shared\\DropShipping.Shared.csproj"
             }
           }
         }

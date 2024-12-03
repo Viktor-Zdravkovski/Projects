@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Shared\\DropShipping.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Shared\\DropShipping.Shared.csproj",
       "projectName": "DropShipping.Shared",
-      "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Shared\\DropShipping.Shared.csproj",
+      "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Shared\\DropShipping.Shared.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Shared\\obj\\",
+      "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",

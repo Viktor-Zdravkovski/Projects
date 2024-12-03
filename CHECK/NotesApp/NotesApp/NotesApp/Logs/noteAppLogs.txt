@@ -1,0 +1,8 @@
+[2024-12-03 17:42:42 INF] : Processing registration for new user: "Vice"
+[2024-12-03 17:42:44 INF] : User registered successfully: "Vice"
+[2024-12-03 17:42:54 INF] : Processing login attempt for user: "Vice"
+[2024-12-03 17:42:55 INF] : User successfully logged in: "Vice"
+[2024-12-03 17:44:22 INF] : Processing login attempt for user: "Vice"
+[2024-12-03 17:44:22 INF] : User successfully logged in: "Vice"
+[2024-12-03 17:46:56 INF] : Processing login attempt for user: "Vice"
+[2024-12-03 17:46:58 INF] : User successfully logged in: "Vice"

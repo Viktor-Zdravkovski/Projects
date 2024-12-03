@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj": {}
+    "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj": {
+    "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj",
         "projectName": "BurgerShop.Domain",
-        "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj",
+        "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\obj\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",

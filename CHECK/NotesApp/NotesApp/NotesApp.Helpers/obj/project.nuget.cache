@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ohDNzm1XP0U=",
+  "dgSpecHash": "+02QEWEC2ow=",
   "success": true,
-  "projectFilePath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Helpers\\NotesApp.Helpers.csproj",
+  "projectFilePath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Helpers\\NotesApp.Helpers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\justi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

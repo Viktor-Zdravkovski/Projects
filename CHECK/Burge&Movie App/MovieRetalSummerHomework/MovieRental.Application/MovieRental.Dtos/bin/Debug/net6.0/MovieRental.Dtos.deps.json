@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MovieRental.Dtos/1.0.0": {
+        "dependencies": {
+          "MovieRental.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MovieRental.Dtos.dll": {}
+        }
+      },
+      "MovieRental.Domain/1.0.0": {
+        "runtime": {
+          "MovieRental.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MovieRental.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MovieRental.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

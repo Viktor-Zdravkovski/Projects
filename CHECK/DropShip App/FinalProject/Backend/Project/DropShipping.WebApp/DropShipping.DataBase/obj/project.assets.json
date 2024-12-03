@@ -2035,11 +2035,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\DropShipping.DataBase.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\DropShipping.DataBase.csproj",
       "projectName": "DropShipping.DataBase",
-      "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\DropShipping.DataBase.csproj",
+      "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\DropShipping.DataBase.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\obj\\",
+      "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2057,8 +2057,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Domain\\DropShipping.Domain.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Domain\\DropShipping.Domain.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Domain\\DropShipping.Domain.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.Domain\\DropShipping.Domain.csproj"
             }
           }
         }

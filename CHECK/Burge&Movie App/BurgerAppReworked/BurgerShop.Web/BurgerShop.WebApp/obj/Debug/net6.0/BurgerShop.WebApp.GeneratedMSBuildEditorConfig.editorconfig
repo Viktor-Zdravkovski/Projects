@@ -9,95 +9,95 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BurgerShop.WebApp
 build_property.RootNamespace = BurgerShop.WebApp
-build_property.ProjectDir = C:\Users\justi\Desktop\CHECK\Burge&Movie App\BurgerAppReworked\BurgerShop.Web\BurgerShop.WebApp\
+build_property.ProjectDir = C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\BurgerAppReworked\BurgerShop.Web\BurgerShop.WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\justi\Desktop\CHECK\Burge&Movie App\BurgerAppReworked\BurgerShop.Web\BurgerShop.WebApp
+build_property.MSBuildProjectDirectory = C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\BurgerAppReworked\BurgerShop.Web\BurgerShop.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/AboutUs/Index.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/AboutUs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Burger/Create.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Burger/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Burger/Delete.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Burger/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Burger/Edit.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Burger/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Burger/Index.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Burger/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Home/Index.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Home/Privacy.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Location/Create.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Location/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Location/Delete.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Location/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Location/Edit.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Location/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Location/Index.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Location/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Order/Create.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Order/Delete.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Order/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Order/Edit.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Order/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Order/Index.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Shared/Error.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Shared/_Notification.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/_ViewImports.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/_ViewStart.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/justi/Desktop/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/justi/Desktop/ProjectBranch/Projects/CHECK/Burge&Movie App/BurgerAppReworked/BurgerShop.Web/BurgerShop.WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-oucjgd3gq7

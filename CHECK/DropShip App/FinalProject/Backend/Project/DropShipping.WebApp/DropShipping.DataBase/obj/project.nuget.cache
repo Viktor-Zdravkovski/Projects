@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jB+GAWe7EEo=",
+  "dgSpecHash": "h8Xs/EKVOF0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\justi\\Desktop\\CHECK\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\DropShipping.DataBase.csproj",
+  "projectFilePath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\DropShip App\\FinalProject\\Backend\\Project\\DropShipping.WebApp\\DropShipping.DataBase\\DropShipping.DataBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\justi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

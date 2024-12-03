@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BurgerShop.Dtos/1.0.0": {
+        "dependencies": {
+          "BurgerShop.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BurgerShop.Dtos.dll": {}
+        }
+      },
+      "BurgerShop.Domain/1.0.0": {
+        "runtime": {
+          "BurgerShop.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BurgerShop.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BurgerShop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

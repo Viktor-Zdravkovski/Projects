@@ -1989,11 +1989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Service\\BurgerShop.Service.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Service\\BurgerShop.Service.csproj",
       "projectName": "BurgerShop.Service",
-      "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Service\\BurgerShop.Service.csproj",
+      "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Service\\BurgerShop.Service.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Service\\obj\\",
+      "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2011,14 +2011,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.DataAccess\\BurgerShop.DataBase.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.DataAccess\\BurgerShop.DataBase.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.DataAccess\\BurgerShop.DataBase.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.DataAccess\\BurgerShop.DataBase.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Dtos\\BurgerShop.Dtos.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Dtos\\BurgerShop.Dtos.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Dtos\\BurgerShop.Dtos.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Dtos\\BurgerShop.Dtos.csproj"
             },
-            "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Mapper\\BurgerShop.Mapper.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Mapper\\BurgerShop.Mapper.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Mapper\\BurgerShop.Mapper.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Mapper\\BurgerShop.Mapper.csproj"
             }
           }
         }

@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Dtos\\BurgerShop.Dtos.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Dtos\\BurgerShop.Dtos.csproj",
       "projectName": "BurgerShop.Dtos",
-      "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Dtos\\BurgerShop.Dtos.csproj",
+      "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Dtos\\BurgerShop.Dtos.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Dtos\\obj\\",
+      "outputPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Dtos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,8 +54,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj": {
-              "projectPath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj"
+            "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.Domain\\BurgerShop.Domain.csproj"
             }
           }
         }

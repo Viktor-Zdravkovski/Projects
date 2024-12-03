@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m3ZjpLJhiQQ=",
+  "dgSpecHash": "1kTVWpZTboE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.DataAccess\\BurgerShop.DataBase.csproj",
+  "projectFilePath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\BurgerAppReworked\\BurgerShop.Web\\BurgerShop.DataAccess\\BurgerShop.DataBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\justi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

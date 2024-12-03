@@ -1,0 +1,16 @@
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\bin\Debug\net6.0\MovieRental.Dtos.deps.json
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\bin\Debug\net6.0\MovieRental.Dtos.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\bin\Debug\net6.0\MovieRental.Dtos.pdb
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\bin\Debug\net6.0\MovieRental.Domain.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\bin\Debug\net6.0\MovieRental.Domain.pdb
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\MovieRental.Dtos.csproj.AssemblyReference.cache
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\MovieRental.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\MovieRental.Dtos.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\MovieRental.Dtos.AssemblyInfo.cs
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\MovieRental.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\MovieRental.Dtos.sourcelink.json
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\MovieRen.54D20683.Up2Date
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\MovieRental.Dtos.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\refint\MovieRental.Dtos.dll
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\MovieRental.Dtos.pdb
+C:\Users\justi\Desktop\ProjectBranch\Projects\CHECK\Burge&Movie App\MovieRetalSummerHomework\MovieRental.Application\MovieRental.Dtos\obj\Debug\net6.0\ref\MovieRental.Dtos.dll

@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\",
+  "WorkspaceRootPath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3912EBE6-A34F-4723-B0A7-03ECDAFC17D2}|NotesApp.Tests\\NotesApp.Tests.csproj|c:\\users\\justi\\desktop\\check\\notesapp\\notesapp\\notesapp.tests\\noteservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1CB5836-49C1-4534-8252-B327E7E76D33}|NotesApp\\NotesApp.csproj|c:\\users\\justi\\desktop\\projectbranch\\projects\\check\\notesapp\\notesapp\\notesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1CB5836-49C1-4534-8252-B327E7E76D33}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\Migrations\\20241203163938_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NotesApp.DataAccess\\Migrations\\20241203163938_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1CB5836-49C1-4534-8252-B327E7E76D33}|NotesApp\\NotesApp.csproj|c:\\users\\justi\\desktop\\projectbranch\\projects\\check\\notesapp\\notesapp\\notesapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1CB5836-49C1-4534-8252-B327E7E76D33}|NotesApp\\NotesApp.csproj|solutionrelative:notesapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56297FF6-D3EB-4818-B109-CFF91B178E60}|NotesApp.DataAccess\\NotesApp.DataAccess.csproj|c:\\users\\justi\\desktop\\projectbranch\\projects\\check\\notesapp\\notesapp\\notesapp.dataaccess\\context\\notesappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56297FF6-D3EB-4818-B109-CFF91B178E60}|NotesApp.DataAccess\\NotesApp.DataAccess.csproj|solutionrelative:notesapp.dataaccess\\context\\notesappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3912EBE6-A34F-4723-B0A7-03ECDAFC17D2}|NotesApp.Tests\\NotesApp.Tests.csproj|c:\\users\\justi\\desktop\\projectbranch\\projects\\check\\notesapp\\notesapp\\notesapp.tests\\noteservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3912EBE6-A34F-4723-B0A7-03ECDAFC17D2}|NotesApp.Tests\\NotesApp.Tests.csproj|solutionrelative:notesapp.tests\\noteservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8445B24D-E2AD-4015-8E59-BE92008EA048}|NotesApp.Services\\NotesApp.Services.csproj|c:\\users\\justi\\desktop\\check\\notesapp\\notesapp\\notesapp.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8445B24D-E2AD-4015-8E59-BE92008EA048}|NotesApp.Services\\NotesApp.Services.csproj|c:\\users\\justi\\desktop\\projectbranch\\projects\\check\\notesapp\\notesapp\\notesapp.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8445B24D-E2AD-4015-8E59-BE92008EA048}|NotesApp.Services\\NotesApp.Services.csproj|solutionrelative:notesapp.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8445B24D-E2AD-4015-8E59-BE92008EA048}|NotesApp.Services\\NotesApp.Services.csproj|c:\\users\\justi\\desktop\\check\\notesapp\\notesapp\\notesapp.services\\implementation\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8445B24D-E2AD-4015-8E59-BE92008EA048}|NotesApp.Services\\NotesApp.Services.csproj|c:\\users\\justi\\desktop\\projectbranch\\projects\\check\\notesapp\\notesapp\\notesapp.services\\implementation\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8445B24D-E2AD-4015-8E59-BE92008EA048}|NotesApp.Services\\NotesApp.Services.csproj|solutionrelative:notesapp.services\\implementation\\noteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56297FF6-D3EB-4818-B109-CFF91B178E60}|NotesApp.DataAccess\\NotesApp.DataAccess.csproj|c:\\users\\justi\\desktop\\check\\notesapp\\notesapp\\notesapp.dataaccess\\context\\notesappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56297FF6-D3EB-4818-B109-CFF91B178E60}|NotesApp.DataAccess\\NotesApp.DataAccess.csproj|solutionrelative:notesapp.dataaccess\\context\\notesappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NoteServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Tests\\NoteServiceTests.cs",
-              "RelativeDocumentMoniker": "NotesApp.Tests\\NoteServiceTests.cs",
-              "ToolTip": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Tests\\NoteServiceTests.cs",
-              "RelativeToolTip": "NotesApp.Tests\\NoteServiceTests.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwAwAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20241203163938_Test.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\Migrations\\20241203163938_Test.cs",
+              "RelativeDocumentMoniker": "NotesApp.DataAccess\\Migrations\\20241203163938_Test.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\Migrations\\20241203163938_Test.cs",
+              "RelativeToolTip": "NotesApp.DataAccess\\Migrations\\20241203163938_Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T13:00:44.041Z",
+              "WhenOpened": "2024-12-03T16:39:39.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\Implementation\\UserService.cs",
-              "RelativeDocumentMoniker": "NotesApp.Services\\Implementation\\UserService.cs",
-              "ToolTip": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\Implementation\\UserService.cs",
-              "RelativeToolTip": "NotesApp.Services\\Implementation\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp\\Program.cs",
+              "RelativeDocumentMoniker": "NotesApp\\Program.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp\\Program.cs",
+              "RelativeToolTip": "NotesApp\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwDUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:54:58.169Z",
+              "WhenOpened": "2024-12-01T21:27:07.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp\\appsettings.json",
+              "RelativeDocumentMoniker": "NotesApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp\\appsettings.json",
+              "RelativeToolTip": "NotesApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T21:20:49.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NoteServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Tests\\NoteServiceTests.cs",
+              "RelativeDocumentMoniker": "NotesApp.Tests\\NoteServiceTests.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Tests\\NoteServiceTests.cs",
+              "RelativeToolTip": "NotesApp.Tests\\NoteServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:00:44.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "NotesApp.Services\\Implementation\\UserService.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\Implementation\\UserService.cs",
+              "RelativeToolTip": "NotesApp.Services\\Implementation\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T12:54:58.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "NoteService.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\Implementation\\NoteService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\Implementation\\NoteService.cs",
               "RelativeDocumentMoniker": "NotesApp.Services\\Implementation\\NoteService.cs",
-              "ToolTip": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\Implementation\\NoteService.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.Services\\Implementation\\NoteService.cs",
               "RelativeToolTip": "NotesApp.Services\\Implementation\\NoteService.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAcwGcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T12:54:42.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T12:54:42.689Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "NotesAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\Context\\NotesAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\Context\\NotesAppDbContext.cs",
               "RelativeDocumentMoniker": "NotesApp.DataAccess\\Context\\NotesAppDbContext.cs",
-              "ToolTip": "C:\\Users\\justi\\Desktop\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\Context\\NotesAppDbContext.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\NotesApp\\NotesApp\\NotesApp.DataAccess\\Context\\NotesAppDbContext.cs",
               "RelativeToolTip": "NotesApp.DataAccess\\Context\\NotesAppDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T12:49:43.574Z",
               "EditorCaption": ""

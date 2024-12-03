@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gwct55ha4UY=",
+  "dgSpecHash": "rGE8FaZ3zMo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\justi\\Desktop\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.WebApp\\MovieRental.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\justi\\Desktop\\ProjectBranch\\Projects\\CHECK\\Burge&Movie App\\MovieRetalSummerHomework\\MovieRental.Application\\MovieRental.WebApp\\MovieRental.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\justi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
