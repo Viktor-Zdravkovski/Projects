@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "bs2hKecBAoaXgLZAGclZxVypi82gMdBZ6dVB8BMTuLw=",
+  "Source": "FlashGameCofe.WebApp",
+  "BasePath": "_content/FlashGameCofe.WebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

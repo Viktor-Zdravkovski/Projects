@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop</title>
+    <link rel="icon" href="./assets/pizaPortrait.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar" style="z-index: 99999999999999999;">
+        <div class="logo">
+            <img src="/assets/logo1.png" alt="Logo">
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+
+        <ul class="nav-links">
+            <li><a href="#home" onclick="showHomePage()">Home</a></li>
+            <li><a href="#aboutUs" onclick="showAboutUsPage()">About us</a></li>
+            <li><a href="#ourMenu" onclick="showOurMenuPage()">Our menu</a></li>
+            <li><a href="#photos" onclick="showGalleryPage()">Photos</a></li>
+            <li><a href="#contact" onclick="showContactUsPage()">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="homePage" id="HoMePaGe">
+
+        <div class="Wrapper">
+            <img src="./assets/HomePicture21.png" alt="Pizza Background">
+            <h1 class="overlayText">Welcome to Pizza Shop</h1>
+            <p class="subText">Authentic Italian flavors, made with love</p>
+            <a href="#menu" class="btn" onclick="showOurMenuPage()">View Our Menu</a>
+        </div>
+
+        <div class="imageTextContainer">
+            <div class="image">
+                <img src="/assets/PizzaPortraits.png" alt="Pizza">
+            </div>
+            <div class="textContainer">
+                <div class="Text">
+                    <h1>We use proven recipes and fresh ingredients</h1>
+                    <div class="decorative-line"></div>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat.</p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
+                </div>
+                <div class="buttonContainer">
+                    <button onclick="showAboutUsPage()">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="imageTextContainer flipped">
+            <div class="image">
+                <img class="flippedImage" src="/assets/PizzaRight.png" alt="Pizza">
+            </div>
+            <div class="textContainer">
+                <div class="Text">
+                    <h1>Fresh Ingredients, Timeless Recipes</h1>
+                    <div class="decorative-line"></div>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat.</p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
+                </div>
+                <div class="buttonContainer">
+                    <button onclick="showAboutUsPage()">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="galleryAndTitleSection">
+            <div class="TitleSection">
+                <div class="Titlee">
+                    <h2>The basis of our pizza are four ingredients</h2>
+                    <h6>NUNC VOLUTPAT ULTRICIES A, RUTRUM</h6>
+                </div>
+            </div>
+            <div class="cardSection">
+                <div class="cardGalleryContainer">
+
+                    <div class="cardContainer">
+                        <div class="photoTitleContainer">
+                            <div class="TitleOfPhoto">
+                                <div class="TitleOnPhoto">
+                                    <h3>Tomatoes</h3>
+                                </div>
+                            </div>
+                            <div class="photoContainer">
+                                <img src="./assets/tomatoes.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cardContainer">
+                        <div class="photoTitleContainer">
+                            <div class="TitleOfPhoto">
+                                <div class="TitleOnPhoto">
+                                    <h3>Garlic</h3>
+                                </div>
+                            </div>
+                            <div class="photoContainer">
+                                <img src="./assets/garlic.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cardContainer">
+                        <div class="photoTitleContainer">
+                            <div class="TitleOfPhoto">
+                                <div class="TitleOnPhoto">
+                                    <h3>Basil</h3>
+                                </div>
+                            </div>
+                            <div class="photoContainer">
+                                <img src="./assets/basil.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cardContainer">
+                        <div class="photoTitleContainer">
+                            <div class="TitleOfPhoto">
+                                <div class="TitleOnPhoto">
+                                    <h3>Extras</h3>
+                                </div>
+                            </div>
+                            <div class="photoContainer">
+                                <img src="./assets/extras.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="pizzaAndTitleSection">
+            <div class="TitleSection">
+                <div class="PizzaTitle">
+                    <h2>Get to know our tastiest proposals</h2>
+                    <h6>ALIQUAM FRINGILLA ALIQUAM EX SIT AMET</h6>
+                </div>
+            </div>
+            <div class="gallerySection">
+                <div class="galleryContainer">
+
+                    <div class="pizzaCard">
+                        <div class="pizzaContent">
+                            <div class="pizzaImage">
+                                <img src="./assets/Pizza3.png" alt="Pizza">
+                            </div>
+                            <div class="pizzaDetails">
+                                <h3 class="pizzaName">Capricciosa</h3>
+                                <p class="pizzaDescription">A delicious blend of fresh tomatoes, basil, and mozzarella.
+                                </p>
+                                <span class="pizzaPrice">$10.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pizzaCard">
+                        <div class="pizzaContent">
+                            <div class="pizzaImage">
+                                <img src="./assets/Pizza3.png" alt="Pizza">
+                            </div>
+                            <div class="pizzaDetails">
+                                <h3 class="pizzaName">Capricciosa</h3>
+                                <p class="pizzaDescription">A delicious blend of fresh tomatoes, basil, and mozzarella.
+                                </p>
+                                <span class="pizzaPrice">$10.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pizzaCard">
+                        <div class="pizzaContent">
+                            <div class="pizzaImage">
+                                <img src="./assets/Pizza3.png" alt="Pizza">
+                            </div>
+                            <div class="pizzaDetails">
+                                <h3 class="pizzaName">Capricciosa</h3>
+                                <p class="pizzaDescription">A delicious blend of fresh tomatoes, basil, and mozzarella.
+                                </p>
+                                <span class="pizzaPrice">$10.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pizzaCard">
+                        <div class="pizzaContent">
+                            <div class="pizzaImage">
+                                <img src="./assets/Pizza3.png" alt="Pizza">
+                            </div>
+                            <div class="pizzaDetails">
+                                <h3 class="pizzaName">Capricciosa</h3>
+                                <p class="pizzaDescription">A delicious blend of fresh tomatoes, basil, and mozzarella.
+                                </p>
+                                <span class="pizzaPrice">$10.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="contactElements">
+            <div class="contactContainer">
+                <div class="infoBox">
+                    <div class="orderInfo">
+                        <div class="phoneInfo">
+                            <img src="./assets/phonePhoto.png" alt="">
+                            <div class="textInfo">
+                                <h5>Order On-line</h5>
+                                <h4>123-123-123</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuSection">
+                        <div class="menuInfo">
+                            <div class="menusInfo">
+                                <a href="#ourMenu" onclick="showOurMenuPage()"><button
+                                        class="menusInfoButton">Menu</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="socialIcons">
+                    <a href="#" target="_blank"><img
+                            src="./assets/facebookLogo.png" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img
+                            src="./assets/InstagramLogo.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- ABOUT US PAGE -->
+
+    <div class="aboutUsPage" id="AboutUsPage" style="display: none;">
+        <div class="topBanner topBannerForPhone">
+            <img src="./assets/aboutUs1.png" alt="Pizza Background">
+            <div class="quoteOverlay">
+                <h1 class="aboutUstitple">The secret is the dough ...</h1>
+                <p class="aboutUstitplepara">PIZZA BAKED IN A REAL ITALIAN OVEN</p>
+            </div>
+        </div>
+
+        <div class="contentWrapper">
+            <div class="aboutUsPageTitleSection">
+                <div class="aboutUsPageTitle">
+                    <h1>Learn the secret of our pizza</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainGrid" id="mainGrid">
+
+            <div class="leftColumn">
+                <div class="greenBlock">
+                    <img src="/assets/tomato.png" alt="Tomatoes">
+                    <h3>Fresh ingredients</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat</p>
+                </div>
+                <div class="greenBlock">
+                    <img src="/assets/windmill.png" alt="Garlic">
+                    <h3>Italian "00" flour</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat</p>
+                </div>
+            </div>
+
+            <div class="middleColumn">
+                <div class="aboutUsPizza">
+                    <img src="/assets/c.png" alt="About Us Image">
+                </div>
+
+
+            </div>
+
+            <div class="rightColumn">
+                <div class="greenBlock">
+                    <img src="/assets/cow.png" alt="Basil">
+                    <h3>Real mozzarella</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat</p>
+                </div>
+                <div class="greenBlock">
+                    <img src="/assets/pizzaSlice.png" alt="Cheese">
+                    <h3>Crunchy dough</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate esse cillum dolore eu fugiat</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="phoneOnlyImageContainer">
+            <img src="./assets/Screenshot_12.png" alt="">
+        </div>
+
+        <div class="historySection">
+            <div class="historySectionImage">
+                <img src="./assets/historySince.png" alt="Restaurant History">
+            </div>
+            <div class="historySectionInfo">
+                <div class="history">
+
+                    <div class="historyRow">
+                        <div class="certainYear">2013</div>
+                        <div class="imageContainer">
+                            <img src="./assets/pizzaOven.png" alt="Restaurant Opening">
+                        </div>
+                        <div class="historyparagraphContainer">
+                            <h1>Excepteur sint occaecat</h1>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.
+                            </p>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="historyRow">
+                        <div class="certainYear">2015</div>
+                        <div class="imageContainer">
+                            <img src="./assets/restaurant.png" alt="Restaurant Growth">
+                        </div>
+                        <div class="historyparagraphContainer">
+                            <h1>Excepteur sint occaecat</h1>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.
+                            </p>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="historyRow">
+                        <div class="certainYear">2017</div>
+                        <div class="imageContainer">
+                            <img src="./assets/pizzaSalad.png" alt="Restaurant Celebration">
+                        </div>
+                        <div class="historyparagraphContainer">
+                            <h1>Excepteur sint occaecat</h1>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.
+                            </p>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /div od container ( aboutUS DIVOT ) -->
+    </div>
+
+    <!-- MENU SECTION -->
+
+    <div class="ourMenu" id="OurMenuPage" style="display: none;">
+        <div class="topBanner">
+            <img src="./assets/menuPage.png" alt="Pizza Background">
+            <div class="ourMenuHeadSection">
+                <h1>Discover the menu of our restaurant</h1>
+                <p>ALIQUAM AC DUI VEL DUI VULPUTATE CONSECTETUR</p>
+            </div>
+        </div>
+
+        <div class="restourantMenuContainer">
+            <div class="restourantMenuSection">
+                <!-- MENU COVER PAGE -->
+                <div class="menuPage menuCoverPage active">
+                </div>
+
+                <!-- MENU PAGES -->
+                <div class="menuPage menuFirstPage">
+                    <div class="menuContent">
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName">Capricciosa</span>
+                                <span class="dishPrice">20€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Mushrooms, ketchup, mozzarella, ham
+                            </div>
+                        </div>
+
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName">Margherita</span>
+                                <span class="dishPrice">15€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Tomato sauce, mozzarella, fresh basil
+                            </div>
+                        </div>
+
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName" style="color: rgb(143, 0, 0);">Diavola 🌶️</span>
+                                <span class="dishPrice">18€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Spicy salami, mozzarella, tomato sauce, chili
+                            </div>
+                        </div>
+
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName">Quattro Formaggi</span>
+                                <span class="dishPrice">22€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Mozzarella, gorgonzola, parmesan, fontina
+                            </div>
+                        </div>
+
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName">Prosciutto e Funghi</span>
+                                <span class="dishPrice">19€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Tomato sauce, mozzarella, ham, mushrooms
+                            </div>
+                        </div>
+
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName">Bufalina</span>
+                                <span class="dishPrice">21€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Buffalo mozzarella, cherry tomatoes, fresh basil
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="menuPage menuSecondPage">
+                    <div class="menuContent">
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName">Pizza Tonno</span>
+                                <span class="dishPrice">17€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Tuna, onions, mozzarella, tomato sauce
+                            </div>
+                        </div>
+
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName" style="color: green;">Pizza Vegetariana 🌱</span>
+                                <span class="dishPrice">18€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Zucchini, peppers, mushrooms, olives, tomato sauce
+                            </div>
+                        </div>
+
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName">Pizza Boscaiola</span>
+                                <span class="dishPrice">20€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Sausage, mushrooms, mozzarella, cream
+                            </div>
+                        </div>
+
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName">Pizza Crudo</span>
+                                <span class="dishPrice">21€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Prosciutto crudo, arugula, parmesan, tomato sauce
+                            </div>
+                        </div>
+
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName">Pizza Frutti di Mare</span>
+                                <span class="dishPrice">23€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Mixed seafood, garlic, parsley, tomato sauce
+                            </div>
+                        </div>
+
+                        <div class="menuItem">
+                            <div class="menuTitle">
+                                <span class="dishName">Pizza Hawaiana</span>
+                                <span class="dishPrice">19€</span>
+                            </div>
+                            <div class="menuDescription">
+                                Ingredients: Ham, pineapple, mozzarella, tomato sauce
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="menuNavigation">
+                    <button id="prevBtn" disabled style="z-index: 2;">&larr;</button>
+                    <button id="nextBtn" style="z-index: 2;">&rarr;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menuIntroComplex">
+            <div class="menuIntroContent">
+                <h1>Hot, Fresh Pizza – Delivered Fast!</h1>
+                <p>Craving pizza? Get it fresh, hot, and at your door in no time. Order now and taste the difference!
+                </p>
+                <a id="menuToggleButton" class="menuButtonComplex" onclick="toggleExtraInfo()">Where to order?</a>
+            </div>
+        </div>
+
+        <div id="extraInfoWrapper" class="extraInfoWrapper">
+            <div class="infoBoxes phoneBox">
+                <h3>Call Us</h3>
+                <!-- <p>☎️ 077-55-44-33 <b>Влае</b></p>
+                <p>☎️ 078-753-777 <b>Центар, Рузвелтова 15</b></p>
+                <p>☎️ 078-868-111 <b>Лисиче</b></p> -->
+                <p>☎️ 123-456-789 <b>Phone1</b></p>
+                <p>☎️ 123-456-789 <b>Phone2</b></p>
+                <p>☎️ 123-456-789 <b>Phone3</b></p>
+            </div>
+            <div class="infoBoxes linkBox">
+                <h3>Visit Us Online</h3>
+                <a href="https://wolt.com/mk/mkd/skopje/search?q=mamma%20italiana&target=venues" target="_blank"><button
+                        class="woltButton">Wolt</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- GALLRY PAGE -->
+    <div class="GalleryPage" id="GalleryPageId" style="display: none;">
+        <!-- Top Banner -->
+        <div class="galleryTopBannerContainer">
+            <img src="./assets/galleryTopBanner.png" alt="Top Banner" />
+        </div>
+
+        <!-- 3x3 Image Grid -->
+        <div class="imageGrid">
+            <div class="galleryImageContainer">
+                <div class="imageGridRow">
+                    <div class="imageCard"><img src="./assets/laPizza.png" alt="Pizza 1" class="galleryImage" /></div>
+                    <div class="imageCard"><img src="./assets/laPizza.png" alt="Pizza 2" class="galleryImage" /></div>
+                    <div class="imageCard"><img src="./assets/laPizza.png" alt="Pizza 3" class="galleryImage" /></div>
+                </div>
+                <div class="imageGridRow">
+                    <div class="imageCard"><img src="./assets/laPizza.png" alt="Pizza 4" class="galleryImage" /></div>
+                    <div class="imageCard"><img src="./assets/laPizza.png" alt="Pizza 5" class="galleryImage" /></div>
+                    <div class="imageCard"><img src="./assets/laPizza.png" alt="Pizza 6" class="galleryImage" /></div>
+                </div>
+                <div class="imageGridRow bottomRow">
+                    <div class="imageCard"><img src="./assets/laPizza.png" alt="Pizza 7" class="galleryImage" /></div>
+                    <div class="imageCard"><img src="./assets/laPizza.png" alt="Pizza 8" class="galleryImage" /></div>
+                    <div class="imageCard"><img src="./assets/laPizza.png" alt="Pizza 9" class="galleryImage" /></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single Modal (for all images) -->
+        <div id="imageModal" class="imageModal">
+            <span class="closeModal">&times;</span>
+            <img class="modalContent" id="modalImage" src="" alt="Full Image" />
+        </div>
+
+        <!-- Bottom Banner -->
+        <div class="bottomBanner">
+            <img src="./assets/bottomBanner6.png" alt="Bottom Banner" />
+        </div>
+
+        <!-- Additional Info Section -->
+        <!-- <div class="showAdditionalGalleryInfo">
+            <div class="showAdditionalGalleryInfoText">
+                <h1>Share your photos</h1>
+                <p>WHICH YOU MADE AT OUR RESTAURANT</p>
+                <button class="emailButton">Send via Email</button>
+            </div>
+
+            <div class="showAdditionalGalleryInfoRight">
+                <div class="showAdditionalGalleryInfoDiscount">
+                    <div class="discountIcon"><img src="./assets/pizzaDiscount.png" alt=""></div>
+                    <div class="discountParagraph">
+                        <p>Take a picture in our restaurant or with our pizza and get a discount to use with us</p>
+                    </div>
+                    <div class="discountPercentage">
+                        <h1>-50%</h1>
+                    </div>
+                </div>
+                <div class="showAdditionalGalleryInfoPhoto">
+                    <img src="./assets/selfie.jpg" alt="Customer with Pizza" />
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+
+    <!-- CONTACT PAGE -->
+
+    <div class="contactUs" id="ContactUs" style="display: none;">
+        <div class="contactUsTopBannerImage">
+            <img src="./assets/ContactUsBanner1.png" alt="Banner">
+        </div>
+
+        <div class="contactUsFirstTitle">
+            <h1>Come, try. Welcome</h1>
+            <h3>VISIT OUR RESTAURANT</h3>
+        </div>
+
+        <div class="ContactUsMainContentWrapper">
+            <div class="ContactUsMainContent">
+
+                <div class="contactUsLeftImageContainer">
+                    <div class="mapCarouselContainer">
+                        <div class="mapCarousel">
+                            <button class="carouselArrow leftArrow">&#10094;</button>
+                            <div class="mapSlide">
+                                <div class="mapBox">
+                                    <h4>Центар</h4>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23722.512450091093!2d21.42905845!3d41.99353505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415b4310ac9f3%3A0xb2a1c58e20373cd!2sCentar%2C%201000%20Skopje!5e0!3m2!1sen!2smk!4v1747505628019!5m2!1sen!2smk"
+                                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                            <button class="carouselArrow rightArrow">&#10095;</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="ContactusMainContentTextContainer">
+                    <div class="ContactusMainContentFirstTextContainer">
+                        <div class="ContactusMainContentTextTitle">
+                            <h2>Pizza Shop</h2>
+                            <p>We work from Monday to Friday.<br> <br> <b>From 8:00 to 18:00</b></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <div class="ContactUsForm">
+            <div class="contact-form-container">
+                <h2 class="form-title">Send a message</h2>
+                <form class="contact-form">
+
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" " />
+                        <label for="name">Your name</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" " />
+                        <label for="email">Your e-mail</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder=" " />
+                        <label for="subject">Subject</label>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                    </div>
+
+                    <div class="form-button">
+                        <button type="submit">Send a message</button>
+                    </div>
+
+                </form>
+            </div>
+        </div> -->
+
+        <!-- CONTACT US DIV -->
+    </div>
+
+
+    <!-- --------- -->
+
+
+    <!-- SCRIPTS -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>

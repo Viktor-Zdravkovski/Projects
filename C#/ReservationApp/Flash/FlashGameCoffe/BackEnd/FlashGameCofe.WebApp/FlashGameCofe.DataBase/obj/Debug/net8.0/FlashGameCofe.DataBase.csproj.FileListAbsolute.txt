@@ -1,0 +1,17 @@
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\bin\Debug\net8.0\FlashGameCofe.DataBase.deps.json
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\bin\Debug\net8.0\FlashGameCofe.DataBase.runtimeconfig.json
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\bin\Debug\net8.0\FlashGameCofe.DataBase.dll
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\bin\Debug\net8.0\FlashGameCofe.DataBase.pdb
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\bin\Debug\net8.0\FlashGameCofe.Domain.dll
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\bin\Debug\net8.0\FlashGameCofe.Domain.pdb
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\FlashGameCofe.DataBase.csproj.AssemblyReference.cache
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\FlashGameCofe.DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\FlashGameCofe.DataBase.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\FlashGameCofe.DataBase.AssemblyInfo.cs
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\FlashGameCofe.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\FlashGam.F7C4CE0B.Up2Date
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\FlashGameCofe.DataBase.dll
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\refint\FlashGameCofe.DataBase.dll
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\FlashGameCofe.DataBase.pdb
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\FlashGameCofe.DataBase.genruntimeconfig.cache
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.DataBase\obj\Debug\net8.0\ref\FlashGameCofe.DataBase.dll

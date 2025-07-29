@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\justi\\Desktop\\FlashGameCoffe\\BackEnd\\FlashGameCofe.WebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{801D0264-EAC5-438E-B316-4B26609EBA4E}|FlashGameCofe.WebApp\\FlashGameCofe.WebApp.csproj|c:\\users\\justi\\desktop\\flashgamecoffe\\backend\\flashgamecofe.webapp\\flashgamecofe.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801D0264-EAC5-438E-B316-4B26609EBA4E}|FlashGameCofe.WebApp\\FlashGameCofe.WebApp.csproj|solutionrelative:flashgamecofe.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\FlashGameCoffe\\BackEnd\\FlashGameCofe.WebApp\\FlashGameCofe.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\FlashGameCoffe\\BackEnd\\FlashGameCofe.WebApp\\FlashGameCofe.WebApp\\Program.cs",
+              "RelativeToolTip": "FlashGameCofe.WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T19:34:54.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

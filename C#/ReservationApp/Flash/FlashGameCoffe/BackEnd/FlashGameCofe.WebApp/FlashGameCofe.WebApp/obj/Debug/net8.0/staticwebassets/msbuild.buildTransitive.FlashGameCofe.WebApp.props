@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FlashGameCofe.WebApp.props" />
+</Project>

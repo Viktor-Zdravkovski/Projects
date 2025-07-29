@@ -1,0 +1,454 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10B2B427-0892-4AE2-91C7-846339371D75}|FlashGameCofe.Helpers\\FlashGameCofe.Helpers.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.helpers\\flashgamecofe.helpers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{10B2B427-0892-4AE2-91C7-846339371D75}|FlashGameCofe.Helpers\\FlashGameCofe.Helpers.csproj|solutionrelative:flashgamecofe.helpers\\flashgamecofe.helpers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131E74ED-2722-44C8-86BF-932D375BF60E}|FlashGameCofe.Services\\FlashGameCofe.Services.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131E74ED-2722-44C8-86BF-932D375BF60E}|FlashGameCofe.Services\\FlashGameCofe.Services.csproj|solutionrelative:flashgamecofe.services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131E74ED-2722-44C8-86BF-932D375BF60E}|FlashGameCofe.Services\\FlashGameCofe.Services.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.services\\implementations\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131E74ED-2722-44C8-86BF-932D375BF60E}|FlashGameCofe.Services\\FlashGameCofe.Services.csproj|solutionrelative:flashgamecofe.services\\implementations\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|solutionrelative:flashgamecofe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|solutionrelative:flashgamecofe\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.database\\implementations\\efimplementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|solutionrelative:flashgamecofe.database\\implementations\\efimplementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10B2B427-0892-4AE2-91C7-846339371D75}|FlashGameCofe.Helpers\\FlashGameCofe.Helpers.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.helpers\\dependencyinjectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10B2B427-0892-4AE2-91C7-846339371D75}|FlashGameCofe.Helpers\\FlashGameCofe.Helpers.csproj|solutionrelative:flashgamecofe.helpers\\dependencyinjectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10B2B427-0892-4AE2-91C7-846339371D75}|FlashGameCofe.Helpers\\FlashGameCofe.Helpers.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.helpers\\configurationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10B2B427-0892-4AE2-91C7-846339371D75}|FlashGameCofe.Helpers\\FlashGameCofe.Helpers.csproj|solutionrelative:flashgamecofe.helpers\\configurationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|solutionrelative:flashgamecofe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.database\\context\\flashgamecofedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|solutionrelative:flashgamecofe.database\\context\\flashgamecofedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|solutionrelative:flashgamecofe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe\\flashgamecofe.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|solutionrelative:flashgamecofe\\flashgamecofe.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A15625E2-3B77-4FA1-A933-18CF89BD2467}|FlashGameCofe\\FlashGameCofe.csproj|solutionrelative:flashgamecofe\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D78330-EF23-4F58-B72C-B410E041BD12}|FlashGameCofe.Mappers\\FlashGameCofe.Mappers.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.mappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D78330-EF23-4F58-B72C-B410E041BD12}|FlashGameCofe.Mappers\\FlashGameCofe.Mappers.csproj|solutionrelative:flashgamecofe.mappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131E74ED-2722-44C8-86BF-932D375BF60E}|FlashGameCofe.Services\\FlashGameCofe.Services.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.services\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131E74ED-2722-44C8-86BF-932D375BF60E}|FlashGameCofe.Services\\FlashGameCofe.Services.csproj|solutionrelative:flashgamecofe.services\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131E74ED-2722-44C8-86BF-932D375BF60E}|FlashGameCofe.Services\\FlashGameCofe.Services.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131E74ED-2722-44C8-86BF-932D375BF60E}|FlashGameCofe.Services\\FlashGameCofe.Services.csproj|solutionrelative:flashgamecofe.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.dto\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|solutionrelative:flashgamecofe.dto\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.dto\\userdtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|solutionrelative:flashgamecofe.dto\\userdtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.dto\\userdtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|solutionrelative:flashgamecofe.dto\\userdtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.dto\\userdtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|solutionrelative:flashgamecofe.dto\\userdtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.dto\\reservationsdto\\addreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|solutionrelative:flashgamecofe.dto\\reservationsdto\\addreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6175CF19-4AE1-4A2A-89A3-EDB5B08997B5}|FlashGameCofe.Shared\\FlashGameCofe.Shared.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.shared\\customexceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6175CF19-4AE1-4A2A-89A3-EDB5B08997B5}|FlashGameCofe.Shared\\FlashGameCofe.Shared.csproj|solutionrelative:flashgamecofe.shared\\customexceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.database\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|solutionrelative:flashgamecofe.database\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.database\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|solutionrelative:flashgamecofe.database\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.database\\implementations\\efimplementations\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|solutionrelative:flashgamecofe.database\\implementations\\efimplementations\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.database\\extensions\\efextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440708C8-CE03-46BA-A791-7B28E053FF60}|FlashGameCofe.DataBase\\FlashGameCofe.DataBase.csproj|solutionrelative:flashgamecofe.database\\extensions\\efextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|c:\\users\\justi\\onedrive\\desktop\\flash\\flashgamecoffe\\backend_v0.2\\flashgamecofe\\flashgamecofe.dto\\reservationsdto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{474C6D00-1FCD-4EED-B234-9EE5BE38DD3F}|FlashGameCofe.Dto\\FlashGameCofe.Dto.csproj|solutionrelative:flashgamecofe.dto\\reservationsdto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FlashGameCofe.Helpers",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Helpers\\FlashGameCofe.Helpers.csproj",
+              "RelativeDocumentMoniker": "FlashGameCofe.Helpers\\FlashGameCofe.Helpers.csproj",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Helpers\\FlashGameCofe.Helpers.csproj",
+              "RelativeToolTip": "FlashGameCofe.Helpers\\FlashGameCofe.Helpers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-26T22:18:09.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\Program.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe\\Program.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\Program.cs",
+              "RelativeToolTip": "FlashGameCofe\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:38:14.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Services\\Implementations\\ReservationService.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Services\\Implementations\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Services\\Implementations\\ReservationService.cs",
+              "RelativeToolTip": "FlashGameCofe.Services\\Implementations\\ReservationService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAcwGYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T14:55:05.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "FlashGameCofe.Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwDwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:01:15.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjectionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Helpers\\DependencyInjectionHelper.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Helpers\\DependencyInjectionHelper.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Helpers\\DependencyInjectionHelper.cs",
+              "RelativeToolTip": "FlashGameCofe.Helpers\\DependencyInjectionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:38:37.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConfigurationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Helpers\\ConfigurationHelper.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Helpers\\ConfigurationHelper.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Helpers\\ConfigurationHelper.cs",
+              "RelativeToolTip": "FlashGameCofe.Helpers\\ConfigurationHelper.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwDsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:38:36.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "FlashGameCofe\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwHcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T13:17:05.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Implementations\\EFImplementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.DataBase\\Implementations\\EFImplementations\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Implementations\\EFImplementations\\UserRepository.cs",
+              "RelativeToolTip": "FlashGameCofe.DataBase\\Implementations\\EFImplementations\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:01:06.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FlashGameCofe\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:27:11.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FlashGameCofe.http",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\FlashGameCofe.http",
+              "RelativeDocumentMoniker": "FlashGameCofe\\FlashGameCofe.http",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\FlashGameCofe.http",
+              "RelativeToolTip": "FlashGameCofe\\FlashGameCofe.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-21T08:35:45.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FlashGameCofeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Context\\FlashGameCofeDbContext.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.DataBase\\Context\\FlashGameCofeDbContext.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Context\\FlashGameCofeDbContext.cs",
+              "RelativeToolTip": "FlashGameCofe.DataBase\\Context\\FlashGameCofeDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:01:51.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\appsettings.json",
+              "RelativeDocumentMoniker": "FlashGameCofe\\appsettings.json",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\appsettings.json",
+              "RelativeToolTip": "FlashGameCofe\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T08:35:48.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FlashGameCofe\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FlashGameCofe\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T08:35:39.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LogInResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\UserDtos\\LogInResponseDto.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Dto\\UserDtos\\LogInResponseDto.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\UserDtos\\LogInResponseDto.cs",
+              "RelativeToolTip": "FlashGameCofe.Dto\\UserDtos\\LogInResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:43:54.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\UserDtos\\RegisterUserDto.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Dto\\UserDtos\\RegisterUserDto.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\UserDtos\\RegisterUserDto.cs",
+              "RelativeToolTip": "FlashGameCofe.Dto\\UserDtos\\RegisterUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:43:50.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LogInUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\UserDtos\\LogInUserDto.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Dto\\UserDtos\\LogInUserDto.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\UserDtos\\LogInUserDto.cs",
+              "RelativeToolTip": "FlashGameCofe.Dto\\UserDtos\\LogInUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:43:48.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\UserDtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Dto\\UserDtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\UserDtos\\UserDto.cs",
+              "RelativeToolTip": "FlashGameCofe.Dto\\UserDtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:44:01.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "FlashGameCofe.Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T15:33:57.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Mappers\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Mappers\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Mappers\\MappingProfile.cs",
+              "RelativeToolTip": "FlashGameCofe.Mappers\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T09:05:47.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Services\\Interfaces\\IReservationService.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Services\\Interfaces\\IReservationService.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Services\\Interfaces\\IReservationService.cs",
+              "RelativeToolTip": "FlashGameCofe.Services\\Interfaces\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T14:54:21.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\ReservationsDto\\AddReservationDto.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Dto\\ReservationsDto\\AddReservationDto.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\ReservationsDto\\AddReservationDto.cs",
+              "RelativeToolTip": "FlashGameCofe.Dto\\ReservationsDto\\AddReservationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:43:43.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Shared\\CustomExceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Shared\\CustomExceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Shared\\CustomExceptions\\NotFoundException.cs",
+              "RelativeToolTip": "FlashGameCofe.Shared\\CustomExceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:30:20.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.DataBase\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "FlashGameCofe.DataBase\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:07:47.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Implementations\\EFImplementations\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.DataBase\\Implementations\\EFImplementations\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Implementations\\EFImplementations\\ReservationRepository.cs",
+              "RelativeToolTip": "FlashGameCofe.DataBase\\Implementations\\EFImplementations\\ReservationRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:28:26.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EFExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Extensions\\EFExtensions.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.DataBase\\Extensions\\EFExtensions.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Extensions\\EFExtensions.cs",
+              "RelativeToolTip": "FlashGameCofe.DataBase\\Extensions\\EFExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:34:49.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.DataBase\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.DataBase\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "FlashGameCofe.DataBase\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T21:43:54.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\ReservationsDto\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "FlashGameCofe.Dto\\ReservationsDto\\ReservationDto.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Dto\\ReservationsDto\\ReservationDto.cs",
+              "RelativeToolTip": "FlashGameCofe.Dto\\ReservationsDto\\ReservationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:43:31.687Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

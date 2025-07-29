@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="icon" href="./assets/SiteLogo.png">
+    <title>FlashGame-Coffee</title>
+</head>
+
+<body>
+    <!-- NAV BAR  -->
+    <nav class="navbar">
+        <div class="siteName" onclick="showHomePage()">FlashGame</div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+
+        <ul class="nav-links">
+            <li><a href="#home" onclick="showHomePage(); setActiveLink(this)">Home</a></li>
+            <li><a href="#menu" onclick="showMenuPage(); setActiveLink(this)">Menu</a></li>
+            <!-- <li><a href="#" onclick="showContactUsPage(); setActiveLink(this)">Contact Us</a></li> -->
+            <li><a href="#reservation" onclick="showReservationPage(); setActiveLink(this)">Reservations</a></li>
+            <li><a href="#gallery" onclick="showGalleryPage(); setActiveLink(this)">Gallery</a></li>
+
+            <!-- Admin Panel Button (only visible to admins) -->
+            <li id="admin-panel-link" style="display:none;">
+                <a href="#admin-panel" onclick="showAdminPanelPage(); setActiveLink(this)">Admin Panel</a>
+            </li>
+        </ul>
+
+        <div class="auth-buttons desktop-only">
+            <a href="#register-page" onclick="showRegisterPage()" id="register-link" class="register">Register</a>
+            <a href="#login-page" onclick="showLoginPage()" id="loginButton" class="sign-in">Sign In</a>
+
+            <div id="LogOutButton-Container">
+                <button id="logoutButton" class="logout-btn" onclick="logout()">Logout</button>
+            </div>
+        </div>
+    </nav>
+    <!-- ----------------------------- -->
+
+    <!-- CELA POZADINA NA STRANATA -->
+    <div id="homePage" class="MainDiv">
+        <div class="subMainDiv">
+            <div class="logoDiv">
+                <img src="./assets/logo.svg" alt="" class="logo">
+            </div>
+
+            <div class="QuoteDiv">
+                <p class="quote">Life is a game — play to win.</p>
+            </div>
+        </div>
+        <!-- ----------------------------- -->
+
+        <!-- LEVO KOCKATA -->
+        <div class="InfoDiv">
+            <div class="contentWrapper">
+                <div class="InformationsBox">
+                    <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non aliquid atque beatae
+                        enim incidunt facilis repellat? Voluptate enim laboriosam quae. <b>123E</b>, Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Deserunt ducimus voluptatum praesentium, eos
+                        officia suscipit!</p>
+                </div>
+                <!-- -------------------------------------- -->
+
+                <!-- LEVITE SLIKI -->
+                <a href="#" onclick="showGalleryPage();">
+                    <div class="imageCards">
+                        <img src="/assets/Fliperi.jpg" alt="Image 1" class="imageCard">
+                        <img src="/assets/midGame1.jpg" alt="Image 2" class="imageCard">
+                        <img src="/assets/pikado.jpg" alt="Image 3" class="imageCard">
+                    </div>
+                </a>
+                <!-- ---------------- -->
+
+                <!-- DESNITE SLIKI -->
+                <a href="#" onclick="showGalleryPage();">
+                    <div class="imageCardsSecondRow">
+                        <img src="/assets/midGame2.jpg" alt="Image 4" class="imageCard">
+                        <img src="/assets/airHockey.jpg" alt="Image 5" class="imageCard">
+                        <img src="/assets/Biljard.jpg" alt="Image 6" class="imageCard">
+                    </div>
+                </a>
+                <!-- ----------------- -->
+            </div>
+            <!-- MENU/RESERVE -->
+            <div class="buttonContainer">
+                <a href="#menu"><button class="buttonOne" onclick="showMenuPage()">Menu</button></a>
+                <a href="#reservation"><button class="buttonTwo" onclick="showReservationPage()">Reserve</button></a>
+            </div>
+            <!-- ----------------- -->
+
+        </div>
+    </div>
+
+    <!-- MENU PAGE -->
+    <div id="menuPage" class="menuSection" style="display: none;">
+        <div class="menupageone">
+            <div class="menuTitleContainer">
+                <div class="menuTitleDiv">
+                    <h2 class="menuTitle">Thirsty? More Drinks!</h2>
+                </div>
+            </div>
+
+            <div class="cupContainer">
+                <!-- Main Menu Box -->
+                <div class="menuContainer">
+                    <!-- Menu Title Box -->
+                    <div class="menuBox">
+                        <h2 class="menuBoxTitle">MENU</h2>
+                    </div>
+                    <!-- Drinks Section -->
+                    <div class="menuSectionBox">
+                        <h3 class="sectionTitle">БЕЗАЛКОХОЛНИ</h3>
+                        <div class="menuItem">
+                            <span class="drinkName">Кока Кола 0.25л</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">80 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Фанта 0.25л</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">80 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Швепс 0.25л</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">80 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Спрајт 0.25л</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">80 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Цедевита</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">80 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Негазирани(Bravo) 0.25л</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">80 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Флаширана вода 0.25л</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">50 Ден</span>
+                        </div>
+                    </div>
+                    <!-- Alcoholic Drinks Section -->
+                    <div class="menuSectionBox">
+                        <h3 class="sectionTitle">АЛКОХОЛ</h3>
+                        <div class="menuItem">
+                            <span class="drinkName">Скопско 0.33л</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">100 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Скопско Смут 0.33л</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">100 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Хајнекен 0.25л</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">100 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Вино(Александрија) 0.187л</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">150 Ден</span>
+                        </div>
+                    </div>
+                    <!-- Coffee Section -->
+                    <div class="menuSectionBox">
+                        <h3 class="sectionTitle">КАФЕ</h3>
+                        <div class="menuItem">
+                            <span class="drinkName">Еспресо</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">60 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Макијато</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">80 Ден</span>
+                        </div>
+                        <div class="menuItem">
+                            <span class="drinkName">Лате Макијато</span>
+                            <span class="dots"></span>
+                            <span class="drinkPrice">80 Ден</span>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/TopLeft.png" alt="Cup Top Left" class="cup top-left">
+                <img src="./assets/BottomLeft.png" alt="Cup Bottom Left" class="cup bottom-left">
+                <img src="./assets/TopRight.png" alt="Cup Top Right" class="cup top-right">
+                <img src="./assets/BottomRight.png" alt="Cup Bottom Right" class="cup bottom-right">
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------- -->
+
+    <!-- GALERY PAGE -->
+
+    <div id="galleryPage" class="gallerySection" style="display: none;">
+        <div class="galleryTitleContainer">
+            <h2 class="galleryTitle">Our Gallery</h2>
+        </div>
+        <div class="galleryGrid">
+            <div class="galleryItem"><img src="./assets/airHockey.jpg" alt="Image 1" class="galleryImage"></div>
+            <div class="galleryItem"><img src="./assets/Biljard.jpg" alt="Image 2" class="galleryImage"></div>
+            <div class="galleryItem"><img src="./assets/Fliperi.jpg" alt="Image 3" class="galleryImage"></div>
+            <div class="galleryItem"><img src="./assets/midGame1.jpg" alt="Image 4" class="galleryImage"></div>
+            <div class="galleryItem"><img src="./assets/midGame2.jpg" alt="Image 5" class="galleryImage"></div>
+            <div class="galleryItem"><img src="./assets/pikado.jpg" alt="Image 6" class="galleryImage"></div>
+        </div>
+    </div>
+
+    <!-- ----------------- -->
+
+    <!-- CONTACT US PAGE -->
+    <!-- <div id="contactUsPage" class="page-wrapper" style="display: none;">
+        <div class="background-overlay"></div>
+
+        <div class="floating-shapes">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+
+        <div class="content-wrapper">
+            <h2 class="ContactTitle">Where can you find us?</h2>
+            <div class="contact-container">
+                <div class="tab-buttons">
+                    <button class="tab-button" data-tab="phone" onclick="showTab('phone')">Phone</button>
+                    <button class="tab-button" data-tab="location" onclick="showTab('location')">Location</button>
+                    <button class="tab-button" data-tab="facebook" onclick="showTab('facebook')">Socials</button>
+                </div>
+                <div class="tab-content">
+                    <div id="phone" class="tab-item active telefon">
+                        Телефон: 078/746-784
+                    </div>
+                    <div id="location" class="tab-item">
+                        Location: Благоја Стефковски 18, Скопје 1000
+                        <div class="maps">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d464.7496532955192!2d21.494409461346685!3d41.99744806508656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13543f47d24320e9%3A0xbded8b5dc0b89ff5!2sFlash%20GameCof%C3%A9!5e1!3m2!1smk!2smk!4v1736878101475!5m2!1smk!2smk"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div id="facebook" class="tab-item telefon">
+                        Facebook: <a href="https://www.facebook.com/FlashGameCofe22">FlashGame Cofe</a>
+                        <br>
+                        Instagram: <a href="https://www.instagram.com/flash_gamecofe22/">FlashGame Cofe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- ----------------- -->
+
+    <!-- RESERVATIONS PAGE -->
+    <!-- <div id="reservationSection" class="reservation-wrapper" style="display: none;">
+        <h2 class="reservationTitle">Reserve your spot now</h2>
+        <div class="reservationFromContainer">
+            <div class="reservation-form">
+                <h3 style="text-align: center;">New Reservation</h3>
+                <h2>Pick a Date</h2>
+                <input type="date" id="date-picker" onchange="loadReservationData()">
+        
+                <h2>Select Time Slot</h2>
+                <div id="time-slot-container">
+                    <div class="time-slot" data-start="17:00" data-end="19:00">5:00 PM - 7:00 PM</div>
+                    <div class="time-slot" data-start="19:30" data-end="21:30">7:30 PM - 9:30 PM</div>
+                </div>
+        
+                <input type="hidden" id="selected-time-slot">
+        
+                <div id="reservationDetails">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" id="phone-number" placeholder="Enter your phone number" required>
+
+                    <label for="user-note">Any special requests?</label>
+                    <textarea id="user-note" placeholder="Add them here (e.g., custom cake, rewards, etc.)"></textarea>
+                    
+                    <button class="reservationButton" onclick="makeReservation()">Add Reservation</button>
+                </div>
+            </div>
+
+            <div class="reservation-list">
+                <h2>Reservations for <span id="current-date">--</span></h2>
+                <div id="reservationRecords">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- ----------------- -->
+
+    <!-- RESERVATIONS PAGE -->
+    <div id="reservationSection" class="reservation-wrapper" style="display: none;">
+        <h2 class="reservationTitle">Reserve your spot now</h2>
+
+        <div class="reservationFromContainer">
+            <div class="reservation-boxes">
+                <div class="reservation-form">
+                    <h3 style="text-align: center;">New Reservation</h3>
+                    <h2>Pick a Date</h2>
+                    <input type="date" id="date-picker" onchange="loadReservationData()">
+                    <!-- <p>Selected Date: <span id="current-date"></span></p> -->
+
+                    <h2>Select Time Slot</h2>
+                    <div id="time-slot-container">
+                        <!-- <div class="time-slot" data-time="17:00">17:00 - 19:00</div>
+                        <div class="time-slot" data-time="19:30">19:30 - 21:30</div> -->
+                        <div class="time-slot" data-start="17:00" data-end="19:00" data-time="17:00">17:00 - 19:00</div>
+                        <div class="time-slot" data-start="19:30" data-end="21:30" data-time="19:30">19:30 - 21:30</div>
+                    </div>
+
+                    <input type="hidden" id="selected-time-slot">
+
+                    <div id="reservationDetails">
+                        <!-- <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" placeholder="Enter your phone number" required> -->
+
+                        <label for="user-note">Any special requests?</label>
+                        <textarea id="user-note"
+                            placeholder="Add them here (e.g., custom cake, rewards, etc.)"></textarea>
+
+                        <button class="reservationButton" onclick="makeReservation()">Add Reservation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------- -->
+
+    <!-- ADMIN PANEL -->
+    <div class="adminPannelPage" id="admin-panel" style="display: none;">
+        <h1>Admin Panel</h1>
+
+        <div class="button-container">
+            <button class="btn-primary" onclick="fetchAllReservations()">Get All Reservations</button>
+            <button class="btn-warning" onclick="getTodayReservations()">Get Reservations for Today</button>
+            <button class="btn-danger" onclick="showHomePage()">Back</button>
+        </div>
+
+        <table id="reservationTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Date</th>
+                    <th>Note</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Reservations will be populated here dynamically -->
+            </tbody>
+        </table>
+    </div>
+    <!-- ----------------- -->
+
+    <!-- FOOTER PAGE -->
+
+    <footer id="foot">
+        <div class="container footer">
+            <div class="row mb-4">
+                <!-- Left Column - Address & Google Map -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-dark">Адреса</h5>
+                    <p class="text-muted">Random location 55</p>
+                    <div class="footer-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d464.7496532955192!2d21.494409461346685!3d41.99744806508656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13543f47d24320e9%3A0xbded8b5dc0b89ff5!2sFlash%20GameCof%C3%A9!5e1!3m2!1smk!2smk!4v1736878101475!5m2!1smk!2smk"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Center Column - Social Media -->
+                <div class="col-md-4 mb-4 text-center">
+                    <h5 class="text-dark">Следете не</h5>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/FlashGameCofe22" target="_blank" class="social-link facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/flash_gamecofe22/" target="_blank"
+                            class="social-link instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column - Contact Information -->
+                <div class="col-md-4 mb-4 text-end">
+                    <h5 class="text-dark">Контакт</h5>
+                    <p class="text-muted">
+                        <strong>Телефон:</strong> 123 123 123 <br>
+                        <strong>Email:</strong> <a href="mailto:cafeflash1@gmail.com">email@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Horizontal line -->
+            <hr class="my-4">
+
+            <!-- Copyright text -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="text-muted">&copy;
+                        <script>document.write(new Date().getFullYear())</script> FlashGame Cofe. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ----------------- -->
+
+
+    <!-- REGISTER PAGE -->
+    <div id="registerPage" class="register-container" style="display:none;">
+        <div class="register-box">
+            <h2>Register</h2>
+            <input type="text" id="firstName" placeholder="First Name">
+            <input type="text" id="lastName" placeholder="Last Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="tel" id="usersPhone" placeholder="Phone Number">
+            <button id="submit-register" class="register-btn">Sign Up</button>
+            <button id="back-to-login" class="back-btn">Back to Login</button>
+            <button id="back-to-home" class="back-btn">Back</button>
+        </div>
+    </div>
+
+    <!-- ----------------- -->
+
+
+    <!-- LOGIN PAGE -->
+    <div id="loginPage" class="login-container" style="display:none;">
+        <div class="login-box">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Email">
+            <input type="password" id="login-password" placeholder="Password">
+            <button id="submit-login" class="login-btn">Log In</button>
+            <button id="back-to-register" class="back-btn">Don't have an account? Let's register</button>
+            <button id="back-to-home-login" class="back-btn">Back</button>
+        </div>
+    </div>
+
+    <!-- ----------------- -->
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

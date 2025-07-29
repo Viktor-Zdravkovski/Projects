@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rqlWBNea5J8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\justi\\OneDrive\\Desktop\\Flash\\FlashGameCoffe\\BackEnd_v0.2\\FlashGameCofe\\FlashGameCofe.Mappers\\FlashGameCofe.Mappers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\justi\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

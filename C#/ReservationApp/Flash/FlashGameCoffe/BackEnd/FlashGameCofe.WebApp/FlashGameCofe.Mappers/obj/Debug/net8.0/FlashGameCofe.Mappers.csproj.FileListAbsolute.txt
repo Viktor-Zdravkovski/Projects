@@ -1,0 +1,17 @@
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\bin\Debug\net8.0\FlashGameCofe.Mappers.deps.json
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\bin\Debug\net8.0\FlashGameCofe.Mappers.dll
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\bin\Debug\net8.0\FlashGameCofe.Mappers.pdb
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\bin\Debug\net8.0\FlashGameCofe.Domain.dll
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\bin\Debug\net8.0\FlashGameCofe.Dto.dll
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\bin\Debug\net8.0\FlashGameCofe.Domain.pdb
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\bin\Debug\net8.0\FlashGameCofe.Dto.pdb
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\obj\Debug\net8.0\FlashGameCofe.Mappers.csproj.AssemblyReference.cache
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\obj\Debug\net8.0\FlashGameCofe.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\obj\Debug\net8.0\FlashGameCofe.Mappers.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\obj\Debug\net8.0\FlashGameCofe.Mappers.AssemblyInfo.cs
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\obj\Debug\net8.0\FlashGameCofe.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\obj\Debug\net8.0\FlashGam.B1323FE6.Up2Date
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\obj\Debug\net8.0\FlashGameCofe.Mappers.dll
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\obj\Debug\net8.0\refint\FlashGameCofe.Mappers.dll
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\obj\Debug\net8.0\FlashGameCofe.Mappers.pdb
+C:\Users\justi\Desktop\FlashGameCoffe\BackEnd\FlashGameCofe.WebApp\FlashGameCofe.Mappers\obj\Debug\net8.0\ref\FlashGameCofe.Mappers.dll
