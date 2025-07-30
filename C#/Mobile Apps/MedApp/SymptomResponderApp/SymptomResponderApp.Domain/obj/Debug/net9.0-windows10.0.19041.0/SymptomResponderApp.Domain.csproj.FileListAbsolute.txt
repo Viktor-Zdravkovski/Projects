@@ -1,0 +1,15 @@
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\bin\Debug\net9.0-windows10.0.19041.0\SymptomResponderApp.Domain.deps.json
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\bin\Debug\net9.0-windows10.0.19041.0\SymptomResponderApp.Domain.dll
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\bin\Debug\net9.0-windows10.0.19041.0\SymptomResponderApp.Domain.pdb
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\bin\Debug\net9.0-windows10.0.19041.0\Microsoft.Web.WebView2.Core.dll
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\bin\Debug\net9.0-windows10.0.19041.0\Microsoft.Web.WebView2.Core.Projection.dll
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\obj\Debug\net9.0-windows10.0.19041.0\SymptomResponderApp.Domain.csproj.AssemblyReference.cache
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\obj\Debug\net9.0-windows10.0.19041.0\SymptomResponderApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\obj\Debug\net9.0-windows10.0.19041.0\SymptomResponderApp.Domain.AssemblyInfoInputs.cache
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\obj\Debug\net9.0-windows10.0.19041.0\SymptomResponderApp.Domain.AssemblyInfo.cs
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\obj\Debug\net9.0-windows10.0.19041.0\SymptomResponderApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\obj\Debug\net9.0-windows10.0.19041.0\SymptomR.C123CE07.Up2Date
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\obj\Debug\net9.0-windows10.0.19041.0\SymptomResponderApp.Domain.dll
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\obj\Debug\net9.0-windows10.0.19041.0\refint\SymptomResponderApp.Domain.dll
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\obj\Debug\net9.0-windows10.0.19041.0\SymptomResponderApp.Domain.pdb
+C:\Users\justi\OneDrive\Desktop\MedApp\SymptomResponderApp\SymptomResponderApp.Domain\obj\Debug\net9.0-windows10.0.19041.0\ref\SymptomResponderApp.Domain.dll
