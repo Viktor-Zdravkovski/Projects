@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF618496-1AC8-4CA8-BFB9-29131102F12B}|SymptomResponderApp\\SymptomResponderApp.csproj|c:\\users\\justi\\onedrive\\desktop\\medapp\\symptomresponderapp\\symptomresponderapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF618496-1AC8-4CA8-BFB9-29131102F12B}|SymptomResponderApp\\SymptomResponderApp.csproj|solutionrelative:symptomresponderapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF618496-1AC8-4CA8-BFB9-29131102F12B}|SymptomResponderApp\\SymptomResponderApp.csproj|c:\\users\\justi\\onedrive\\desktop\\medapp\\symptomresponderapp\\symptomresponderapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF618496-1AC8-4CA8-BFB9-29131102F12B}|SymptomResponderApp\\SymptomResponderApp.csproj|solutionrelative:symptomresponderapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF2BC7-7A9D-4D10-8E30-B2D9D0CF378A}|SymptomResponderApp.Service\\SymptomResponderApp.Service.csproj|c:\\users\\justi\\onedrive\\desktop\\medapp\\symptomresponderapp\\symptomresponderapp.service\\implementations\\symptomanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF2BC7-7A9D-4D10-8E30-B2D9D0CF378A}|SymptomResponderApp.Service\\SymptomResponderApp.Service.csproj|solutionrelative:symptomresponderapp.service\\implementations\\symptomanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF2BC7-7A9D-4D10-8E30-B2D9D0CF378A}|SymptomResponderApp.Service\\SymptomResponderApp.Service.csproj|c:\\users\\justi\\onedrive\\desktop\\medapp\\symptomresponderapp\\symptomresponderapp.service\\interfaces\\isymptomanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF2BC7-7A9D-4D10-8E30-B2D9D0CF378A}|SymptomResponderApp.Service\\SymptomResponderApp.Service.csproj|solutionrelative:symptomresponderapp.service\\interfaces\\isymptomanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4642D64-A74F-47FC-9F19-D221DDB09EC3}|SymptomResponderApp.Domain\\SymptomResponderApp.Domain.csproj|c:\\users\\justi\\onedrive\\desktop\\medapp\\symptomresponderapp\\symptomresponderapp.domain\\models\\situationmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4642D64-A74F-47FC-9F19-D221DDB09EC3}|SymptomResponderApp.Domain\\SymptomResponderApp.Domain.csproj|solutionrelative:symptomresponderapp.domain\\models\\situationmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4642D64-A74F-47FC-9F19-D221DDB09EC3}|SymptomResponderApp.Domain\\SymptomResponderApp.Domain.csproj|c:\\users\\justi\\onedrive\\desktop\\medapp\\symptomresponderapp\\symptomresponderapp.domain\\models\\situation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4642D64-A74F-47FC-9F19-D221DDB09EC3}|SymptomResponderApp.Domain\\SymptomResponderApp.Domain.csproj|solutionrelative:symptomresponderapp.domain\\models\\situation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D60EE70-6E06-4DF5-9535-916598660DC8}|SymptomResponderApp.DataBase\\SymptomResponderApp.DataBase.csproj|c:\\users\\justi\\onedrive\\desktop\\medapp\\symptomresponderapp\\symptomresponderapp.database\\conditionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D60EE70-6E06-4DF5-9535-916598660DC8}|SymptomResponderApp.DataBase\\SymptomResponderApp.DataBase.csproj|solutionrelative:symptomresponderapp.database\\conditionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "SymptomResponderApp\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp\\MauiProgram.cs",
+              "RelativeToolTip": "SymptomResponderApp\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:18:05.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISymptomAnalyzer.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp.Service\\Interfaces\\ISymptomAnalyzer.cs",
+              "RelativeDocumentMoniker": "SymptomResponderApp.Service\\Interfaces\\ISymptomAnalyzer.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp.Service\\Interfaces\\ISymptomAnalyzer.cs",
+              "RelativeToolTip": "SymptomResponderApp.Service\\Interfaces\\ISymptomAnalyzer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:17:46.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SymptomAnalyzer.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp.Service\\Implementations\\SymptomAnalyzer.cs",
+              "RelativeDocumentMoniker": "SymptomResponderApp.Service\\Implementations\\SymptomAnalyzer.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp.Service\\Implementations\\SymptomAnalyzer.cs",
+              "RelativeToolTip": "SymptomResponderApp.Service\\Implementations\\SymptomAnalyzer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:17:44.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SituationMatch.cs",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp.Domain\\Models\\SituationMatch.cs",
               "RelativeDocumentMoniker": "SymptomResponderApp.Domain\\Models\\SituationMatch.cs",
@@ -26,7 +89,46 @@
               "RelativeToolTip": "SymptomResponderApp.Domain\\Models\\SituationMatch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T10:12:31.045Z",
+              "WhenOpened": "2025-07-30T10:17:32.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Situation.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp.Domain\\Models\\Situation.cs",
+              "RelativeDocumentMoniker": "SymptomResponderApp.Domain\\Models\\Situation.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp.Domain\\Models\\Situation.cs",
+              "RelativeToolTip": "SymptomResponderApp.Domain\\Models\\Situation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:17:27.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConditionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp.DataBase\\ConditionRepository.cs",
+              "RelativeDocumentMoniker": "SymptomResponderApp.DataBase\\ConditionRepository.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp.DataBase\\ConditionRepository.cs",
+              "RelativeToolTip": "SymptomResponderApp.DataBase\\ConditionRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:16:45.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "SymptomResponderApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\MedApp\\SymptomResponderApp\\SymptomResponderApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "SymptomResponderApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:14:47.103Z",
               "EditorCaption": ""
             }
           ]
