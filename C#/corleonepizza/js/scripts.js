@@ -6,7 +6,9 @@ import { OrbitControls } from "https://cdn.skypack.dev/three@0.129.0/examples/js
 import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
 
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.5, 1000);
+// const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.5, 1000);
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
 camera.position.set(-17, -5, 7); // starting behind revolver
 let barrelTip = null; // add this near your cameraTarget and zooming variables
 
@@ -62,27 +64,12 @@ loader.load(
                 action.play();
             }, 1000);
 
-            // When animation finishes → start camera zoom
-            // mixer.addEventListener("finished", () => {
-            //     // Set camera target in front of barrel
-            //     cameraTarget = new THREE.Vector3(
-            //         revolverGroup.position.x + 25,   // same x as revolver
-            //         revolverGroup.position.y + 5.5, // slightly up if barrel is higher
-            //         revolverGroup.position.z + 1.8    // in front of barrel, not inside
-            //     );
-            //     zooming = true;
-
-            //     // Optional: load pizza after slight delay
-            //     setTimeout(() => {
-            //         loadPizza();
-            //     }, 1000);
-            // });
             mixer.addEventListener("finished", () => {
                 // Camera target in front of the revolver barrel
                 cameraTarget = new THREE.Vector3(
-                    revolverGroup.position.x + 5,   // closer than +25, so revolver stays visible
-                    revolverGroup.position.y + 1,   // slightly up
-                    revolverGroup.position.z + 2    // slightly in front of the barrel
+                    revolverGroup.position.x + 25,   // closer than +25, so revolver stays visible
+                    revolverGroup.position.y + 5.6,   // slightly up
+                    revolverGroup.position.z + 1.95    // slightly in front of the barrel
                 );
 
                 // Point for camera to look at (barrel tip)
@@ -113,10 +100,24 @@ function loadPizza() {
         "./models/pizza.glb",
         function (gltf) {
             const pizza = gltf.scene;
-            pizza.scale.set(5, 5, 5);
-            pizza.position.set(5, 0, 0); // to the right
-            scene.add(pizza);
 
+            // Attach pizza to revolverGroup so it stays with revolver
+            revolverGroup.add(pizza);
+
+            // Position pizza inside the barrel (keep your existing values)
+            pizza.position.set(
+                revolverGroup.position.x + 50,
+                revolverGroup.position.y + 15.65,
+                revolverGroup.position.z + 2.85
+            );
+
+            // Scale pizza to fit barrel
+            pizza.scale.set(0.2, 0.2, 0.2);
+
+            // Rotate pizza so top faces camera
+            pizza.rotation.set(-Math.PI / 1, 0, 4.60);
+
+            // Make pizza transparent initially
             pizza.traverse((child) => {
                 if (child.isMesh) {
                     child.material.transparent = true;
@@ -124,13 +125,19 @@ function loadPizza() {
                 }
             });
 
+            // Fade in pizza smoothly
             let opacity = 0;
             const fadeIn = () => {
-                opacity += 0.02;
+                opacity += 0.05;
                 pizza.traverse((child) => {
                     if (child.isMesh) child.material.opacity = Math.min(opacity, 1);
                 });
-                if (opacity < 1) requestAnimationFrame(fadeIn);
+                if (opacity < 1) {
+                    requestAnimationFrame(fadeIn);
+                } else {
+                    // When fade-in finishes, start zoom into pizza
+                    zoomToPizza(pizza);
+                }
             };
             fadeIn();
         },
@@ -138,6 +145,58 @@ function loadPizza() {
         (error) => console.error(error)
     );
 }
+
+// New function: smoothly zoom camera into pizza
+function zoomToPizza(pizza) {
+    // Get pizza world position
+    const pizzaPos = pizza.getWorldPosition(new THREE.Vector3());
+
+    // Compute pizza center bounding box for precise alignment
+    const box = new THREE.Box3().setFromObject(pizza);
+    const center = box.getCenter(new THREE.Vector3());
+
+    // Camera target: directly in front of pizza, slightly closer along X-axis
+    const pizzaTarget = new THREE.Vector3(
+        center.x - 20,  // forward into barrel
+        center.y + 1,      // exact vertical center
+        center.z       // exact depth center
+    );
+
+    // Camera should look at pizza center
+    const pizzaLookAt = center;
+
+    const zoomSpeed = 0.008;
+
+    // Make revolver fade out
+    revolver.traverse((child) => {
+        if (child.isMesh) child.material.transparent = true;
+    });
+
+    let fadeAmount = 0;
+
+    const zoomStep = () => {
+        camera.position.lerp(pizzaTarget, zoomSpeed);
+        camera.lookAt(pizzaLookAt);
+
+        // Gradually fade revolver
+        fadeAmount += 0.005;
+        revolver.traverse((child) => {
+            if (child.isMesh) child.material.opacity = Math.max(1 - fadeAmount, 0);
+        });
+
+        if (camera.position.distanceTo(pizzaTarget) > 0.05) {
+            requestAnimationFrame(zoomStep);
+        } else {
+            revolver.traverse((child) => {
+                if (child.isMesh) child.material.opacity = 0;
+            });
+        }
+    };
+
+    zoomStep();
+}
+
+
 
 // Animate loop
 function animate() {
@@ -164,56 +223,3 @@ window.addEventListener("resize", () => {
 });
 
 animate();
-
-
-
-
-
-
-
-
-
-
-
-
-
-// loader.load(
-//     "./models/revolver.glb",
-//     function (gltf) {
-//         revolver = gltf.scene;
-
-//         // SCALE (optional)
-//         revolver.scale.set(2, 2, 2); // adjust size if needed
-
-//         // POSITION on the far left
-//         revolver.position.x = -17; // negative = left
-//         revolver.position.y = -5; // adjust vertical alignment if needed
-//         revolver.position.z = -1;  // keep it at center depth
-
-//         scene.add(revolver);
-
-//         // Setup animation (if revolver has any)
-//         if (gltf.animations && gltf.animations.length > 0) {
-//             mixer = new THREE.AnimationMixer(revolver);
-//             const action = mixer.clipAction(gltf.animations[0]);
-//             action.setLoop(THREE.LoopOnce);
-//             action.clampWhenFinished = true;
-
-//             // Delay animation by 1–2 seconds
-//             setTimeout(() => {
-//                 action.play();
-//             }, 1500); // 1.5 seconds delay
-
-//             // After animation finishes → load pizza
-//             mixer.addEventListener("finished", () => {
-//                 loadPizza();
-//             });
-//         } else {
-//             console.warn("⚠️ No animations found in revolver.glb");
-//         }
-//     },
-//     undefined,
-//     function (error) {
-//         console.error(error);
-//     }
-// );

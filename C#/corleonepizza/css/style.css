@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: black;
+    background-color: rgb(175, 172, 172);
 }
 
 header {
     margin-top: 3em;
-    text-align: center;
     color: white;
+    text-align: center;
 }
 
 header h1 {
