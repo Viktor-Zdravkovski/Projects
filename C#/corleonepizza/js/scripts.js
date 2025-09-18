@@ -5,22 +5,22 @@ import { OrbitControls } from "https://cdn.skypack.dev/three@0.129.0/examples/js
 // To allow for importing the .gltf file
 import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
 
+
+
 const scene = new THREE.Scene();
 // const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.5, 1000);
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 
-camera.position.set(-17, -5, 7); // starting behind revolver
+camera.position.set(15, 5, 20); // starting behind revolver
 let barrelTip = null; // add this near your cameraTarget and zooming variables
 
-
-// Renderer
 const renderer = new THREE.WebGLRenderer({ alpha: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.getElementById("container3D").appendChild(renderer.domElement);
 
 // Lights
 const topLight = new THREE.DirectionalLight(0xffffff, 1);
-topLight.position.set(500, 500, 500);
+topLight.position.set(1000, 800, 500);
 scene.add(topLight);
 
 const ambientLight = new THREE.AmbientLight(0x333333, 2);
@@ -37,17 +37,17 @@ let zooming = false;
 
 // Parent group to lock revolver in place
 const revolverGroup = new THREE.Object3D();
-revolverGroup.position.set(-34, -10, -1); // revolver stays here
+revolverGroup.position.set(-10, 0, 0); // revolver stays here
 scene.add(revolverGroup);
 
 // Load revolver
 loader.load(
-    "./models/revolver.glb",
+    "./models/revolvernew.glb",
     function (gltf) {
         revolver = gltf.scene;
 
         // SCALE
-        revolver.scale.set(2, 2, 2);
+        revolver.scale.set(8, 8, 8);
 
         // add revolver to parent group
         revolverGroup.add(revolver);
@@ -67,16 +67,16 @@ loader.load(
             mixer.addEventListener("finished", () => {
                 // Camera target in front of the revolver barrel
                 cameraTarget = new THREE.Vector3(
-                    revolverGroup.position.x + 25,   // closer than +25, so revolver stays visible
-                    revolverGroup.position.y + 5.6,   // slightly up
-                    revolverGroup.position.z + 1.95    // slightly in front of the barrel
+                    revolverGroup.position.x + 35,   // closer than +25, so revolver stays visible
+                    revolverGroup.position.y + 5,   // slightly up
+                    revolverGroup.position.z + 7.50    // slightly in front of the barrel
                 );
 
                 // Point for camera to look at (barrel tip)
                 barrelTip = new THREE.Vector3(
-                    revolverGroup.position.x,
-                    revolverGroup.position.y + 0.5,
-                    revolverGroup.position.z
+                    revolverGroup.position.x + 30,
+                    revolverGroup.position.y + 5,
+                    revolverGroup.position.z + 7.50
                 );
 
                 zooming = true;
@@ -106,13 +106,13 @@ function loadPizza() {
 
             // Position pizza inside the barrel (keep your existing values)
             pizza.position.set(
-                revolverGroup.position.x + 50,
-                revolverGroup.position.y + 15.65,
-                revolverGroup.position.z + 2.85
+                revolverGroup.position.x + 35,
+                revolverGroup.position.y + 5.93,
+                revolverGroup.position.z + 7.555
             );
 
             // Scale pizza to fit barrel
-            pizza.scale.set(0.2, 0.2, 0.2);
+            pizza.scale.set(0.4, 0.4, 0.4);
 
             // Rotate pizza so top faces camera
             pizza.rotation.set(-Math.PI / 1, 0, 4.60);
@@ -146,28 +146,26 @@ function loadPizza() {
     );
 }
 
-// New function: smoothly zoom camera into pizza
+// // New function: smoothly zoom camera into pizza
 function zoomToPizza(pizza) {
     // Get pizza world position
     const pizzaPos = pizza.getWorldPosition(new THREE.Vector3());
 
-    // Compute pizza center bounding box for precise alignment
+    // Compute pizza center
     const box = new THREE.Box3().setFromObject(pizza);
     const center = box.getCenter(new THREE.Vector3());
 
-    // Camera target: directly in front of pizza, slightly closer along X-axis
+    // First target: in front of barrel (already there)
     const pizzaTarget = new THREE.Vector3(
-        center.x - 20,  // forward into barrel
-        center.y + 1,      // exact vertical center
-        center.z       // exact depth center
+        center.x + 999,   // not huge like +990, just in front
+        center.y + 1,
+        center.z
     );
 
-    // Camera should look at pizza center
     const pizzaLookAt = center;
+    const zoomSpeed = 0.02;
 
-    const zoomSpeed = 0.008;
-
-    // Make revolver fade out
+    // Fade revolver out
     revolver.traverse((child) => {
         if (child.isMesh) child.material.transparent = true;
     });
@@ -179,22 +177,94 @@ function zoomToPizza(pizza) {
         camera.lookAt(pizzaLookAt);
 
         // Gradually fade revolver
-        fadeAmount += 0.005;
+        fadeAmount += 0.01;
         revolver.traverse((child) => {
             if (child.isMesh) child.material.opacity = Math.max(1 - fadeAmount, 0);
         });
 
-        if (camera.position.distanceTo(pizzaTarget) > 0.05) {
+        if (fadeAmount < 1) {
             requestAnimationFrame(zoomStep);
         } else {
-            revolver.traverse((child) => {
-                if (child.isMesh) child.material.opacity = 0;
-            });
+            // When revolver is gone → start final zoom into pizza
+            finalZoomIn(pizza);
         }
     };
 
     zoomStep();
 }
+
+// Final zoom-in once revolver is gone
+function finalZoomIn(pizza) {
+    pizza.scale.set(1.5, 1.5, 1.5);
+    const box = new THREE.Box3().setFromObject(pizza);
+    const center = box.getCenter(new THREE.Vector3());
+
+    const closeTarget = new THREE.Vector3(
+        center.x + 1,
+        center.y - 3,
+        center.z + 4
+    );
+
+    const zoomSpeed = 0.02;
+
+
+    // Inside finalZoomIn() after camera reaches closeTarget
+    const zoomCloser = () => {
+        camera.position.lerp(closeTarget, zoomSpeed);
+        camera.lookAt(center);
+
+        if (camera.position.distanceTo(closeTarget) > 0.05) {
+            requestAnimationFrame(zoomCloser);
+        }
+
+
+    };
+    const rightSide = document.querySelector(".right-side");
+    const additional = document.querySelector(".additional-section");
+    const pizzajourney = document.querySelector(".pizza-journey");
+
+    // When final zoom finishes
+    rightSide.classList.add('show');
+    additional.classList.add('show');
+    pizzajourney.classList.add('show');
+    document.body.classList.remove("hidden");
+
+
+    zoomCloser();
+}
+
+// NAV BAR FUNC TO SHOW WHEN SCROLLED
+let navbarShown = false;
+
+window.addEventListener("scroll", function () {
+    if (!navbarShown && window.scrollY > 10) {
+        document.querySelector(".navbar").classList.add("visible");
+        navbarShown = true;
+    }
+});
+// ================================================================
+
+const faqQuestions = document.querySelectorAll(".faq-question");
+
+faqQuestions.forEach((question) => {
+    question.addEventListener("click", () => {
+        const answer = question.nextElementSibling;
+
+        // Close other answers
+        document.querySelectorAll(".faq-answer").forEach((ans) => {
+            if (ans !== answer) {
+                ans.style.maxHeight = null;
+            }
+        });
+
+        // Toggle clicked one
+        if (answer.style.maxHeight) {
+            answer.style.maxHeight = null;
+        } else {
+            answer.style.maxHeight = answer.scrollHeight + "px";
+        }
+    });
+});
 
 
 

@@ -4,19 +4,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="./assets/sitelogo.png">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lobster&family=Pacifico&family=Pirata+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <!-- ------------------------ -->
+    <title>Corleone's Pizza</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-    <header>
-        <h1>A simple three.js app</h1>
-    </header>
+<body class="hidden">
 
-    <main>
-        <div id="container3D"></div>
-        
-    </main>
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <div class="nav-left">
+                <a href="#home" onclick="ShowHomePage()">Home</a>
+                <a href="#menu" onclick="ShowMenuPage()">Menu</a>
+                <a href="#gallery" onclick="ShowGalleryPage()">Photos</a>
+            </div>
+
+            <div class="nav-logo">
+                <a href="#home"><img src="./assets/logo.png" alt="Pizza Logo" class="logo-img" /></a>
+            </div>
+
+            <div class="nav-right">
+                <a href="#about" onclick="ShowAboutUsPage()">About</a>
+                <a href="#contact" onclick="ShowContactPage()">Contact</a>
+                <a href="#orderOnline" onclick="ShowOrderOnlinePage()">Order Online</a>
+            </div>
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">&#9776;</div>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#home" onclick="ShowHomePage()">Home</a>
+            <a href="#products" onclick="ShowProductPage()">Products</a>
+            <a href="#recipes" onclick="ShowRecipePage()">Recipes</a>
+            <a href="#about" onclick="ShowAboutUsPage()">About</a>
+            <a href="#contact" onclick="ShowContactPage()">Contact</a>
+            <a href="#gallery" onclick="ShowPhotoPage()">Photos</a>
+        </div>
+
+    </nav>
+
+    <div class="wholeContent">
+
+        <!-- Split container -->
+        <div class="homePage">
+            <div id="container3D" class="left-side"></div>
+
+            <!-- Right-side content -->
+            <div class="right-side">
+                <div class="righ-side-inner-block">
+                    <p>I can make you an offer you can't refuse</p>
+                    <p>I can make you a <span>Pizza</span> you can't refuse</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional vertical section -->
+        <div class="additional-section">
+            <h1 class="section-title">Check out our top selling pizzas</h1>
+
+            <div class="product-row">
+                <!-- Pizza 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./assets/Pizza3.png" alt="Margherita Pizza">
+                    </div>
+                    <div class="product-info">
+                        <h3>Margherita</h3>
+                        <p>A timeless classic with fresh mozzarella, basil, and rich tomato sauce.</p>
+                        <a href="#" class="view-more">View More</a>
+                    </div>
+                </div>
+
+                <!-- Pizza 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./assets/Pizza3.png" alt="Pepperoni Feast Pizza">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pepperoni Feast</h3>
+                        <p>Loaded with crispy pepperoni slices and gooey melted cheese.</p>
+                        <a href="#" class="view-more">View More</a>
+                    </div>
+                </div>
+
+                <!-- Pizza 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./assets/Pizza3.png" alt="BBQ Chicken Pizza">
+                    </div>
+                    <div class="product-info">
+                        <h3>BBQ Chicken</h3>
+                        <p>Smoky BBQ sauce topped with grilled chicken, onions, and cheddar.</p>
+                        <a href="#" class="view-more">View More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View Menu Button -->
+            <div class="view-menu-container">
+                <a href="#" class="view-menu-btn">View Menu</a>
+            </div>
+        </div>
+
+
+        <div class="pizza-journey">
+            <div class="overlay-content">
+                <h1>Fueling Your Pizza Journey, One Slice at a Time</h1>
+                <p>
+                    At Corleone’s, every pizza is crafted with passion - fresh dough, rich
+                    sauces, and the finest toppings. Discover flavors that bring family and friends together.
+                </p>
+            </div>
+        </div>
+
+        <div class="customer-support">
+
+        </div>
+
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <p>Here are some of the most common questions our customers ask about our pizzas.</p>
+
+            <div class="faq-container">
+
+                <div class="faq-item">
+                    <button class="faq-question">What ingredients do you use?</button>
+                    <div class="faq-answer">
+                        <p>We use 100% organic wheat, fresh vegetables, and premium cheese sourced from trusted farms.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">Do you offer gluten-free options?</button>
+                    <div class="faq-answer">
+                        <p>Yes, we offer gluten-free bases for all our pizzas upon request.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">Can I customize my pizza?</button>
+                    <div class="faq-answer">
+                        <p>Absolutely! You can add or remove toppings to make your pizza just the way you like it.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h3 class="footer-heading">Location</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <p class="address">
+                                123 Business Avenue<br>
+                                Cityville, ST 12345<br>
+                                United States
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <a href="mailto:info@company.com" class="address">info@company.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <p class="address">
+                                Mon-Fri: 9AM - 6PM<br>
+                                Sat: 10AM - 3PM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-column footer-logo">
+                    <img src="./assets/logo.png" alt="Company Logo">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Our Products</a></li>
+                            <li><a href="#">Our History</a></li>
+                            <li><a href="#">Our Clients</a></li>
+                            <li><a href="#">Certificates</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="call-to-action">
+                    <p class="call-text">Have questions? We're happy to help!</p>
+                    <a href="tel:123456789" class="phone-number">
+                        <i class="fas fa-phone-alt" style="margin-right: 8px;"></i>
+                        123-456-789
+                    </a>
+                </div>
+
+                <div class="back-to-top" onclick="scrollToCurrentTop()">
+                    <i class="fas fa-arrow-up"></i>
+                </div>
+
+                <p class="copyright">© <span id="year"></span> Company Name. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
 
     <script type="module" src="./js/scripts.js"></script>
 
