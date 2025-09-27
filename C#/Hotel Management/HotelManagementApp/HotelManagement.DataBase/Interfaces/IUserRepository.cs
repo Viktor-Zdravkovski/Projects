@@ -7,5 +7,7 @@ namespace HotelManagement.DataBase.Interfaces
         Task<User> GetByEmailAsync(string email);
 
         Task<IEnumerable<User>> GetByRoleAsync(string role);
+
+        Task<User> LogInUser(string email, string hashPasswrod);
     }
 }

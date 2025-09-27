@@ -6,6 +6,6 @@ namespace HotelManagement.DataBase.Interfaces
     {
         Task<IEnumerable<Room>> GetAvailableRoomsAsync(DateTime checkIn, DateTime checkOut);
 
-        Task<Room> GetByRoomNumberAsync(int roomNumber);
+        Task<Room> GetByRoomNumberAsync(string roomNumber);
     }
 }
