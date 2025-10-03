@@ -1,0 +1,17 @@
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\bin\Debug\net8.0\HotelManagement.Mappers.deps.json
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\bin\Debug\net8.0\HotelManagement.Mappers.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\bin\Debug\net8.0\HotelManagement.Mappers.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\bin\Debug\net8.0\HotelManagement.Domain.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\bin\Debug\net8.0\HotelManagement.Dto.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\bin\Debug\net8.0\HotelManagement.Domain.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\bin\Debug\net8.0\HotelManagement.Dto.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\obj\Debug\net8.0\HotelManagement.Mappers.csproj.AssemblyReference.cache
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\obj\Debug\net8.0\HotelManagement.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\obj\Debug\net8.0\HotelManagement.Mappers.AssemblyInfoInputs.cache
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\obj\Debug\net8.0\HotelManagement.Mappers.AssemblyInfo.cs
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\obj\Debug\net8.0\HotelManagement.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\obj\Debug\net8.0\HotelMan.01E6F131.Up2Date
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\obj\Debug\net8.0\HotelManagement.Mappers.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\obj\Debug\net8.0\refint\HotelManagement.Mappers.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\obj\Debug\net8.0\HotelManagement.Mappers.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Mappers\obj\Debug\net8.0\ref\HotelManagement.Mappers.dll

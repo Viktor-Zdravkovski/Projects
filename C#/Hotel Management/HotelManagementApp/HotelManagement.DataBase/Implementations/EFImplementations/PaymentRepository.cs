@@ -52,11 +52,16 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
             await _context.SaveChangesAsync();
         }
 
-        public async Task<Payment> GetByReservationIdAsync(int reservationId)
+        public async Task<Payment> GetPaymentByReservationIdAsync(int reservationId)
         {
             return await _context.Payment.FirstOrDefaultAsync(x => x.ReservationId == reservationId);
         }
 
+        public async Task<IEnumerable<Payment>> GetPaymentsByUserAsync(int userId)
+        {
+            var paymentByUser = await _context.Payment.Where(x => x.Reservation.UserId == userId).ToListAsync();
 
+            return paymentByUser;
+        }
     }
 }

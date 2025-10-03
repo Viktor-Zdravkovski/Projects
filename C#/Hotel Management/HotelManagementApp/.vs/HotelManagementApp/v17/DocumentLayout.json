@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.services\\implementations\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|solutionrelative:hotelmanagement.services\\implementations\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4407B918-33C9-407D-88B4-A49440B3F482}|HotelManagement.Domain\\HotelManagement.Domain.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.domain\\enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4407B918-33C9-407D-88B4-A49440B3F482}|HotelManagement.Domain\\HotelManagement.Domain.csproj|solutionrelative:hotelmanagement.domain\\enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.services\\implementations\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|solutionrelative:hotelmanagement.services\\implementations\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.services\\implementations\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|solutionrelative:hotelmanagement.services\\implementations\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomStatus.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Domain\\Enums\\RoomStatus.cs",
+              "RelativeDocumentMoniker": "HotelManagement.Domain\\Enums\\RoomStatus.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Domain\\Enums\\RoomStatus.cs",
+              "RelativeToolTip": "HotelManagement.Domain\\Enums\\RoomStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:11:46.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Implementations\\PaymentService.cs",
+              "RelativeDocumentMoniker": "HotelManagement.Services\\Implementations\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Implementations\\PaymentService.cs",
+              "RelativeToolTip": "HotelManagement.Services\\Implementations\\PaymentService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:07:09.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Implementations\\RoomService.cs",
+              "RelativeDocumentMoniker": "HotelManagement.Services\\Implementations\\RoomService.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Implementations\\RoomService.cs",
+              "RelativeToolTip": "HotelManagement.Services\\Implementations\\RoomService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA5wCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:03:27.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Implementations\\ReservationService.cs",
+              "RelativeDocumentMoniker": "HotelManagement.Services\\Implementations\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Implementations\\ReservationService.cs",
+              "RelativeToolTip": "HotelManagement.Services\\Implementations\\ReservationService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:03:23.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

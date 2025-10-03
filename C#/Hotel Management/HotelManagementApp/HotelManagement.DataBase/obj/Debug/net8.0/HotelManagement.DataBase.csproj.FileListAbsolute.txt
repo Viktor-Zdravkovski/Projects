@@ -3,3 +3,15 @@ C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagem
 C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\obj\Debug\net8.0\HotelManagement.DataBase.AssemblyInfoInputs.cache
 C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\obj\Debug\net8.0\HotelManagement.DataBase.AssemblyInfo.cs
 C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\obj\Debug\net8.0\HotelManagement.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\bin\Debug\net8.0\HotelManagement.DataBase.deps.json
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\bin\Debug\net8.0\HotelManagement.DataBase.runtimeconfig.json
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\bin\Debug\net8.0\HotelManagement.DataBase.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\bin\Debug\net8.0\HotelManagement.DataBase.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\bin\Debug\net8.0\HotelManagement.Domain.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\bin\Debug\net8.0\HotelManagement.Domain.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\obj\Debug\net8.0\HotelMan.C0904FC2.Up2Date
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\obj\Debug\net8.0\HotelManagement.DataBase.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\obj\Debug\net8.0\refint\HotelManagement.DataBase.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\obj\Debug\net8.0\HotelManagement.DataBase.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\obj\Debug\net8.0\HotelManagement.DataBase.genruntimeconfig.cache
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.DataBase\obj\Debug\net8.0\ref\HotelManagement.DataBase.dll

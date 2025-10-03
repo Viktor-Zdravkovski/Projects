@@ -1,4 +1,5 @@
 ﻿using HotelManagement.Domain.Enums;
+using System.Reflection.Metadata;
 
 namespace HotelManagement.Domain.Models
 {
@@ -9,6 +10,8 @@ namespace HotelManagement.Domain.Models
         public string LastName { get; set; }
 
         public string Email { get; set; }
+
+        public string EmailConfirmed { get; set; }
 
         public string PhoneNumber { get; set; }
 

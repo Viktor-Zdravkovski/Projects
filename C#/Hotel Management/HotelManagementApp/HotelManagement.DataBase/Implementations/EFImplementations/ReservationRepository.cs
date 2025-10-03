@@ -68,10 +68,10 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
         {
             var reservationByUser = await _context.Reservations.Where(x => x.UserId == userId).ToListAsync();
 
-            return reservationByUser ?? new List<Reservation>();
+            return reservationByUser;
         }
 
-        public async Task<bool> IsRoomAvailableAsync(int roomId, DateTime checkIn, DateTime checkOut)
+        public async Task<bool> IsRoomAvailableAsync(int roomId, DateTime checkIn, DateTime checkOut, int? excludeReservationId = null)
         {
             var hasConflicts = await _context.Reservations.Where(x => x.RoomId == roomId).Where(r => r.CheckedIn < checkOut && r.CheckedOut > checkIn).AnyAsync();
 
