@@ -1,6 +1,8 @@
 ﻿using HotelManagement.DataBase.Implementations.EFImplementations;
 using HotelManagement.DataBase.Interfaces;
 using HotelManagement.Domain.Models;
+using HotelManagement.Services.Implementations;
+using HotelManagement.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace HotelManagement.Helpers
@@ -16,9 +18,12 @@ namespace HotelManagement.Helpers
             services.AddTransient<IUserRepository, UserRepository>();
         }
 
-        //public static void InjectService(this IServiceCollection services)
-        //{
-
-        //}
+        public static void InjectServices(this IServiceCollection services)
+        {
+            services.AddTransient<IPaymentService, PaymentService>();
+            services.AddTransient<IReservationService, ReservationService>();
+            services.AddTransient<IRoomService, RoomService>();
+            services.AddTransient<IUserService, UserService>();
+        }
     }
 }

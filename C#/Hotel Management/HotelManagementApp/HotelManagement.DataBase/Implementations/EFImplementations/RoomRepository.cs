@@ -1,5 +1,6 @@
 ﻿using HotelManagement.DataBase.Context;
 using HotelManagement.DataBase.Interfaces;
+using HotelManagement.Domain.Enums;
 using HotelManagement.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
@@ -83,6 +84,11 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
 
 
             return numberOfRoom;
+        }
+
+        public async Task<IEnumerable<Room>> GetRoomsByStatus(RoomStatus roomStatus)
+        {
+            return await _context.Rooms.Where(x => x.Status == roomStatus).ToListAsync();
         }
     }
 }

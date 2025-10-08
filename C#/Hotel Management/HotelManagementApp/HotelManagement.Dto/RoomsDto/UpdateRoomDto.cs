@@ -4,7 +4,7 @@ namespace HotelManagement.Dto.RoomsDto
 {
     public class UpdateRoomDto
     {
-        public string Type { get; set; } // dbl bed, single bed
+        public string Type { get; set; } 
 
         public decimal PricePerNight { get; set; }
 

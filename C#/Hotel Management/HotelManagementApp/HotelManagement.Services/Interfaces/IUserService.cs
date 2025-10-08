@@ -9,7 +9,7 @@ namespace HotelManagement.Services.Interfaces
 
         Task<IEnumerable<UserDto>> GetUsersByRole(Roles role);
 
-        Task UpdatePassword(int userId, string oldPassword);
+        Task UpdatePassword(int userId, string oldPassword, string newPassword);
 
         Task RegisterUser(RegisterUserDto registerUserDto);
 

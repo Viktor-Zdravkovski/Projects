@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{473183F2-7AEA-4EA2-A040-29A25F732299}|HotelManagement.Dto\\HotelManagement.Dto.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.dto\\paymentsdto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{473183F2-7AEA-4EA2-A040-29A25F732299}|HotelManagement.Dto\\HotelManagement.Dto.csproj|solutionrelative:hotelmanagement.dto\\paymentsdto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4407B918-33C9-407D-88B4-A49440B3F482}|HotelManagement.Domain\\HotelManagement.Domain.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4407B918-33C9-407D-88B4-A49440B3F482}|HotelManagement.Domain\\HotelManagement.Domain.csproj|solutionrelative:hotelmanagement.domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.services\\implementations\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|solutionrelative:hotelmanagement.services\\implementations\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.services\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|solutionrelative:hotelmanagement.services\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4407B918-33C9-407D-88B4-A49440B3F482}|HotelManagement.Domain\\HotelManagement.Domain.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.domain\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4407B918-33C9-407D-88B4-A49440B3F482}|HotelManagement.Domain\\HotelManagement.Domain.csproj|solutionrelative:hotelmanagement.domain\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.services\\implementations\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{881BD7F4-19B9-4020-9C94-EE1D292EFF36}|HotelManagement.Services\\HotelManagement.Services.csproj|solutionrelative:hotelmanagement.services\\implementations\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E26959DF-3E51-4975-8655-D5030AB2BAB6}|HotelManagementApp\\HotelManagementApp.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E26959DF-3E51-4975-8655-D5030AB2BAB6}|HotelManagementApp\\HotelManagementApp.csproj|solutionrelative:hotelmanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E86C8AF-9091-47EB-9882-3AAD9F4DED78}|HotelManagement.Mappers\\HotelManagement.Mappers.csproj|c:\\users\\justi\\onedrive\\desktop\\hotel management\\hotelmanagementapp\\hotelmanagement.mappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E86C8AF-9091-47EB-9882-3AAD9F4DED78}|HotelManagement.Mappers\\HotelManagement.Mappers.csproj|solutionrelative:hotelmanagement.mappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PaymentDto.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Dto\\PaymentsDto\\PaymentDto.cs",
-              "RelativeDocumentMoniker": "HotelManagement.Dto\\PaymentsDto\\PaymentDto.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Dto\\PaymentsDto\\PaymentDto.cs",
-              "RelativeToolTip": "HotelManagement.Dto\\PaymentsDto\\PaymentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:15:50.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Domain\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "HotelManagement.Domain\\Models\\Payment.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Domain\\Models\\Payment.cs",
-              "RelativeToolTip": "HotelManagement.Domain\\Models\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:15:56.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PaymentStatus.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Domain\\Enums\\PaymentStatus.cs",
-              "RelativeDocumentMoniker": "HotelManagement.Domain\\Enums\\PaymentStatus.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Domain\\Enums\\PaymentStatus.cs",
-              "RelativeToolTip": "HotelManagement.Domain\\Enums\\PaymentStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:13:41.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPaymentService.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Interfaces\\IPaymentService.cs",
-              "RelativeDocumentMoniker": "HotelManagement.Services\\Interfaces\\IPaymentService.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Interfaces\\IPaymentService.cs",
-              "RelativeToolTip": "HotelManagement.Services\\Interfaces\\IPaymentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:13:37.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PaymentService.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Implementations\\PaymentService.cs",
-              "RelativeDocumentMoniker": "HotelManagement.Services\\Implementations\\PaymentService.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Implementations\\PaymentService.cs",
-              "RelativeToolTip": "HotelManagement.Services\\Implementations\\PaymentService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T20:24:49.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ReservationService.cs",
               "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Implementations\\ReservationService.cs",
               "RelativeDocumentMoniker": "HotelManagement.Services\\Implementations\\ReservationService.cs",
               "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\Implementations\\ReservationService.cs",
               "RelativeToolTip": "HotelManagement.Services\\Implementations\\ReservationService.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAcwHwAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAvwFoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:05:22.722Z",
+              "WhenOpened": "2025-10-08T16:58:02.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Mappers\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "HotelManagement.Mappers\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Mappers\\MappingProfile.cs",
+              "RelativeToolTip": "HotelManagement.Mappers\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:37:17.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "HotelManagementApp\\Program.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagementApp\\Program.cs",
+              "RelativeToolTip": "HotelManagementApp\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAEwBoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:23:45.044Z",
               "EditorCaption": ""
             }
           ]

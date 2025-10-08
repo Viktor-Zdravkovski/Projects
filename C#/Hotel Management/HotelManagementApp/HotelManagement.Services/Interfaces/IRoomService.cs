@@ -1,4 +1,5 @@
-﻿using HotelManagement.Dto.RoomsDto;
+﻿using HotelManagement.Domain.Enums;
+using HotelManagement.Dto.RoomsDto;
 
 namespace HotelManagement.Services.Interfaces
 {
@@ -8,11 +9,11 @@ namespace HotelManagement.Services.Interfaces
 
         Task<RoomDto> GetRoomById(int id);
 
-        Task ChangeRoomStaus(int roomId);
+        Task ChangeRoomStatus(int roomId, RoomStatus roomStatus);
 
-        Task<IEnumerable<RoomDto>> GetRoomsByType();
+        Task<IEnumerable<RoomDto>> GetRoomsByType(string type);
 
-        Task<IEnumerable<RoomDto>> GetRoomsByStatus();
+        Task<IEnumerable<RoomDto>> GetRoomsByStatus(RoomStatus roomStatus);
 
         Task AddRoom(AddRoomDto roomDto);
 

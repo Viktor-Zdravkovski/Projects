@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using HotelManagement.DataBase.Implementations.EFImplementations;
 using HotelManagement.DataBase.Interfaces;
+using HotelManagement.Domain.Enums;
 using HotelManagement.Domain.Models;
 using HotelManagement.Dto.RoomsDto;
 using HotelManagement.Services.Interfaces;
@@ -36,34 +38,85 @@ namespace HotelManagement.Services.Implementations
             return _mapper.Map<RoomDto>(room);
         }
 
-        public async Task<IEnumerable<RoomDto>> GetRoomsByStatus()
+        public async Task<IEnumerable<RoomDto>> GetRoomsByStatus(RoomStatus roomStatus)
         {
-
+            var rooms = await _roomRepository.GetRoomsByStatus(roomStatus);
+            return _mapper.Map<IEnumerable<RoomDto>>(rooms);
         }
 
-        public Task<IEnumerable<RoomDto>> GetRoomsByType()
+        public async Task<IEnumerable<RoomDto>> GetRoomsByType(string type)
         {
-            throw new NotImplementedException();
+            var roomsByType = await _roomRepository.GetAllAsync();
+            roomsByType.Where(x => x.Type == type);
+
+            return _mapper.Map<IEnumerable<RoomDto>>(roomsByType);
         }
 
-        public Task ChangeRoomStaus(int roomId)
+        public async Task ChangeRoomStatus(int roomId, RoomStatus roomStatus)
         {
-            throw new NotImplementedException();
+            var room = await _roomRepository.GetByIdAsync(roomId);
+            if (room == null)
+                throw new NotFoundException("No room found.");
+
+            if (room.Status == roomStatus)
+                throw new ArgumentException("Cant update the same status of a room.");
+
+            Dictionary<RoomStatus, List<RoomStatus>> allowedTransitions = new Dictionary<RoomStatus, List<RoomStatus>>
+            {
+                {RoomStatus.Available, new List<RoomStatus> {RoomStatus.Occupied, RoomStatus.Maintenance} },
+                {RoomStatus.Occupied, new List<RoomStatus> {RoomStatus.Available } },
+                {RoomStatus.Maintenance, new List<RoomStatus>{ RoomStatus.Available} },
+            };
+
+            var currentStatus = room.Status;
+
+            if (!allowedTransitions[currentStatus].Contains(roomStatus))
+                throw new InvalidOperationException($"Cannot change status from {currentStatus} to {roomStatus}");
+
+            room.Status = roomStatus;
+
+            await _roomRepository.UpdateAsync(room);
         }
 
-        public Task AddRoom(AddRoomDto roomDto)
+        public async Task AddRoom(AddRoomDto roomDto)
         {
-            throw new NotImplementedException();
+            var addedRoom = _mapper.Map<Room>(roomDto);
+            await _roomRepository.AddAsync(addedRoom);
         }
 
-        public Task UpdateRoom(int id, UpdateRoomDto roomDto)
+
+
+        public async Task UpdateRoom(int id, UpdateRoomDto roomDto)
         {
-            throw new NotImplementedException();
+            var existingRoom = await _roomRepository.GetByIdAsync(id);
+            if (existingRoom == null)
+                throw new NotFoundException("No room found.");
+
+            if (existingRoom.Status == roomDto.Status &&
+                existingRoom.PricePerNight == roomDto.PricePerNight &&
+                existingRoom.Type == roomDto.Type)
+                return;
+
+
+            //existingRoom.Status = roomDto.Status;
+            //existingRoom.PricePerNight = roomDto.PricePerNight;
+            //existingRoom.Type = roomDto.Type;
+
+            _mapper.Map(roomDto, existingRoom);
+
+            await _roomRepository.UpdateAsync(existingRoom);
         }
 
-        public Task DeleteRoom(int id)
+        public async Task DeleteRoom(int id)
         {
-            throw new NotImplementedException();
+            var room = await _roomRepository.GetByIdAsync(id);
+            if (room == null)
+                throw new NotFoundException("No room found");
+
+            if ((room.Status == RoomStatus.Occupied || room.Status == RoomStatus.Maintenance) || (room.Reservations.Any(x => x.CheckedOut >= DateTime.Today)))
+                throw new InvalidOperationException("Cannot delete an occupied room.");
+
+            await _roomRepository.DeleteAsync(room.Id);
         }
     }
 }

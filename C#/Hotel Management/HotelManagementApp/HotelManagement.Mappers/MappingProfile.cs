@@ -9,7 +9,6 @@ namespace HotelManagement.Mappers
 {
     public class MappingProfile : Profile
     {
-
         public MappingProfile()
         {
             // Reservations mapper
@@ -19,8 +18,8 @@ namespace HotelManagement.Mappers
 
             // Rooms mapper
             CreateMap<Room, RoomDto>().ReverseMap();
-            CreateMap<AddRoomDto, RoomDto>();
-            CreateMap<UpdateRoomDto, RoomDto>();
+            CreateMap<AddRoomDto, Room>();
+            CreateMap<UpdateRoomDto, Room>();
 
             // Payment mapper
             CreateMap<Payment, PaymentDto>().ReverseMap();

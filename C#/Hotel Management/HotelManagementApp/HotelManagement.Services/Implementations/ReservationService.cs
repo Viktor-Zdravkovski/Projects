@@ -71,7 +71,6 @@ namespace HotelManagement.Services.Implementations
                     Email = user.Email,
                     FirstName = user.FirstName,
                     LastName = user.LastName,
-                    EmailConfirmed = user.EmailConfirmed,
                     PhoneNumber = user.PhoneNumber
                 }
             };
@@ -89,7 +88,6 @@ namespace HotelManagement.Services.Implementations
                     Id = x.User.Id,
                     FirstName = x.User.FirstName,
                     LastName = x.User.LastName,
-                    EmailConfirmed = x.User.EmailConfirmed,
                     PhoneNumber = x.User.PhoneNumber
                 },
                 Payment = x.Payment.Method,

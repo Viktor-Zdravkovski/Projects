@@ -11,11 +11,11 @@ namespace HotelManagement.Domain.Models
 
         public string Email { get; set; }
 
-        public string EmailConfirmed { get; set; }
-
         public string PhoneNumber { get; set; }
 
         public string Password { get; set; }
+
+        public string PasswordConfirmed { get; set; }
 
         public Roles Role { get; set; }
 
