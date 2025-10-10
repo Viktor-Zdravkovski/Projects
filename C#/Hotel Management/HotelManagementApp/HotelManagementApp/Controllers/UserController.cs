@@ -1,4 +1,5 @@
-﻿using HotelManagement.Dto.UsersDto;
+﻿using HotelManagement.Domain.Enums;
+using HotelManagement.Dto.UsersDto;
 using HotelManagement.Services.Interfaces;
 using HotelManagement.Shared.CustomExceptions;
 using Microsoft.AspNetCore.Authorization;
@@ -15,6 +16,65 @@ namespace HotelManagementApp.Controllers
         public UserController(IUserService userService)
         {
             _userService = userService;
+        }
+
+        [HttpGet("GetAllUsers")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            try
+            {
+                var users = await _userService.GetAllUsersAsync();
+                return Ok(users);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "System error occured, Please contact admin");
+            }
+        }
+
+        [HttpGet("GetUserById")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetUserById(int id)
+        {
+            try
+            {
+                var user = await _userService.GetUserByIdAsync(id);
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "System error occured, Please contact admin");
+            }
+        }
+
+        [HttpGet("GetUserByRole")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetUserByRole(Roles role)
+        {
+            try
+            {
+                var usersByRole = await _userService.GetUsersByRole(role);
+                return Ok(usersByRole);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "System error occured, Please contact admin");
+            }
+        }
+
+        [HttpPut("UpdatePassword")]
+        public async Task<IActionResult> UpdatePassword(int userId, string oldPassword, string newPassword)
+        {
+            try
+            {
+                var updatedPassword = _userService.UpdatePassword(userId, oldPassword, newPassword);
+                return Ok("The password was successfuly updated");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "System error occured, Please contact admin")
+            }
         }
 
         [HttpPost("Login")]
