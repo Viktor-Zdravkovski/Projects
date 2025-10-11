@@ -1,4 +1,5 @@
-﻿using HotelManagement.Domain.Models;
+﻿using HotelManagement.Domain.Enums;
+using HotelManagement.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace HotelManagement.DataBase.Extensions
@@ -29,6 +30,7 @@ namespace HotelManagement.DataBase.Extensions
                       .IsRequired();
 
                 entity.Property(x => x.Role)
+                      .HasDefaultValue(Roles.Customer)
                       .IsRequired();
 
                 entity.HasMany(x => x.Reservations)
@@ -45,7 +47,7 @@ namespace HotelManagement.DataBase.Extensions
 
                 entity.HasKey(x => x.Id);
 
-                entity.Property(x => x.Id).ValueGeneratedOnAdd();
+                //entity.Property(x => x.Id).ValueGeneratedOnAdd();
 
                 entity.Property(x => x.CheckedIn)
                       .IsRequired();
@@ -79,6 +81,7 @@ namespace HotelManagement.DataBase.Extensions
                       .IsRequired();
 
                 entity.Property(x => x.PricePerNight)
+                      .HasPrecision(6, 2)
                       .IsRequired();
 
                 entity.Property(x => x.Status)
@@ -100,6 +103,7 @@ namespace HotelManagement.DataBase.Extensions
                 entity.HasKey(x => x.Id);
 
                 entity.Property(x => x.Amount)
+                      .HasPrecision(6, 2)
                       .IsRequired();
 
                 entity.Property(x => x.Method)

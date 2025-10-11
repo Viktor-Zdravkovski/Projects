@@ -163,3 +163,7 @@ C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagem
 C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagementApp\bin\Debug\net8.0\HotelManagement.Shared.pdb
 C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagementApp\bin\Debug\net8.0\HotelManagement.Domain.pdb
 C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagementApp\bin\Debug\net8.0\HotelManagement.Dto.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagementApp\bin\Debug\net8.0\Microsoft.Practices.ServiceLocation.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagementApp\bin\Debug\net8.0\XAct.Core.PCL.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagementApp\bin\Debug\net8.0\HotelManagement.Services.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagementApp\bin\Debug\net8.0\HotelManagement.Services.pdb

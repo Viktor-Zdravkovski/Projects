@@ -10,14 +10,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Load application settings
 var hotelManagementSettings = builder.Configuration.GetSection("HotelManagementAppSettings");
 builder.Services.Configure<HotelManagementAppSettings>(hotelManagementSettings);
-HotelManagementAppSettings hotelManagementAppSettings = hotelManagementSettings.Get<HotelManagementAppSettings>();
+HotelManagementAppSettings hotelAppSettings = hotelManagementSettings.Get<HotelManagementAppSettings>();
 
 // Configure Swagger for API documentation
 builder.Services.ConfigureSwagger();
 
 // Add DbContext with SQL Server configuration
 builder.Services.AddDbContext<HotelManagementDbContext>(options =>
-    options.UseSqlServer(hotelManagementAppSettings.ConnectionString));
+    options.UseSqlServer(hotelAppSettings.ConnectionString));
 
 // Program.cs / Startup.cs
 builder.Services.AddAutoMapper(cfg => { }, typeof(MappingProfile).Assembly);
@@ -27,7 +27,7 @@ DependencyInjectionHelper.InjectRepositories(builder.Services);
 DependencyInjectionHelper.InjectServices(builder.Services);
 
 // Configure authentication (assuming JWT or other method)
-builder.Services.ConfigureAuthentication(hotelManagementAppSettings.SecretKey);
+builder.Services.ConfigureAuthentication(hotelAppSettings.SecretKey);
 
 // Configure CORS policy (adjust as needed for your app)
 builder.Services.ConfigureCORSPolicy();

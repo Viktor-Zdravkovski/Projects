@@ -6,6 +6,7 @@ using HotelManagement.Dto.UsersDto;
 using HotelManagement.Services.Interfaces;
 using HotelManagement.Shared.Configuration;
 using HotelManagement.Shared.CustomExceptions;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -21,11 +22,11 @@ namespace HotelManagement.Services.Implementations
         private readonly IMapper _mapper;
         private readonly HotelManagementAppSettings _settings;
 
-        public UserService(IUserRepository userRepository, IMapper mapper, HotelManagementAppSettings settings)
+        public UserService(IUserRepository userRepository, IMapper mapper, IOptions<HotelManagementAppSettings> settings)
         {
             _userRepository = userRepository;
             _mapper = mapper;
-            _settings = settings;
+            _settings = settings.Value;
         }
 
         public async Task<IEnumerable<UserDto>> GetAllUsersAsync()
@@ -194,7 +195,5 @@ namespace HotelManagement.Services.Implementations
                 throw new NoDataException($"The user with username: {registerUserDto.Email} already exists");
             }
         }
-
-
     }
 }

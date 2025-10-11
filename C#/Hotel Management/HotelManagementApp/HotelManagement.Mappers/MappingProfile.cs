@@ -26,7 +26,8 @@ namespace HotelManagement.Mappers
             CreateMap<AddPaymentDto, Payment>();
 
             // User mapper
-            CreateMap<User, UserDto>();
+            CreateMap<User, UserDto>().ReverseMap();
+            CreateMap<RegisterUserDto, User>();
         }
     }
 }

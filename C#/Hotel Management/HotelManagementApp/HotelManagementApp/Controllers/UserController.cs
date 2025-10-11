@@ -33,7 +33,7 @@ namespace HotelManagementApp.Controllers
             }
         }
 
-        [HttpGet("GetUserById")]
+        [HttpGet("GetUserById/{id}")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetUserById(int id)
         {
@@ -73,7 +73,7 @@ namespace HotelManagementApp.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "System error occured, Please contact admin")
+                return StatusCode(StatusCodes.Status500InternalServerError, "System error occured, Please contact admin");
             }
         }
 

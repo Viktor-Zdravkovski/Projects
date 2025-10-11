@@ -15,3 +15,9 @@ C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagem
 C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Helpers\obj\Debug\net8.0\refint\HotelManagement.Helpers.dll
 C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Helpers\obj\Debug\net8.0\HotelManagement.Helpers.pdb
 C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Helpers\obj\Debug\net8.0\ref\HotelManagement.Helpers.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Helpers\bin\Debug\net8.0\HotelManagement.Dto.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Helpers\bin\Debug\net8.0\HotelManagement.Services.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Helpers\bin\Debug\net8.0\HotelManagement.Shared.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Helpers\bin\Debug\net8.0\HotelManagement.Services.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Helpers\bin\Debug\net8.0\HotelManagement.Dto.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Helpers\bin\Debug\net8.0\HotelManagement.Shared.pdb
