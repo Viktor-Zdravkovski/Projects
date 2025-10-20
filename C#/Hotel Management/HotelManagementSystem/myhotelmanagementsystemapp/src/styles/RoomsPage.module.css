@@ -1,0 +1,141 @@
+.topSection {
+    background-color: #3d402c;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5rem 2rem;
+    position: relative;
+    height: 100vh;
+}
+
+.textLeft h1 {
+    font-size: 90px;
+    margin-bottom: 80px;
+    color: #ffffff;
+}
+
+.textLeft span {
+    font-style: italic;
+    color: #ca862c;
+}
+
+.textLeft p {
+    font-size: 25px;
+    max-width: 800px;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+.arrowRight {
+    margin-right: 2rem;
+    color: #333;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.filters {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.toggle input {
+    display: none;
+}
+
+.slider {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+.toggle input:checked+.slider {
+    background-color: #4caf50;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 21px;
+    width: 21px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.toggle input:checked+.slider::before {
+    transform: translateX(25px);
+}
+
+.roomsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.roomCard img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.roomInfo {
+    padding: 1rem;
+}
+
+.roomInfo h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.roomInfo hr {
+    border: none;
+    border-top: 1px solid #000000;
+    margin: 0.5rem 0;
+}
+
+.roomInfo p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.roomsGridBackground {
+    background-color: #c7b7a3;
+}

@@ -1,0 +1,223 @@
+.aboutContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.aboutHero {
+    position: relative;
+    background-color: #3d402c;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+
+.aboutHeroTitle {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    text-align: left;
+}
+
+.aboutHeroTitle h1 {
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    max-width: 900px;
+}
+
+.aboutHeroTitle p {
+    font-size: 20px;
+    line-height: 1.7;
+    max-width: 700px;
+}
+
+.aboutHeroTitle span {
+    font-style: italic;
+}
+
+.aboutArrow {
+    position: absolute;
+    bottom: 2rem;
+    right: 2.5rem;
+    cursor: pointer;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+}
+
+.arrowIcon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 80px;
+    background-color: #fff;
+}
+
+.aboutContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+
+.aboutImage img {
+    height: 550px;
+    width: 400px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.719);
+}
+
+.aboutText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutText h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.aboutText p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.signature {
+    width: 160px;
+    opacity: 0.8;
+}
+
+.aboutStats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.aboutStat h3 {
+    font-size: 1.8rem;
+    color: orange;
+    margin-bottom: 5px;
+}
+
+.aboutStat p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.aboutPhoto img {
+    width: 100%;
+    height: 1200px;
+}
+
+.aboutTeam {
+    background-color: #f3f4f6;
+    padding: 5rem 2rem;
+}
+
+.teamRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.teamCard {
+    background: rgba(0, 0, 0, 0.144);
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 48%;
+    background-color: #c7b7a3;
+}
+
+.teamCard img {
+    width: 550px;
+    height: 550px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.teamInfo h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.teamInfo p {
+    color: #4b5563;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.teamDesc {
+    margin-top: 1rem;
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+    .aboutHeroTitle h1 {
+        font-size: 2.5rem;
+    }
+
+    .aboutContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutStats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .teamCard {
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .teamCard img {
+        margin-bottom: 1rem;
+    }
+}

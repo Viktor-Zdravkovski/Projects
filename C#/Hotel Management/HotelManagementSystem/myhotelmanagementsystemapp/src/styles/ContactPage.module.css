@@ -1,0 +1,190 @@
+.hero {
+    background-color: #d9b882;
+    /* soft gold/brown tone */
+    color: #fff;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.heroText {
+    max-width: 50%;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.title span {
+    color: #000;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 2rem;
+    right: 4rem;
+    font-size: 2.5rem;
+    color: #fff;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
+}
+
+/* === TEAM SECTION === */
+.team {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem 6rem;
+    background-color: #fafafa;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.member img {
+    width: 240px;
+    height: 240px;
+    border-radius: 1.5rem;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.info h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.info p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* === CONTACT FORM SECTION === */
+.contactForm {
+    background-color: #fff;
+    padding: 5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contactForm h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+form {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.formRow {
+    display: flex;
+    gap: 1.5rem;
+}
+
+input,
+textarea {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #d9b882;
+    outline: none;
+    box-shadow: 0 0 8px rgba(217, 184, 130, 0.4);
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+button {
+    align-self: center;
+    background-color: #d9b882;
+    border: none;
+    padding: 0.9rem 2.5rem;
+    border-radius: 0.8rem;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #c49d67;
+    transform: translateY(-2px);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding: 3rem 2rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .team {
+        padding: 3rem 2rem;
+    }
+
+    .member {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .formRow {
+        flex-direction: column;
+    }
+}

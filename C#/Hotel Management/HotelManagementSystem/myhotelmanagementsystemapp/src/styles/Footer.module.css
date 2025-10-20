@@ -1,0 +1,242 @@
+.footer {
+    background-color: #c7b7a3;
+    padding: 60px 5% 30px;
+    border-top: 1px solid black;
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.03);
+    color: black;
+}
+
+.footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.footerColumn {
+    flex: 1;
+    min-width: 220px;
+    padding: 0 15px;
+}
+
+.footerHeading {
+    position: relative;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.footerHeading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(206, 145, 76);
+    transition: width 0.3s ease;
+}
+
+.footerColumn:hover .footerHeading::after {
+    width: 70px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contactItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.contactIcon {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.address {
+    font-weight: 400;
+    line-height: 1.7;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.address:hover {
+    color: rgb(206, 145, 76);
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLogo img {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 20px;
+    filter: grayscale(20%);
+    transition: 0.3s ease;
+}
+
+.footerLogo:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.03);
+}
+
+.socialLinks {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.socialLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgb(206, 145, 76);
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.socialLink:hover {
+    background-color: black;
+    color: rgb(206, 145, 76);
+    transform: translateY(-3px);
+}
+
+.footerLinks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 0;
+}
+
+.footerLinks li {
+    position: relative;
+    cursor: pointer;
+}
+
+.footerLinks li::before {
+    content: '→';
+    position: absolute;
+    left: -15px;
+    color: rgb(0, 0, 0);
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.footerLinks li:hover::before {
+    opacity: 1;
+    left: -10px;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: 0.3s ease;
+    display: block;
+    padding: 2px 0;
+    margin-left: 10px;
+}
+
+.footerLinks a:hover {
+    color: rgb(206, 145, 76);
+}
+
+.footerBottom {
+    text-align: center;
+    padding-top: 40px;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.callToAction {
+    margin-bottom: 25px;
+}
+
+.phoneNumber {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.phoneNumber:hover {
+    color: rgb(206, 145, 76);
+}
+
+.callText {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.backToTop {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(206, 145, 76);
+    color: white;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 10px rgba(151, 24, 24, 0.05);
+}
+
+.backToTop:hover {
+    background-color: rgb(196, 137, 71);
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgb(170, 118, 58);
+}
+
+.copyright {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footerTop {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .footerColumn {
+        min-width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socialLinks {
+        justify-content: center;
+    }
+}

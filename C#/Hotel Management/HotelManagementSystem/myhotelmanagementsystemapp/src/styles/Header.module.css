@@ -1,0 +1,122 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: transparent;
+    z-index: 10;
+}
+
+/* --- Logo Section --- */
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.logoText {
+    margin-top: 6px;
+}
+
+.logoText h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 600;
+}
+
+.logoText p {
+    font-size: 20px;
+    color: white;
+    margin: 2px 0 0 0;
+}
+
+/* --- Navigation --- */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s ease;
+}
+
+
+/* --- Active link underline --- */
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 3px;
+    background-color: transparent;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+    background-color: #ffcc00;
+    /* hover underline */
+}
+
+.active::after {
+    width: 100%;
+    background-color: #ffcc00;
+    /* yellow active underline */
+}
+
+.authButtons {
+    display: flex;
+    gap: 12px;
+}
+
+.authButtons button {
+    padding: 8px 18px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ffb24d;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.register {
+    background-color: transparent;
+    color: #ca862c;
+}
+
+.register:hover {
+    background-color: #db8a20;
+    color: white;
+}
+
+.login {
+    background-color: #ffb24d;
+    color: white;
+}
+
+.login:hover {
+    background-color: #db8a20;
+}
