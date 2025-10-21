@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { FaChevronDown } from "react-icons/fa";
+import ToggleSwitch from "../components/ToggleSwitch.jsx";
 import Header from "../sections/HeaderSection/Header.jsx";
 import Footer from "../sections/FooterSection/Footer.jsx";
+import { FaWifi, FaTv, FaSnowflake, FaPhone } from "react-icons/fa";
+import { GiHanger } from 'react-icons/gi';
 import styles from "../styles/RoomsPage.module.css"; // separate CSS
 
 const roomsData = [
@@ -13,9 +15,22 @@ const roomsData = [
 
 export default function RoomsPage() {
     const [wifiFilter, setWifiFilter] = useState(false);
+    const [tvFilter, setTvFilter] = useState(false);
+    const [acFilter, setAcFilter] = useState(false);
+    const [phoneFilter, setPhoneFilter] = useState(false);
+    const [hangerFilter, setHangerFilter] = useState(false);
 
-    // Filter rooms based on WiFi toggle
-    const filteredRooms = wifiFilter ? roomsData.filter(room => room.wifi) : roomsData;
+
+
+    // Filter rooms based on selected filters
+    const filteredRooms = roomsData.filter(room => {
+        if (wifiFilter && !room.wifi) return false;
+        if (tvFilter && !room.tv) return false;
+        if (acFilter && !room.ac) return false;
+        if (phoneFilter && !room.phone) return false;
+        if (hangerFilter && !room.hanger) return false; // use hangerFilter
+        return true;
+    });
 
     return (
         <>
@@ -24,7 +39,9 @@ export default function RoomsPage() {
             {/* Top hero section */}
             <section className={styles.topSection}>
                 <div className={styles.textLeft}>
-                    <h1>Perfectly <span>Matched</span> Rooms</h1>
+                    <h1>
+                        Perfectly <span>Matched</span> Rooms
+                    </h1>
                     <p>
                         Choose from our carefully designed rooms to suit every taste and
                         preference. Comfort, style, and convenience are guaranteed.
@@ -34,19 +51,37 @@ export default function RoomsPage() {
 
             {/* Filters */}
             <section className={styles.filters}>
-                <label className={styles.toggle}>
-                    <span>No WiFi</span>
-                    <input
-                        type="checkbox"
+                <div className={styles.switchGroup}>
+                    <ToggleSwitch
                         checked={wifiFilter}
                         onChange={() => setWifiFilter(!wifiFilter)}
+                        icon={<FaWifi />}
                     />
-                    <span className={styles.slider}></span>
-                    <span>Include WiFi</span>
-                </label>
+                    <ToggleSwitch
+                        checked={tvFilter}
+                        onChange={() => setTvFilter(!tvFilter)}
+                        icon={<FaTv />}
+                    />
+                    <ToggleSwitch
+                        checked={acFilter}
+                        onChange={() => setAcFilter(!acFilter)}
+                        icon={<FaSnowflake />}
+                    />
+                    <ToggleSwitch
+                        checked={phoneFilter}
+                        onChange={() => setPhoneFilter(!phoneFilter)}
+                        icon={<FaPhone />}
+                    />
+                    <ToggleSwitch
+                        checked={hangerFilter}
+                        onChange={() => setHangerFilter(!hangerFilter)}
+                        icon={<GiHanger />}
+                    />
+                </div>
                 <hr />
             </section>
 
+            {/* Rooms */}
             <div className={styles.roomsGridBackground}>
                 <section className={styles.roomsGrid}>
                     {filteredRooms.map(room => (
@@ -68,85 +103,3 @@ export default function RoomsPage() {
         </>
     );
 }
-
-// export default function RoomsPage() {
-//     const [rooms, setRooms] = useState([]);
-//     const [wifiFilter, setWifiFilter] = useState(false);
-//     const [loading, setLoading] = useState(true);
-
-//     // Fetch rooms from API/Database
-//     useEffect(() => {
-//         async function fetchRooms() {
-//             try {
-//                 const response = await fetch("/api/rooms"); // adjust your API endpoint
-//                 const data = await response.json();
-//                 setRooms(data);
-//             } catch (error) {
-//                 console.error("Error fetching rooms:", error);
-//             } finally {
-//                 setLoading(false);
-//             }
-//         }
-//         fetchRooms();
-//     }, []);
-
-//     // Filter rooms by WiFi
-//     const filteredRooms = wifiFilter ? rooms.filter(room => room.wifi) : rooms;
-
-//     return (
-//         <>
-//             <Header />
-
-//             {/* Top Hero Section */}
-//             <section className={styles.topSection}>
-//                 <div className={styles.textLeft}>
-//                     <h1>Perfectly Matched Rooms</h1>
-//                     <p>
-//                         Choose from our carefully designed rooms to suit every taste and
-//                         preference. Comfort, style, and convenience are guaranteed.
-//                     </p>
-//                 </div>
-//                 <div className={styles.arrowRight}>
-//                     <FaChevronDown size={30} />
-//                 </div>
-//             </section>
-
-//             {/* Filters */}
-//             <section className={styles.filters}>
-//                 <label className={styles.toggle}>
-//                     <span>No WiFi</span>
-//                     <input
-//                         type="checkbox"
-//                         checked={wifiFilter}
-//                         onChange={() => setWifiFilter(!wifiFilter)}
-//                     />
-//                     <span className={styles.slider}></span>
-//                     <span>Include WiFi</span>
-//                 </label>
-//                 <hr />
-//             </section>
-
-//             {/* Rooms Grid */}
-//             <section className={styles.roomsGrid}>
-//                 {loading ? (
-//                     <p>Loading rooms...</p>
-//                 ) : filteredRooms.length === 0 ? (
-//                     <p>No rooms match your filters.</p>
-//                 ) : (
-//                     filteredRooms.map(room => (
-//                         <div key={room.id} className={styles.roomCard}>
-//                             <img src={room.img} alt={room.title} />
-//                             <div className={styles.roomInfo}>
-//                                 <h3>{room.title}</h3>
-//                                 <hr />
-//                                 <p>${room.price} / night</p>
-//                             </div>
-//                         </div>
-//                     ))
-//                 )}
-//             </section>
-
-//             <Footer />
-//         </>
-//     );
-// }

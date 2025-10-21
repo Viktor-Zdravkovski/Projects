@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "../sections/HeaderSection/Header.jsx";
 import Footer from "../sections/FooterSection/Footer.jsx";
 import styles from "../styles/ContactPage.module.css";
+import aboutStyles from "../styles/AboutUsPage.module.css"
 
 export default function ContactPage() {
     const [formData, setFormData] = useState({
@@ -35,31 +36,58 @@ export default function ContactPage() {
                         We’re here to help.<br />
                         Reach out anytime.
                     </p>
-                    <div className={styles.arrow}>↓</div>
                 </div>
             </section>
 
             {/* Team Section */}
-            <section className={styles.team}>
-                <div className={styles.member}>
-                    <img src="/assets/evelyn.jpg" alt="Evelyn Smith" />
-                    <div className={styles.info}>
-                        <h4>Evelyn Smith</h4>
-                        <p>Phone: 123-456-789</p>
-                        <p>Email: evelyn@hotel.com</p>
-                        <p>Experienced manager ensuring guests enjoy a perfect stay.</p>
+            <div className={aboutStyles.aboutTeam}>
+                <div className={aboutStyles.teamRow}>
+                    {/* Team member 1 */}
+                    <div className={aboutStyles.teamCard}>
+                        <img src="../src/assets/HotelStaff.png" alt="Person 2" />
+                        <div className={aboutStyles.teamInfo}>
+                            <h3 className={aboutStyles.teamName}>Dragana Jovanovic</h3>
+
+                            <div className={aboutStyles.teamContact}>
+                                <p className={aboutStyles.teamPhone}>Phone: +389 71 352 655</p>
+                                <hr className={aboutStyles.contactLine} />
+                            </div>
+
+                            <div className={aboutStyles.teamContact}>
+                                <p className={aboutStyles.teamEmail}>Email: dragana@noreply.com</p>
+                                <hr className={aboutStyles.contactLine} />
+                            </div>
+
+                            <p className={aboutStyles.teamDesc}>
+                                Maria is our customer relations expert, dedicated to making
+                                sure each guest feels valued and supported from start to finish.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className={aboutStyles.teamCard}>
+                        <img src="../src/assets/HotelStaff2.png" alt="Person 2" />
+                        <div className={aboutStyles.teamInfo}>
+                            <h3 className={aboutStyles.teamName}>Marija Petrova</h3>
+
+                            <div className={aboutStyles.teamContact}>
+                                <p className={aboutStyles.teamPhone}>Phone: +389 71 987 654</p>
+                                <hr className={aboutStyles.contactLine} />
+                            </div>
+
+                            <div className={aboutStyles.teamContact}>
+                                <p className={aboutStyles.teamEmail}>Email: marija@noreply.com</p>
+                                <hr className={aboutStyles.contactLine} />
+                            </div>
+
+                            <p className={aboutStyles.teamDesc}>
+                                Maria is our customer relations expert, dedicated to making
+                                sure each guest feels valued and supported from start to finish.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div className={styles.member}>
-                    <img src="/assets/josephine.jpg" alt="Josephine Albertino" />
-                    <div className={styles.info}>
-                        <h4>Josephine Albertino</h4>
-                        <p>Phone: 987-654-321</p>
-                        <p>Email: josephine@hotel.com</p>
-                        <p>Expert concierge helping visitors explore the best local spots.</p>
-                    </div>
-                </div>
-            </section>
+            </div>
 
             {/* Contact Form */}
             <section className={styles.contactForm}>

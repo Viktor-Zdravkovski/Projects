@@ -87,8 +87,7 @@
               "RelativeToolTip": "HotelManagement.Services\\Implementations\\RoomService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:35:46.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T19:35:46.994Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "HotelManagement.Services\\Implementations\\ReservationService.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAwwCsAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:35:44.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T19:35:44.335Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "HotelManagement.Dto\\PaymentsDto\\AddPaymentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:35:40.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T19:35:40.946Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "HotelManagement.Dto\\PaymentsDto\\PaymentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:35:40.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T19:35:40.442Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "HotelManagement.Helpers\\ConfigurationHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:35:38.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T19:35:38.045Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "HotelManagement.Helpers\\DependencyInjectionHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:35:37.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T19:35:37.495Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "HotelManagement.Mappers\\MappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:35:36.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T19:35:36.326Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "HotelManagement.Domain\\Models\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:35:33.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T19:35:33.98Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "HotelManagement.Domain\\Enums\\ReservationStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:35:31.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T19:35:31.577Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "HotelManagement.Domain\\Enums\\PaymentStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:35:30.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T19:35:30.171Z"
             },
             {
               "$type": "Document",
@@ -217,8 +207,7 @@
               "RelativeToolTip": "HotelManagement.Domain\\Enums\\Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T19:54:59.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T19:54:59.628Z"
             },
             {
               "$type": "Document",
@@ -230,8 +219,7 @@
               "RelativeToolTip": "HotelManagement.DataBase\\Extensions\\EFExtensions.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T19:54:10.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T19:54:10.591Z"
             }
           ]
         }
