@@ -79,8 +79,8 @@ namespace HotelManagementApp.Controllers
         {
             try
             {
-                var changedRoomStatus = _roomService.ChangeRoomStatus(roomId, status);
-                return Ok(changedRoomStatus);
+                await _roomService.ChangeRoomStatus(roomId, status);
+                return Ok();
             }
             catch (Exception ex)
             {

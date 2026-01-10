@@ -15,7 +15,7 @@ namespace HotelManagement.Services.Interfaces
 
         Task AddReservation(AddReservationDto addReservationDto);
 
-        Task UpdateReservation(int id, UpdateReservationDto updateReservationDto);
+        Task UpdateReservation(int id, UpdateReservationDto updateReservationDto, int currentUserId);
 
         Task CancelReservation(int id);
 

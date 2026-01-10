@@ -10,5 +10,7 @@ namespace HotelManagement.DataBase.Interfaces
         Task<Room> GetByRoomNumberAsync(string roomNumber);
 
         Task<IEnumerable<Room>> GetRoomsByStatus(RoomStatus roomStatus);
+
+        Task<List<Room>> GetRoomsByTypeAsync(string type);
     }
 }

@@ -68,7 +68,7 @@ namespace HotelManagementApp.Controllers
         {
             try
             {
-                var updatedPassword = _userService.UpdatePassword(userId, oldPassword, newPassword);
+                await _userService.UpdatePassword(userId, oldPassword, newPassword);
                 return Ok("The password was successfuly updated");
             }
             catch (Exception ex)

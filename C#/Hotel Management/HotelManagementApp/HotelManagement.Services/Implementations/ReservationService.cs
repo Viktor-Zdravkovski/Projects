@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using HotelManagement.DataBase.Interfaces;
+using HotelManagement.Domain.Enums;
 using HotelManagement.Domain.Models;
 using HotelManagement.Dto.PaymentsDto;
 using HotelManagement.Dto.ReservationsDto;
@@ -31,7 +32,7 @@ namespace HotelManagement.Services.Implementations
 
         public async Task<IEnumerable<ReservationDto>> GetAllReservations()
         {
-            var allReservations = await _reservationRepository.GetAllAsync();
+            var allReservations = await _reservationRepository.GetAllWithDetailsAsync();
             return _mapper.Map<IEnumerable<ReservationDto>>(allReservations);
         }
 
@@ -45,9 +46,8 @@ namespace HotelManagement.Services.Implementations
             if (user == null)
                 throw new NotFoundException("User not found.");
 
-            var payment = await _paymentRepository.GetByIdAsync(id);
-            if (payment == null)
-                throw new NotFoundException("Payment not found.");
+            var payment = await _paymentRepository.GetByReservationIdAsync(reservation.Id);
+
 
             var room = await _roomRepository.GetByIdAsync(reservation.RoomId);
             if (room == null)
@@ -57,7 +57,7 @@ namespace HotelManagement.Services.Implementations
             {
                 CheckedIn = reservation.CheckedIn,
                 CheckedOut = reservation.CheckedOut,
-                Payment = reservation.Payment.Method,
+                Payment = reservation.Payment != null ? reservation.Payment.PaymentMethod.ToString() : "Not paid yet",
                 Room = new RoomDto
                 {
                     PricePerNight = room.PricePerNight,
@@ -88,9 +88,17 @@ namespace HotelManagement.Services.Implementations
                     Id = x.User.Id,
                     FirstName = x.User.FirstName,
                     LastName = x.User.LastName,
+                    Email = x.User.Email,
                     PhoneNumber = x.User.PhoneNumber
                 },
-                Payment = x.Payment.Method,
+                Room = new RoomDto
+                {
+                    RoomNumber = x.Room.RoomNumber,
+                    PricePerNight = x.Room.PricePerNight,
+                    Status = x.Room.Status,
+                    Type = x.Room.Type
+                },
+                Payment = x.Payment != null ? x.Payment.PaymentMethod.ToString() : "Not paid yet",
                 CheckedIn = x.CheckedIn,
                 CheckedOut = x.CheckedOut,
             });
@@ -114,20 +122,21 @@ namespace HotelManagement.Services.Implementations
             await _reservationRepository.AddAsync(reservation);
         }
 
-        public async Task UpdateReservation(int id, UpdateReservationDto updateReservationDto)
+        public async Task UpdateReservation(int id, UpdateReservationDto updateReservationDto, int currentUserId)
         {
             var existingReservation = await _reservationRepository.GetByIdAsync(id);
+
             if (existingReservation == null)
                 throw new NotFoundException("Reservation not found.");
+
+            if (existingReservation.UserId != currentUserId)
+                throw new UnauthorizedAccessException("You can only update your own reservations.");
 
             if (updateReservationDto.CheckedIn >= updateReservationDto.CheckedOut)
                 throw new ValidationException("Check-in must be earlier than check-out.");
 
-            if (updateReservationDto.CheckedIn == existingReservation.CheckedIn)
-                throw new ValidationException("Check-in cant be on the same date.");
-
             var isRoomAvaialbe = await _reservationRepository
-                                .IsRoomAvailableAsync(existingReservation.RoomId, updateReservationDto.CheckedIn, updateReservationDto.CheckedOut, id);
+                                .IsRoomAvailableAsync(existingReservation.RoomId, updateReservationDto.CheckedIn, updateReservationDto.CheckedOut, existingReservation.Id);
 
             if (!isRoomAvaialbe)
                 throw new ConflictException("The room is unavailable.");

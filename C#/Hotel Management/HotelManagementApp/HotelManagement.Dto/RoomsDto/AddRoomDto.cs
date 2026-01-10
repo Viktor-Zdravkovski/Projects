@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using HotelManagement.Domain.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace HotelManagement.Dto.RoomsDto
 {
@@ -12,5 +13,7 @@ namespace HotelManagement.Dto.RoomsDto
 
         [Required]
         public decimal PricePerNight { get; set; }
+
+        public RoomStatus Status { get; set; } = RoomStatus.Available;
     }
 }

@@ -63,21 +63,29 @@ namespace HotelManagementApp.Controllers
             }
         }
 
-        [HttpGet("AddPayment")]
+        [HttpPost("AddPayment")]
         public async Task<IActionResult> AddPayment(AddPaymentDto addPaymentDto)
         {
             try
             {
+                var userIdClaim = User.FindFirst("UserId");
+
+                if (userIdClaim == null)
+                    return Unauthorized("User ID claim is missing from token");
+
+                var currentUserId = int.Parse(userIdClaim.Value);
+
                 await _paymentService.AddPayment(addPaymentDto);
                 return Ok();
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "System error occured, Please contact admin");
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
 
         [HttpPut("UpdatePayment")]
+        [Authorization(Roles = "Admin")]
         public async Task<IActionResult> UpdatePaymentStatus(int id, PaymentStatus paymentStatus)
         {
             try

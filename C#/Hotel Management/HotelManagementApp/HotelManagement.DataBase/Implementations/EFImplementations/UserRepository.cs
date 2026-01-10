@@ -20,7 +20,7 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
             return await _context.Users.ToListAsync();
         }
 
-        public async Task<User> GetByIdAsync(int id)
+        public async Task<User?> GetByIdAsync(int id)
         {
             return await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
         }
@@ -37,6 +37,8 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
 
             if (existingUser == null)
                 throw new KeyNotFoundException($"User with Id {entity.Id} not found. ");
+
+            await _context.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(int id)
@@ -50,14 +52,14 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
             await _context.SaveChangesAsync();
         }
 
-        public async Task<User> GetByEmailAsync(string email)
+        public async Task<User?> GetByEmailAsync(string email)
         {
-            var existingUser = await _context.Users.FirstOrDefaultAsync(x => x.Email.ToLower() == email.ToLower());
+            return await _context.Users.FirstOrDefaultAsync(x => x.Email.ToLower() == email.ToLower());
 
-            if (existingUser == null)
-                throw new KeyNotFoundException($"The user with email: {email} not found.");
+            //if (existingUser == null)
+            //    throw new KeyNotFoundException($"The user with email: {email} not found.");
 
-            return existingUser;
+            //return existingUser;
         }
 
         public async Task<IEnumerable<User>> GetByRoleAsync(string role)

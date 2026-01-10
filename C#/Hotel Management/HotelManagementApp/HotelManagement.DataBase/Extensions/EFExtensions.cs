@@ -47,7 +47,7 @@ namespace HotelManagement.DataBase.Extensions
 
                 entity.HasKey(x => x.Id);
 
-                //entity.Property(x => x.Id).ValueGeneratedOnAdd();
+                entity.Property(x => x.Id).ValueGeneratedOnAdd();
 
                 entity.Property(x => x.CheckedIn)
                       .IsRequired();
@@ -106,11 +106,11 @@ namespace HotelManagement.DataBase.Extensions
                       .HasPrecision(6, 2)
                       .IsRequired();
 
-                entity.Property(x => x.Method)
+                entity.Property(x => x.PaymentMethod)
                       .IsRequired();
 
-                entity.Property(x => x.PaidAt)
-                      .IsRequired();
+                //entity.Property(x => x.PaidAt)
+                //      .IsRequired();
 
                 entity.HasOne(x => x.Reservation)
                       .WithOne(r => r.Payment)

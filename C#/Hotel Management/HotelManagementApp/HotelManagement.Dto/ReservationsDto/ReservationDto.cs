@@ -14,7 +14,7 @@ namespace HotelManagement.Dto.ReservationsDto
         public DateTime CheckedIn { get; set; }
         public DateTime CheckedOut { get; set; }
 
-        public PaymentMethod Payment { get; set; }
+        public string Payment { get; set; } = "Not paid yet";
 
     }
 }

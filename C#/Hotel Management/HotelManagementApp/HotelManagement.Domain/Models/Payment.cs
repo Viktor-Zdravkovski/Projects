@@ -6,14 +6,14 @@ namespace HotelManagement.Domain.Models
     {
         public int ReservationId { get; set; }
 
-        public Reservation Reservation { get; set; }
+        public Reservation? Reservation { get; set; }
 
         public decimal Amount { get; set; }
 
-        public PaymentMethod Method { get; set; }
+        public PaymentMethod PaymentMethod { get; set; }
 
         public PaymentStatus Status { get; set; }
 
-        public DateTime PaidAt { get; set; }
+        public DateTime? PaidAt { get; set; }
     }
 }

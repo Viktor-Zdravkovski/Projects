@@ -1,5 +1,6 @@
 ﻿using HotelManagement.DataBase.Context;
 using HotelManagement.DataBase.Interfaces;
+using HotelManagement.Domain.Enums;
 using HotelManagement.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,7 +20,7 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
             return await _context.Payment.ToListAsync();
         }
 
-        public async Task<Payment> GetByIdAsync(int id)
+        public async Task<Payment?> GetByIdAsync(int id)
         {
             return await _context.Payment.FirstOrDefaultAsync(x => x.Id == id);
         }
@@ -54,7 +55,7 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
 
         public async Task<Payment> GetPaymentByReservationIdAsync(int reservationId)
         {
-            return await _context.Payment.FirstOrDefaultAsync(x => x.ReservationId == reservationId);
+            return await _context.Payment.FirstOrDefaultAsync(x => x.Id == reservationId);
         }
 
         public async Task<IEnumerable<Payment>> GetPaymentsByUserAsync(int userId)
@@ -63,5 +64,19 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
 
             return paymentByUser;
         }
+
+        public async Task<Payment?> GetByReservationIdAsync(int reservationId)
+        {
+            return await _context.Payment.FirstOrDefaultAsync(x => x.ReservationId == reservationId);
+        }
+
+        public async Task<Payment?> GetCompletedPaymentByReservationIdAsync(int reservationId)
+        {
+            return await _context.Payment
+                                 .FirstOrDefaultAsync(p =>
+                                     p.ReservationId == reservationId &&
+                                     p.Status == PaymentStatus.Completed);
+        }
+
     }
 }

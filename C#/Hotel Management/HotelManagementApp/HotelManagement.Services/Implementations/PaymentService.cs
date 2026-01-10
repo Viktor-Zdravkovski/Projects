@@ -5,6 +5,7 @@ using HotelManagement.Domain.Models;
 using HotelManagement.Dto.PaymentsDto;
 using HotelManagement.Services.Interfaces;
 using HotelManagement.Shared.CustomExceptions;
+using System.ComponentModel.DataAnnotations;
 
 namespace HotelManagement.Services.Implementations
 {
@@ -52,7 +53,36 @@ namespace HotelManagement.Services.Implementations
 
         public async Task AddPayment(AddPaymentDto addPaymentDto)
         {
-            var payment = _mapper.Map<Payment>(addPaymentDto);
+            if (!Enum.IsDefined(typeof(PaymentMethod), addPaymentDto.PaymentMethod))
+                throw new ValidationException("Invalid payment method");
+
+            var reservation = await _reservationRepository.GetByIdAsync(addPaymentDto.ReservationId);
+            if (reservation == null)
+                throw new NotFoundException("Reservation not found");
+
+            var existingCompletedPayment = await _paymentRepository
+                                                .GetCompletedPaymentByReservationIdAsync(addPaymentDto.ReservationId);
+
+            if (existingCompletedPayment != null)
+                throw new ConflictException("This reservation is already fully paid.");
+
+            var status = addPaymentDto.PaymentMethod switch
+            {
+                PaymentMethod.Cash => PaymentStatus.Pending,
+                PaymentMethod.Card => PaymentStatus.Pending,
+                PaymentMethod.Online => PaymentStatus.Completed,
+                _ => throw new ArgumentOutOfRangeException(nameof(addPaymentDto.PaymentMethod))
+            };
+
+            var payment = new Payment
+            {
+                ReservationId = addPaymentDto.ReservationId,
+                Amount = addPaymentDto.Amount,
+                PaymentMethod = addPaymentDto.PaymentMethod,
+                Status = status,
+                PaidAt = status == PaymentStatus.Completed ? DateTime.UtcNow : null
+            };
+
             await _paymentRepository.AddAsync(payment);
         }
 

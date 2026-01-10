@@ -2,6 +2,7 @@
 using HotelManagement.Services.Implementations;
 using HotelManagement.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace HotelManagementApp.Controllers
@@ -46,12 +47,12 @@ namespace HotelManagementApp.Controllers
         }
 
         [HttpGet("GetReservationByUser/{userId}")]
-        public async Task<IActionResult> GetReservationsByUser(int id)
+        public async Task<IActionResult> GetReservationsByUser(int userId)
         {
             try
             {
 
-                var reservationsByUser = await _reservationService.GetReservationsByUser(id);
+                var reservationsByUser = await _reservationService.GetReservationsByUser(userId);
                 return Ok(reservationsByUser);
             }
             catch (Exception ex)
@@ -89,11 +90,17 @@ namespace HotelManagementApp.Controllers
         }
 
         [HttpPut("UpdateReservation")]
-        public async Task<IActionResult> UpdateReservation(int id, UpdateReservationDto updateReservationDto)
+        public async Task<IActionResult> UpdateReservation(int id, UpdateReservationDto updateReservationDto, int userId)
         {
             try
             {
-                await _reservationService.UpdateReservation(id, updateReservationDto);
+                var userIdClaim = User.FindFirst("UserId");
+
+                if (userIdClaim == null)
+                    return Unauthorized("User ID claim is missing from token");
+
+                var currentUserId = int.Parse(userIdClaim.Value);
+                await _reservationService.UpdateReservation(id, updateReservationDto, currentUserId);
                 return Ok();
             }
             catch (Exception ex)

@@ -9,5 +9,7 @@ namespace HotelManagement.DataBase.Interfaces
         Task<IEnumerable<Reservation>> GetReservationsByDateAsync(DateTime date);
 
         Task<bool> IsRoomAvailableAsync(int roomId, DateTime checkIn, DateTime checkOut, int? excludeReservationId = null);
+
+        Task<IEnumerable<Reservation>> GetAllWithDetailsAsync();
     }
 }

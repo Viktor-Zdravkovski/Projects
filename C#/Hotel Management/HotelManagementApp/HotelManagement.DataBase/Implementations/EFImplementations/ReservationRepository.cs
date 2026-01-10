@@ -64,11 +64,14 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
             return todaysReservation ?? new List<Reservation>();
         }
 
-        public async Task<IEnumerable<Reservation>> GetReservationsByUserAsync(int userId)
+        public async Task<IEnumerable<Reservation?>> GetReservationsByUserAsync(int userId)
         {
-            var reservationByUser = await _context.Reservations.Where(x => x.UserId == userId).ToListAsync();
-
-            return reservationByUser;
+            return await _context.Reservations
+                                .Include(x => x.User)
+                                .Include(x => x.Payment)
+                                .Include(x => x.Room)
+                                .Where(x => x.UserId == userId)
+                                .ToListAsync();
         }
 
         public async Task<bool> IsRoomAvailableAsync(int roomId, DateTime checkIn, DateTime checkOut, int? excludeReservationId = null)
@@ -79,6 +82,14 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
                 return true;
 
             return false;
+        }
+
+        public async Task<IEnumerable<Reservation>> GetAllWithDetailsAsync()
+        {
+            return await _context.Reservations
+                                 .Include(r => r.User)
+                                 .Include(r => r.Room)
+                                 .ToListAsync();
         }
     }
 }

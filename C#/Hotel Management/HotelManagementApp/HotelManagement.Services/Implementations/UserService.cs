@@ -67,12 +67,20 @@ namespace HotelManagement.Services.Implementations
             if (oldPassword == newPassword)
                 throw new Exception("You can't put same password as an old one");
 
+            if (newPassword.Length < 6)
+            {
+                throw new Exception("The new password must be at least 6 charactets");
+            }
+
             var hashedOldPassword = HashPassword(oldPassword);
 
             if (hashedOldPassword != user.Password)
                 throw new InvalidOperationException("The old password doesn't match.");
 
             var newUserPassowrd = HashPassword(newPassword);
+
+            user.Password = newUserPassowrd;
+            user.PasswordConfirmed = newUserPassowrd;
 
             await _userRepository.UpdateAsync(user);
         }
@@ -102,7 +110,7 @@ namespace HotelManagement.Services.Implementations
                         new Claim("userFullName", $"{userDb.FirstName} {userDb.LastName}"),
                         new Claim("UserId", userDb.Id.ToString()),
                         new Claim(ClaimTypes.Email, userDb.Email),
-                        new Claim("Role", userDb.Role.ToString())
+                        new Claim(ClaimTypes.Role, userDb.Role.ToString())
                     }
                 )
             };
@@ -136,7 +144,7 @@ namespace HotelManagement.Services.Implementations
                 Role = Roles.Customer,
             };
 
-            if (registerUserDto.Email == "blagojce@gmail.com")
+            if (registerUserDto.Email == "admin@gmail.com")
             {
                 user.Role = Roles.Admin;
             }
@@ -187,6 +195,11 @@ namespace HotelManagement.Services.Implementations
             if (registerUserDto.LastName.Length > 50)
             {
                 throw new NoDataException("Lastname: Lastname is longer than 50 characters");
+            }
+
+            if (registerUserDto.Password != registerUserDto.ConfirmPassword)
+            {
+                throw new NoDataException("Password Missmatch");
             }
 
             var userDb = await _userRepository.GetByEmailAsync(registerUserDto.Email);

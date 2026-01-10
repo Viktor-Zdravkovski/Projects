@@ -64,7 +64,7 @@
       }
     },
     "/api/Payment/AddPayment": {
-      "get": {
+      "post": {
         "tags": [
           "Payment"
         ],
@@ -188,19 +188,12 @@
         ],
         "parameters": [
           {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
             "name": "userId",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
@@ -280,6 +273,14 @@
         "parameters": [
           {
             "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "userId",
             "in": "query",
             "schema": {
               "type": "integer",
@@ -752,6 +753,9 @@
           "pricePerNight": {
             "type": "number",
             "format": "double"
+          },
+          "status": {
+            "$ref": "#/components/schemas/RoomStatus"
           }
         },
         "additionalProperties": false

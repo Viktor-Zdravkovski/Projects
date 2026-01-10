@@ -44,11 +44,9 @@ namespace HotelManagement.Services.Implementations
             return _mapper.Map<IEnumerable<RoomDto>>(rooms);
         }
 
-        public async Task<IEnumerable<RoomDto>> GetRoomsByType(string type)
+        public async Task<IEnumerable<RoomDto?>> GetRoomsByType(string type)
         {
-            var roomsByType = await _roomRepository.GetAllAsync();
-            roomsByType.Where(x => x.Type == type);
-
+            var roomsByType = await _roomRepository.GetRoomsByTypeAsync(type);
             return _mapper.Map<IEnumerable<RoomDto>>(roomsByType);
         }
 
@@ -111,7 +109,8 @@ namespace HotelManagement.Services.Implementations
             if (room == null)
                 throw new NotFoundException("No room found");
 
-            if ((room.Status == RoomStatus.Occupied || room.Status == RoomStatus.Maintenance) || (room.Reservations.Any(x => x.CheckedOut >= DateTime.Today)))
+            if ((room.Status == RoomStatus.Occupied || room.Status == RoomStatus.Maintenance) ||
+        (room.Reservations?.Any(x => x.CheckedOut >= DateTime.Today) ?? false))
                 throw new InvalidOperationException("Cannot delete an occupied room.");
 
             await _roomRepository.DeleteAsync(room.Id);

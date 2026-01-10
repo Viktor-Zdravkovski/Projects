@@ -46,10 +46,15 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
 
         public async Task DeleteAsync(int id)
         {
-            var roomToDelete = await _context.Rooms.FirstOrDefaultAsync(x => x.Id == id);
+            var roomToDelete = await _context.Rooms
+                                    .Include(r => r.Reservations)
+                                    .FirstOrDefaultAsync(x => x.Id == id);
 
             if (roomToDelete == null)
                 throw new KeyNotFoundException($"Room with Id {id} not found. ");
+
+            _context.Rooms.Remove(roomToDelete);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<Room>> GetAvailableRoomsAsync(DateTime checkIn, DateTime checkOut)
@@ -62,7 +67,11 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
             //                       .Where(x => x.CheckedIn >= checkIn && x.CheckedIn < checkOut || x.CheckedIn < checkOut && x.CheckedOut > checkIn)
             //                       .ToListAsync();
 
-            var listOfIdsOfOccupiedRooms = await _context.Reservations.Where(x => x.CheckedIn < checkOut && x.CheckedOut > checkIn).Select(x => x.RoomId).Distinct().ToListAsync();
+            var listOfIdsOfOccupiedRooms = await _context.Reservations
+                                                .Where(x => x.CheckedIn < checkOut && x.CheckedOut > checkIn)
+                                                .Select(x => x.RoomId)
+                                                .Distinct()
+                                                .ToListAsync();
 
             var listOfIdsOfFreeRooms = RoomOfIdsOfAllRooms.Except(listOfIdsOfOccupiedRooms).ToList();
 
@@ -89,6 +98,14 @@ namespace HotelManagement.DataBase.Implementations.EFImplementations
         public async Task<IEnumerable<Room>> GetRoomsByStatus(RoomStatus roomStatus)
         {
             return await _context.Rooms.Where(x => x.Status == roomStatus).ToListAsync();
+        }
+
+        public async Task<List<Room>> GetRoomsByTypeAsync(string type)
+        {
+            return await _context.Rooms
+                         .Where(x => x.Type.ToLower().Contains(type.ToLower()))
+                         .ToListAsync();
+
         }
     }
 }
