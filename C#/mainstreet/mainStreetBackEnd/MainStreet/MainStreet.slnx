@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="MainStreet.DataBase/MainStreet.DataBase.csproj" />
+  <Project Path="MainStreet.Domain/MainStreet.Domain.csproj" />
+  <Project Path="MainStreet.Dto/MainStreet.Dto.csproj" />
+  <Project Path="MainStreet.Helpers/MainStreet.Helpers.csproj" />
+  <Project Path="MainStreet.Mappers/MainStreet.Mappers.csproj" />
+  <Project Path="MainStreet.Services/MainStreet.Services.csproj" />
+  <Project Path="MainStreet.Shared/MainStreet.Shared.csproj" />
+  <Project Path="MainStreet/MainStreet.csproj" />
+</Solution>

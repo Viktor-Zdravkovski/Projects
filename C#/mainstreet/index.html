@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Street - Street Food Done Right</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" onclick="switchView('home')">Main Street</a>
+
+            <nav class="nav-links">
+                <a href="#home" class="nav-item active" onclick="switchView('home', event)">Home</a>
+                <a href="#menu" class="nav-item" onclick="switchView('menu', event)">Menu</a>
+                <a href="#about" class="nav-item" onclick="switchView('about', event)">About</a>
+                <a href="#reviews" class="nav-item" onclick="switchView('reviews', event)">Reviews</a>
+                <a href="#contact" class="nav-item" onclick="switchView('contact', event)">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a class="btn btn-primary btn-sm"><i class="fa-solid fa-right-to-bracket"></i> Log-in</a>
+                <a class="btn btn-primary btn-sm"><i class="fa-solid fa-user-lock"></i> Register</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="home-view" class="view-section active-view">
+        <section id="home" class="hero-section">
+            <div class="container hero-content animate-block fade-up">
+                <h1>Street Food <span class="text-orange">Done Right</span></h1>
+                <p class="hero-subtitle">Perfect burgers, burritos & our famous 50cm pancake. Quality ingredients,
+                    friendly staff, unbeatable taste.</p>
+
+                <div class="hero-buttons">
+                    <button onclick="switchView('menu')" class="btn btn-primary"><i class="fas fa-utensils"></i> Order
+                        Now</button>
+                    <a href="#" onclick="switchView('contact')" class="btn btn-outline"><i
+                            class="fas fa-map-marker-alt"></i> Get Directions</a>
+                </div>
+
+                <div class="feature-badges animate-block fade-up delay-1">
+                    <span class="badge">Dine-in</span>
+                    <span class="badge">Takeaway</span>
+                    <span class="badge">No-contact delivery</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container grid-3">
+                <div class="feature-card animate-block fade-up">
+                    <div class="icon-box"><i class="fas fa-utensils"></i></div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Quality ingredients prepared fresh daily for the best taste</p>
+                </div>
+                <div class="feature-card animate-block fade-up delay-1">
+                    <div class="icon-box"><i class="fas fa-shopping-bag"></i></div>
+                    <h3>Quick Service</h3>
+                    <p>Fast preparation for dine-in, takeaway, or delivery</p>
+                </div>
+                <div class="feature-card animate-block fade-up delay-2">
+                    <div class="icon-box"><i class="fas fa-truck"></i></div>
+                    <h3>No-Contact Delivery</h3>
+                    <p>Safe and convenient delivery to your doorstep</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding section-bg-darker">
+            <div class="container">
+                <div class="section-header animate-block fade-up">
+                    <h2>Our Popular Picks</h2>
+                    <p>Customer favorites that keep them coming back</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="product-card animate-block fade-up">
+                        <div class="product-image">
+                            <span class="pop-tag">Popular</span>
+                            <img src="https://via.placeholder.com/400x300/333/f97316?text=Classic+Burger"
+                                alt="Classic Burger">
+                        </div>
+                        <div class="product-info">
+                            <h3>Classic Main Street Burger</h3>
+                            <p>Juicy beef patty, lettuce, tomato, onion, special sauce</p>
+                            <span class="price">350 ден</span>
+                        </div>
+                    </div>
+                    <div class="product-card animate-block fade-up delay-1">
+                        <div class="product-image">
+                            <span class="pop-tag">Popular</span>
+                            <img src="https://via.placeholder.com/400x300/333/f97316?text=Double+Cheese"
+                                alt="Double Cheese">
+                        </div>
+                        <div class="product-info">
+                            <h3>Double Cheese Burger</h3>
+                            <p>Two beef patties, double cheese, pickles, special sauce</p>
+                            <span class="price">450 ден</span>
+                        </div>
+                    </div>
+                    <div class="product-card animate-block fade-up delay-2">
+                        <div class="product-image">
+                            <span class="pop-tag">Popular</span>
+                            <img src="https://via.placeholder.com/400x300/333/f97316?text=Chicken+Burrito"
+                                alt="Chicken Burrito">
+                        </div>
+                        <div class="product-info">
+                            <h3>Chicken Burrito</h3>
+                            <p>Grilled chicken, rice, beans, cheese, fresh vegetables</p>
+                            <span class="price">320 ден</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center-btn animate-block fade-up">
+                    <button onclick="switchView('menu')" class="btn btn-primary">View Full Menu</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="section-padding">
+            <div class="container">
+                <div class="section-header animate-block fade-up">
+                    <h2>What Our Customers Say</h2>
+                    <p>Don't just take our word for it</p>
+                </div>
+                <div class="grid-2 testimonial-grid">
+                    <div class="testimonial-card animate-block fade-right">
+                        <div class="stars text-orange">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="quote">"Perfect burgers, burritos, and the new 50cm pancake is absolutely amazing!
+                            Best fast food in Drachevo."</p>
+                        <div class="reviewer-info"><span class="name">Marko Petrov</span><span class="date">2 weeks
+                                ago</span></div>
+                    </div>
+                    <div class="testimonial-card animate-block fade-left">
+                        <div class="stars text-orange">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="quote">"Food is fantastic, staff is very friendly. Always fresh ingredients and
+                            generous portions."</p>
+                        <div class="reviewer-info"><span class="name">Ana Stojanova</span><span class="date">1 month
+                                ago</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner animate-block fade-up">
+            <div class="container cta-content">
+                <h2>Ready to Order?</h2>
+                <p>Give us a call for takeaway or delivery. We're open daily until 9:30 PM!</p>
+                <div class="cta-buttons">
+                    <a href="tel:071888832" class="btn btn-white"><i class="fas fa-phone-alt"></i> 071 888 832</a>
+                    <button onclick="switchView('menu')" class="btn btn-outline-white">View Full Menu</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main id="menu-view" class="view-section hidden-view">
+        <section class="menu-header section-padding">
+            <div class="container text-center">
+                <h2 class="animate-block fade-up">Our Menu</h2>
+                <p class="animate-block fade-up delay-1">Fresh, delicious food made with quality ingredients. All items
+                    available for dine-in, takeaway, or delivery.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="menu-tabs animate-block fade-up delay-2">
+                <button class="tab-btn active" onclick="filterMenu('all')">All</button>
+                <button class="tab-btn" onclick="filterMenu('burgers')">Burgers</button>
+                <button class="tab-btn" onclick="filterMenu('burritos')">Burritos</button>
+                <button class="tab-btn" onclick="filterMenu('pancakes')">Pancakes</button>
+                <button class="tab-btn" onclick="filterMenu('fries')">Fries</button>
+                <button class="tab-btn" onclick="filterMenu('drinks')">Drinks</button>
+            </div>
+        </div>
+
+        <section class="section-padding section-bg-darker">
+            <div class="container grid-3" id="menu-grid">
+
+                <div class="product-card menu-item" data-category="burgers">
+                    <div class="product-image">
+                        <span class="pop-tag">Popular</span>
+                        <img src="https://via.placeholder.com/400x300/333/f97316?text=Classic+Burger"
+                            alt="Classic Burger">
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Main Street Burger</h3>
+                        <p>Juicy beef patty, lettuce, tomato, onion, special sauce</p>
+                        <span class="price">350 ден</span>
+                    </div>
+                </div>
+
+                <div class="product-card menu-item" data-category="burgers">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x300/333/f97316?text=Double+Cheese"
+                            alt="Double Cheese">
+                    </div>
+                    <div class="product-info">
+                        <h3>Double Cheese Burger</h3>
+                        <p>Two beef patties, double cheese, pickles, special sauce</p>
+                        <span class="price">450 ден</span>
+                    </div>
+                </div>
+
+                <div class="product-card menu-item" data-category="burgers">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x300/333/f97316?text=BBQ+Bacon" alt="BBQ Bacon Burger">
+                    </div>
+                    <div class="product-info">
+                        <h3>BBQ Bacon Burger</h3>
+                        <p>Beef patty, crispy bacon, onion rings, BBQ sauce, cheddar</p>
+                        <span class="price">400 ден</span>
+                    </div>
+                </div>
+
+                <div class="product-card menu-item" data-category="burgers">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x300/333/f97316?text=Spicy+Jalapeno"
+                            alt="Spicy Jalapeno">
+                    </div>
+                    <div class="product-info">
+                        <h3>Spicy Jalapeño Burger</h3>
+                        <p>Beef patty, jalapeños, pepper jack cheese, chipotle mayo</p>
+                        <span class="price">380 ден</span>
+                    </div>
+                </div>
+
+                <div class="product-card menu-item" data-category="burritos">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x300/333/f97316?text=Chicken+Burrito"
+                            alt="Chicken Burrito">
+                    </div>
+                    <div class="product-info">
+                        <h3>Chicken Burrito</h3>
+                        <p>Grilled chicken, rice, beans, cheese, fresh vegetables</p>
+                        <span class="price">320 ден</span>
+                    </div>
+                </div>
+
+                <div class="product-card menu-item" data-category="burritos">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x300/333/f97316?text=Beef+Burrito" alt="Beef Burrito">
+                    </div>
+                    <div class="product-info">
+                        <h3>Spicy Beef Burrito</h3>
+                        <p>Seasoned ground beef, rice, corn, salsa, sour cream</p>
+                        <span class="price">340 ден</span>
+                    </div>
+                </div>
+
+                <div class="product-card menu-item" data-category="pancakes">
+                    <div class="product-image">
+                        <span class="pop-tag">Famous</span>
+                        <img src="https://via.placeholder.com/400x300/333/f97316?text=50cm+Pancake" alt="50cm Pancake">
+                    </div>
+                    <div class="product-info">
+                        <h3>The 50cm Pancake</h3>
+                        <p>Our signature giant pancake with Nutella and biscuits</p>
+                        <span class="price">250 ден</span>
+                    </div>
+                </div>
+
+                <div class="product-card menu-item" data-category="fries">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x300/333/f97316?text=Loaded+Fries" alt="Loaded Fries">
+                    </div>
+                    <div class="product-info">
+                        <h3>Loaded Fries</h3>
+                        <p>Crispy fries topped with melted cheese and bacon bits</p>
+                        <span class="price">180 ден</span>
+                    </div>
+                </div>
+
+                <div class="product-card menu-item" data-category="drinks">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/400x300/333/f97316?text=Cola" alt="Coca Cola">
+                    </div>
+                    <div class="product-info">
+                        <h3>Coca Cola</h3>
+                        <p>0.5L Bottle</p>
+                        <span class="price">80 ден</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner animate-block fade-up">
+            <div class="container cta-content">
+                <h2>Place Your Order Now</h2>
+                <p>Call us for takeaway or delivery. Open daily until 9:30 PM!</p>
+                <div class="cta-buttons">
+                    <a href="tel:071888832" class="btn btn-white"><i class="fas fa-phone-alt"></i> 071 888 832</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main id="about-view" class="view-section hidden-view">
+        <section class="section-padding">
+            <div class="container">
+                <div class="section-header animate-block fade-up">
+                    <h2>About Main Street</h2>
+                    <p>Quality street food with dignity. That's our promise.</p>
+                </div>
+
+                <div class="about-stack">
+
+                    <div class="about-card animate-block fade-right">
+                        <div class="about-content">
+                            <h3>Our Story</h3>
+                            <p>At Main Street, we believe that fast food doesn't have to mean compromising on quality or
+                                taste. We're a local restaurant in Drachevo serving the community with food we're proud
+                                of.</p>
+                            <p>Every burger, burrito, and pancake is made with fresh ingredients and prepared with care.
+                                Our team is friendly, our kitchen is clean, and our commitment to consistency is
+                                unwavering.</p>
+                            <p>We focus on what matters: <span class="text-orange">great taste, generous portions, and
+                                    service with dignity</span>.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-card animate-block fade-left">
+                        <div class="about-content">
+                            <h3>Our Specialties</h3>
+                            <div class="specialty-item">
+                                <h4 class="text-orange">Perfect Burgers</h4>
+                                <p>Juicy beef patties cooked just right, fresh vegetables, and our special house sauce.
+                                </p>
+                            </div>
+                            <div class="specialty-item">
+                                <h4 class="text-orange">Amazing Burritos</h4>
+                                <p>Packed with flavor and filling. Our burritos are loaded with quality ingredients
+                                    wrapped up tight for easy eating.</p>
+                            </div>
+                            <div class="specialty-item">
+                                <h4 class="text-orange">The Famous 50cm Pancake</h4>
+                                <p>Our signature dessert! A massive pancake topped with vanilla and chocolate cream.
+                                    It's become legendary in Drachevo.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card animate-block fade-up">
+                        <div class="section-header">
+                            <h3>What We Stand For</h3>
+                            <p>Simple values that guide everything we do</p>
+                        </div>
+                        <div class="grid-3">
+                            <div class="feature-card">
+                                <div class="icon-box"><i class="fas fa-award"></i></div>
+                                <h4>Quality First</h4>
+                                <p>Fresh ingredients, proper preparation, and consistent standards in every meal we
+                                    serve.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="icon-box"><i class="fas fa-users"></i></div>
+                                <h4>Friendly Service</h4>
+                                <p>Our staff treats every customer with respect and a smile. You're not just a number
+                                    here.</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="icon-box"><i class="fas fa-heart"></i></div>
+                                <h4>Local Pride</h4>
+                                <p>We're part of the Drachevo community, and we're proud to serve our neighbors every
+                                    day.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner animate-block fade-up">
+            <div class="container cta-content">
+                <h2>Experience Main Street Today</h2>
+                <p>Call us now for dine-in, takeaway, or delivery!</p>
+                <div class="cta-buttons">
+                    <a href="tel:071888832" class="btn btn-white"><i class="fas fa-phone-alt"></i> 071 888 832</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main id="reviews-view" class="view-section hidden-view">
+        <section class="section-padding">
+            <div class="container">
+                <div class="section-header animate-block fade-up">
+                    <h2>Customer Reviews</h2>
+                    <p>See what our customers have to say about Main Street.</p>
+                    <div class="rating-summary-card mt-3">
+                        <span class="large-rating text-orange">4.5</span>
+                        <div class="stars text-orange">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="small-text">Based on 32 Google reviews</p>
+                    </div>
+                </div>
+
+                <div class="reviews-stack">
+
+                    <div class="testimonial-card animate-block fade-right">
+                        <div class="stars text-orange">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="quote">"Perfect burgers, burritos, and the new 50cm pancake is absolutely amazing!
+                            Best fast food in Drachevo."</p>
+                        <div class="reviewer-info">
+                            <span class="name">Marko Petrov</span>
+                            <span class="date">2 weeks ago</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card animate-block fade-left">
+                        <div class="stars text-orange">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="quote">"Food is fantastic, staff is very friendly. Always fresh ingredients and
+                            generous portions."</p>
+                        <div class="reviewer-info">
+                            <span class="name">Ana Stojanova</span>
+                            <span class="date">1 month ago</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card animate-block fade-right">
+                        <div class="stars text-orange">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="quote">"Beautiful taste and dignity. You can really feel the quality in every bite."
+                        </p>
+                        <div class="reviewer-info">
+                            <span class="name">Elena Trajkovska</span>
+                            <span class="date">3 weeks ago</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card animate-block fade-left">
+                        <div class="stars text-orange">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="quote">"Great food at reasonable prices. The burgers are juicy and the fries are
+                            perfectly crispy!"</p>
+                        <div class="reviewer-info">
+                            <span class="name">Viktor Angelov</span>
+                            <span class="date">2 months ago</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner animate-block fade-up">
+            <div class="container cta-content">
+                <h2>Come Try It Yourself</h2>
+                <p>Join our satisfied customers. Order now!</p>
+                <div class="cta-buttons">
+                    <a href="tel:071888832" class="btn btn-white"><i class="fas fa-phone-alt"></i> 071 888 832</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main id="contact-view" class="view-section hidden-view">
+        <section class="section-padding">
+            <div class="container">
+                <div class="section-header animate-block fade-up">
+                    <h2>Get In Touch</h2>
+                    <p>We're here to serve you. Call, visit, or order delivery!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-stack">
+
+                        <div class="contact-card animate-block fade-left">
+                            <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                            <div class="card-text">
+                                <h4>Phone</h4>
+                                <a href="tel:071888832" class="contact-link">071 888 832</a>
+                                <p>Call us for orders or reservations</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card animate-block fade-left" style="transition-delay: 0.1s;">
+                            <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="card-text">
+                                <h4>Location</h4>
+                                <p>Ratko Mitrovic 95, Drachevo</p>
+                                <a href="https://maps.google.com" target="_blank" class="btn-outline mt-2">Get
+                                    Directions</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card animate-block fade-left" style="transition-delay: 0.2s;">
+                            <div class="icon-box"><i class="fas fa-clock"></i></div>
+                            <div class="card-text">
+                                <h4>Opening Hours</h4>
+                                <p>Monday - Sunday</p>
+                                <p class="text-orange">11:00 AM - 9:30 PM</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-map animate-block fade-right">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d623.9136621597416!2d21.517586895823307!3d41.939068805210205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13543d000d4a3407%3A0x7cc846ceb03c292f!2sMain%20Street!5e0!3m2!1sen!2smk!4v1769874739416!5m2!1sen!2smk"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container footer-top grid-3">
+            <div class="footer-col">
+                <h3>Main Street</h3>
+                <p>Quality street food done right. Serving Drachevo with the best burgers, burritos, and more since day
+                    one.</p>
+                <div class="rating text-orange mt-3">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    <span>4.5 (32 reviews)</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#" onclick="switchView('home', event)">Home</a></li>
+                    <li><a href="#" onclick="switchView('menu', event)">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul class="contact-list">
+                    <li><i class="fas fa-phone-alt text-orange"></i> 071 888 832</li>
+                    <li><i class="fas fa-map-marker-alt text-orange"></i> Ratko Mitrovic 95, Drachevo</li>
+                    <li><i class="far fa-clock text-orange"></i> Open Daily<br> 11:00 AM - 9:30 PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>© 2026 Main Street. All rights reserved.</p>
+                <p>Dine-in • Takeaway • No-contact delivery</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
