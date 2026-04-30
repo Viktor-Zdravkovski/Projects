@@ -1,0 +1,12 @@
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\bin\Debug\net10.0\MainStreet.Domain.deps.json
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\bin\Debug\net10.0\MainStreet.Domain.dll
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\bin\Debug\net10.0\MainStreet.Domain.pdb
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\obj\Debug\net10.0\MainStreet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\obj\Debug\net10.0\MainStreet.Domain.AssemblyInfoInputs.cache
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\obj\Debug\net10.0\MainStreet.Domain.AssemblyInfo.cs
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\obj\Debug\net10.0\MainStreet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\obj\Debug\net10.0\MainStreet.Domain.sourcelink.json
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\obj\Debug\net10.0\MainStreet.Domain.dll
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\obj\Debug\net10.0\refint\MainStreet.Domain.dll
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\obj\Debug\net10.0\MainStreet.Domain.pdb
+C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Domain\obj\Debug\net10.0\ref\MainStreet.Domain.dll

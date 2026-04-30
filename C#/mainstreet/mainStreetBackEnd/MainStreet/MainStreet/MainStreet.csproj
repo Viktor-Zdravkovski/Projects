@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\MainStreet.Helpers\MainStreet.Helpers.csproj" />
+    <ProjectReference Include="..\MainStreet.Mappers\MainStreet.Mappers.csproj" />
+    <ProjectReference Include="..\MainStreet.Shared\MainStreet.Shared.csproj" />
   </ItemGroup>
 
 </Project>

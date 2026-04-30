@@ -1,34 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\",
+  "WorkspaceRootPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF807785-F6BB-FF74-6BC9-ED07958DE3A8}|MainStreet.Domain\\MainStreet.Domain.csproj|c:\\users\\justi\\onedrive\\desktop\\mainestreete\\mainstreetbackend\\mainstreet\\mainstreet.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF807785-F6BB-FF74-6BC9-ED07958DE3A8}|MainStreet.Domain\\MainStreet.Domain.csproj|solutionrelative:mainstreet.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF807785-F6BB-FF74-6BC9-ED07958DE3A8}|MainStreet.Domain\\MainStreet.Domain.csproj|c:\\users\\justi\\onedrive\\desktop\\mainestreete\\mainstreetbackend\\mainstreet\\mainstreet.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF807785-F6BB-FF74-6BC9-ED07958DE3A8}|MainStreet.Domain\\MainStreet.Domain.csproj|solutionrelative:mainstreet.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF807785-F6BB-FF74-6BC9-ED07958DE3A8}|MainStreet.Domain\\MainStreet.Domain.csproj|c:\\users\\justi\\onedrive\\desktop\\mainestreete\\mainstreetbackend\\mainstreet\\mainstreet.domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF807785-F6BB-FF74-6BC9-ED07958DE3A8}|MainStreet.Domain\\MainStreet.Domain.csproj|solutionrelative:mainstreet.domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{612AE722-2783-E8B9-7FFE-21EB301CC0F5}|MainStreet.Shared\\MainStreet.Shared.csproj|c:\\users\\justi\\onedrive\\desktop\\mainestreete\\mainstreetbackend\\mainstreet\\mainstreet.shared\\customexceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{612AE722-2783-E8B9-7FFE-21EB301CC0F5}|MainStreet.Shared\\MainStreet.Shared.csproj|solutionrelative:mainstreet.shared\\customexceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{612AE722-2783-E8B9-7FFE-21EB301CC0F5}|MainStreet.Shared\\MainStreet.Shared.csproj|c:\\users\\justi\\onedrive\\desktop\\mainestreete\\mainstreetbackend\\mainstreet\\mainstreet.shared\\customexceptions\\nodataexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{612AE722-2783-E8B9-7FFE-21EB301CC0F5}|MainStreet.Shared\\MainStreet.Shared.csproj|solutionrelative:mainstreet.shared\\customexceptions\\nodataexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{612AE722-2783-E8B9-7FFE-21EB301CC0F5}|MainStreet.Shared\\MainStreet.Shared.csproj|c:\\users\\justi\\onedrive\\desktop\\mainestreete\\mainstreetbackend\\mainstreet\\mainstreet.shared\\configuration\\mainstreetappsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{612AE722-2783-E8B9-7FFE-21EB301CC0F5}|MainStreet.Shared\\MainStreet.Shared.csproj|solutionrelative:mainstreet.shared\\configuration\\mainstreetappsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{612AE722-2783-E8B9-7FFE-21EB301CC0F5}|MainStreet.Shared\\MainStreet.Shared.csproj|c:\\users\\justi\\onedrive\\desktop\\mainestreete\\mainstreetbackend\\mainstreet\\mainstreet.shared\\mainstreet.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{612AE722-2783-E8B9-7FFE-21EB301CC0F5}|MainStreet.Shared\\MainStreet.Shared.csproj|solutionrelative:mainstreet.shared\\mainstreet.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C207609C-98B2-3AF6-2044-DA212ED4FE0A}|MainStreet\\MainStreet.csproj|c:\\users\\justi\\onedrive\\desktop\\gitprojects\\selfprojects\\mainestreete\\mainstreetbackend\\mainstreet\\mainstreet\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C207609C-98B2-3AF6-2044-DA212ED4FE0A}|MainStreet\\MainStreet.csproj|solutionrelative:mainstreet\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,87 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "MainStreet.Domain\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\Models\\Order.cs",
-              "RelativeToolTip": "MainStreet.Domain\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "MainStreet\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "MainStreet\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:19:29.898Z",
+              "WhenOpened": "2026-04-16T13:00:04.739Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\Models\\User.cs",
-              "RelativeDocumentMoniker": "MainStreet.Domain\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\Models\\User.cs",
-              "RelativeToolTip": "MainStreet.Domain\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:17:16.241Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\Models\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "MainStreet.Domain\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\Models\\BaseEntity.cs",
-              "RelativeToolTip": "MainStreet.Domain\\Models\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:17:03.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\CustomExceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "MainStreet.Shared\\CustomExceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\CustomExceptions\\NotFoundException.cs",
-              "RelativeToolTip": "MainStreet.Shared\\CustomExceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:15:51.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NoDataException.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\CustomExceptions\\NoDataException.cs",
-              "RelativeDocumentMoniker": "MainStreet.Shared\\CustomExceptions\\NoDataException.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\CustomExceptions\\NoDataException.cs",
-              "RelativeToolTip": "MainStreet.Shared\\CustomExceptions\\NoDataException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:15:19.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainStreet.Shared.csproj",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj",
-              "RelativeDocumentMoniker": "MainStreet.Shared\\MainStreet.Shared.csproj",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj",
-              "RelativeToolTip": "MainStreet.Shared\\MainStreet.Shared.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-27T16:14:17.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainStreetAppSettings.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\Configuration\\MainStreetAppSettings.cs",
-              "RelativeDocumentMoniker": "MainStreet.Shared\\Configuration\\MainStreetAppSettings.cs",
-              "ToolTip": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\Configuration\\MainStreetAppSettings.cs",
-              "RelativeToolTip": "MainStreet.Shared\\Configuration\\MainStreetAppSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:14:23.724Z"
             }
           ]
         }

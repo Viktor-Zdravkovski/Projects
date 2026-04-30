@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MainStreet.Domain/1.0.0": {
+        "runtime": {
+          "MainStreet.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MainStreet.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
