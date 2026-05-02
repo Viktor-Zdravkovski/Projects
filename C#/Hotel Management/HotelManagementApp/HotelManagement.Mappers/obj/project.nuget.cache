@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8bv4jAJwuB8=",
+  "dgSpecHash": "dv0iFEJ3Pbw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Mappers\\HotelManagement.Mappers.csproj",
+  "projectFilePath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\Projects\\C#\\Hotel Management\\HotelManagementApp\\HotelManagement.Mappers\\HotelManagement.Mappers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\justi\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",

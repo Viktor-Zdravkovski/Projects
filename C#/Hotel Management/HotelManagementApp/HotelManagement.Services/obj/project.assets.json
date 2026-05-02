@@ -2570,11 +2570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\HotelManagement.Services.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\Projects\\C#\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\HotelManagement.Services.csproj",
       "projectName": "HotelManagement.Services",
-      "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\HotelManagement.Services.csproj",
+      "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\Projects\\C#\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\HotelManagement.Services.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\obj\\",
+      "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\Projects\\C#\\Hotel Management\\HotelManagementApp\\HotelManagement.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2596,14 +2596,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.DataBase\\HotelManagement.DataBase.csproj": {
-              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.DataBase\\HotelManagement.DataBase.csproj"
+            "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\Projects\\C#\\Hotel Management\\HotelManagementApp\\HotelManagement.DataBase\\HotelManagement.DataBase.csproj": {
+              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\Projects\\C#\\Hotel Management\\HotelManagementApp\\HotelManagement.DataBase\\HotelManagement.DataBase.csproj"
             },
-            "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Dto\\HotelManagement.Dto.csproj": {
-              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Dto\\HotelManagement.Dto.csproj"
+            "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\Projects\\C#\\Hotel Management\\HotelManagementApp\\HotelManagement.Dto\\HotelManagement.Dto.csproj": {
+              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\Projects\\C#\\Hotel Management\\HotelManagementApp\\HotelManagement.Dto\\HotelManagement.Dto.csproj"
             },
-            "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Shared\\HotelManagement.Shared.csproj": {
-              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\Hotel Management\\HotelManagementApp\\HotelManagement.Shared\\HotelManagement.Shared.csproj"
+            "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\Projects\\C#\\Hotel Management\\HotelManagementApp\\HotelManagement.Shared\\HotelManagement.Shared.csproj": {
+              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\Projects\\C#\\Hotel Management\\HotelManagementApp\\HotelManagement.Shared\\HotelManagement.Shared.csproj"
             }
           }
         }
@@ -2649,7 +2649,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
