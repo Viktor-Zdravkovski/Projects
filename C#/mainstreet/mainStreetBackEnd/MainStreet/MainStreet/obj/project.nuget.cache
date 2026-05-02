@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yuh2gqNA0t0=",
+  "dgSpecHash": "1LJEnuWKp/w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet\\MainStreet.csproj",
+  "projectFilePath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet\\MainStreet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\justi\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
-    "C:\\Users\\justi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.5\\microsoft.aspnetcore.authentication.jwtbearer.10.0.5.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.7\\microsoft.aspnetcore.authentication.jwtbearer.10.0.7.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",

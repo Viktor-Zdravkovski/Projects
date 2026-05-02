@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {}
+    "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {
+    "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj",
         "projectName": "MainStreet.Domain",
-        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj",
+        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\obj\\",
+        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

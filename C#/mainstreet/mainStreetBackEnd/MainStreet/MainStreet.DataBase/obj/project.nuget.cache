@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EUO1X9PH2Dk=",
+  "dgSpecHash": "woEVsDtKMJM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj",
+  "projectFilePath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\justi\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\justi\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

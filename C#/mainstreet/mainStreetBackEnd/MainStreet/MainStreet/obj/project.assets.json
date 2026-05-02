@@ -54,7 +54,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/10.0.5": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/10.0.7": {
         "type": "package",
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "8.0.1"
@@ -699,7 +699,7 @@
         "dependencies": {
           "MainStreet.DataBase": "1.0.0",
           "MainStreet.Services": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.5",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.7",
           "Serilog.Sinks.MSSqlServer": "9.0.3",
           "Swashbuckle.AspNetCore": "10.1.7"
         },
@@ -817,10 +817,10 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/10.0.5": {
-      "sha512": "fZzXogChrwQ/SfifQJgeW7AtR8hUv5+LH9oLWjm5OqfnVt3N8MwcMHHMdawvqqdjP79lIZgetnSpj77BLsSI1g==",
+    "Microsoft.AspNetCore.Authentication.JwtBearer/10.0.7": {
+      "sha512": "g8klpd7OFJfJOq1EJKcBO8C8I8Dp0QUWoKDPUvvJYe+xunVyBHq6YxfF2CAc6+rkniV25iaWl+6RK87c25n4lA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/10.0.5",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/10.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -829,7 +829,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
         "lib/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
-        "microsoft.aspnetcore.authentication.jwtbearer.10.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.10.0.7.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
@@ -1893,11 +1893,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet\\MainStreet.csproj",
+      "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet\\MainStreet.csproj",
       "projectName": "MainStreet",
-      "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet\\MainStreet.csproj",
+      "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet\\MainStreet.csproj",
       "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet\\obj\\",
+      "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1920,14 +1920,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj": {
-              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj"
+            "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj": {
+              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj"
             },
-            "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj": {
-              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj"
+            "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj": {
+              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj"
             },
-            "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj": {
-              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj"
+            "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj": {
+              "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj"
             }
           }
         }
@@ -1973,7 +1973,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

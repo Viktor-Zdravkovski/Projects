@@ -1,4 +1,6 @@
-﻿using MainStreet.Services.Interfaces;
+﻿using MainStreet.Dto.OrderDto;
+using MainStreet.Dto.PaymentDto;
+using MainStreet.Services.Interfaces;
 using MainStreet.Shared.CustomExceptions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -56,7 +58,7 @@ namespace MainStreet.Controllers
             }
             catch (NotFoundException ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode(StatusCodes.Status404NotFound, $"Order with ID:{id} was not found");
             }
             catch (NoDataException ex)
             {
@@ -86,7 +88,7 @@ namespace MainStreet.Controllers
             }
             catch (NotFoundException ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode(StatusCodes.Status404NotFound, $"Order with user ID:{userId} was not found");
             }
             catch (NoDataException ex)
             {
@@ -100,17 +102,84 @@ namespace MainStreet.Controllers
 
         [HttpGet("GetOrdersByDay")]
         [Authorize(Roles = "Admin, Staff")]
-        public async Task<IActionResult> GetOrdersByDay(DateTime day)
+        public async Task<IActionResult> GetOrdersByACertainDay([FromQuery] DateTime? day)
         {
-            //DateTime today = DateTime.UtcNow.Date;
-            //DateTime today = DateTime.Today;
-            DateTime today = day.Date;
+            try
+            {
+                var searchDate = day ?? DateTime.UtcNow.Date;
 
+                var orders = await _orderService.GetAllOrdersForCertainDay(searchDate);
 
-            var orders = await _orderService.GetAllOrdersForCertainDay(today);
-
-
+                return Ok(orders);
+            }
+            catch (NotFoundException ex)
+            {
+                return StatusCode(StatusCodes.Status404NotFound, $"No orders for that date: {day}");
+            }
+            catch (NoDataException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
+        [HttpPost("AddOrder")]
+        public async Task<IActionResult> AddOrder([FromBody] AddOrderDto addOrderDto)
+        {
+            try
+            {
+                if (addOrderDto == null)
+                {
+                    return BadRequest("Reservation data is required");
+                }
+
+                await _orderService.AddOrder(addOrderDto);
+                return Ok(new { message = "Order added successfully!" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut("UpdateOrder")]
+        public async Task<IActionResult> UpdateOrder([FromBody] int id, UpdateOrderDto updateOrderDto)
+        {
+            if (updateOrderDto == null)
+                return BadRequest("Invalid reservation data.");
+
+            try
+            {
+                await _orderService.UpdateOrder(id, updateOrderDto);
+                return Ok("Reservation updated successfully");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("DeleteOrder")]
+        public async Task<IActionResult> DeleteOrder(int id)
+        {
+            try
+            {
+                await _orderService.DeleteOrder(id);
+                return Ok($"The order with ID: {id} was successfully deleted");
+            }
+            catch (NotFoundException ex)
+            {
+                return StatusCode(StatusCodes.Status404NotFound, $"Order with ID:{id} was not found");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
+
+//Task DeleteOrder(int id);

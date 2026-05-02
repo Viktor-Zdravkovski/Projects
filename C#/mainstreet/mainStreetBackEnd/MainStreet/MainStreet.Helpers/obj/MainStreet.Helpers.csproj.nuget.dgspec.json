@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj": {}
+    "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj": {
+    "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj",
         "projectName": "MainStreet.DataBase",
-        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj",
+        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\obj\\",
+        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,11 +34,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {
-                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj"
+              "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {
+                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj"
               },
-              "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj": {
-                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj"
+              "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj": {
+                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj"
               }
             }
           }
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -373,14 +373,14 @@
         }
       }
     },
-    "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {
+    "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj",
         "projectName": "MainStreet.Domain",
-        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj",
+        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\obj\\",
+        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -437,7 +437,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -715,14 +715,14 @@
         }
       }
     },
-    "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj": {
+    "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj",
         "projectName": "MainStreet.Dto",
-        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj",
+        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\obj\\",
+        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -745,8 +745,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {
-                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj"
+              "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {
+                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj"
               }
             }
           }
@@ -783,7 +783,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1061,14 +1061,14 @@
         }
       }
     },
-    "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj": {
+    "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj",
         "projectName": "MainStreet.Helpers",
-        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj",
+        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\MainStreet.Helpers.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\obj\\",
+        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1091,11 +1091,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj": {
-                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj"
+              "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj": {
+                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj"
               },
-              "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\MainStreet.Services.csproj": {
-                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\MainStreet.Services.csproj"
+              "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\MainStreet.Services.csproj": {
+                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\MainStreet.Services.csproj"
               }
             }
           }
@@ -1119,7 +1119,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[10.0.5, )"
+              "version": "[10.0.7, )"
             },
             "Serilog.Sinks.MSSqlServer": {
               "target": "Package",
@@ -1146,7 +1146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1424,14 +1424,14 @@
         }
       }
     },
-    "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj": {
+    "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj",
         "projectName": "MainStreet.Mappers",
-        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj",
+        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\obj\\",
+        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1454,11 +1454,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {
-                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj"
+              "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj": {
+                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Domain\\MainStreet.Domain.csproj"
               },
-              "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj": {
-                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj"
+              "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj": {
+                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj"
               }
             }
           }
@@ -1509,7 +1509,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1787,14 +1787,14 @@
         }
       }
     },
-    "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\MainStreet.Services.csproj": {
+    "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\MainStreet.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\MainStreet.Services.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\MainStreet.Services.csproj",
         "projectName": "MainStreet.Services",
-        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\MainStreet.Services.csproj",
+        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\MainStreet.Services.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\obj\\",
+        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1817,14 +1817,14 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj": {
-                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj"
+              "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj": {
+                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.DataBase\\MainStreet.DataBase.csproj"
               },
-              "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj": {
-                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj"
+              "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj": {
+                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Dto\\MainStreet.Dto.csproj"
               },
-              "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj": {
-                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj"
+              "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj": {
+                "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Mappers\\MainStreet.Mappers.csproj"
               }
             }
           }
@@ -1861,7 +1861,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -2139,14 +2139,14 @@
         }
       }
     },
-    "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj": {
+    "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj",
         "projectName": "MainStreet.Shared",
-        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj",
+        "projectPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\MainStreet.Shared.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\GitProjects\\SelfProjects\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\obj\\",
+        "outputPath": "C:\\Users\\justi\\OneDrive\\Desktop\\mainestreete\\mainStreetBackEnd\\MainStreet\\MainStreet.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2203,7 +2203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

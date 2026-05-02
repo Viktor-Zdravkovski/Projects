@@ -1,6 +1,0 @@
-C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Helpers\obj\Debug\net10.0\MainStreet.Helpers.csproj.AssemblyReference.cache
-C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Helpers\obj\Debug\net10.0\MainStreet.Helpers.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Helpers\obj\Debug\net10.0\MainStreet.Helpers.AssemblyInfoInputs.cache
-C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Helpers\obj\Debug\net10.0\MainStreet.Helpers.AssemblyInfo.cs
-C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Helpers\obj\Debug\net10.0\MainStreet.Helpers.csproj.CoreCompileInputs.cache
-C:\Users\justi\OneDrive\Desktop\GitProjects\SelfProjects\mainestreete\mainStreetBackEnd\MainStreet\MainStreet.Helpers\obj\Debug\net10.0\MainStreet.Helpers.sourcelink.json
