@@ -1,0 +1,173 @@
+.roomsSection {
+    background: #c7b7a3;
+    padding: 80px 100px;
+    color: #222;
+}
+
+.sectionTitle {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.roomsGrid {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.roomCard {
+    position: relative;
+    max-width: 450px;
+}
+
+.imageWrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: 380px;
+    /* Bigger image */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 16px;
+}
+
+.topBadge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #62baac;
+    color: white;
+    padding: 6px 16px;
+    font-weight: 600;
+    font-size: 14px;
+    z-index: 2;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    transition: opacity 0.3s ease;
+    border-radius: 16px;
+}
+
+.imageWrapper:hover img {
+    transform: scale(1.05);
+}
+
+.imageWrapper:hover .overlay {
+    opacity: 1;
+}
+
+.arrowCircle {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #ca862c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.arrowCircle:hover {
+    transform: scale(1.1);
+}
+
+.arrow {
+    font-size: 22px;
+    color: white;
+}
+
+.roomInfo {
+    margin-top: 25px;
+}
+
+.line {
+    width: 80px;
+    height: 2px;
+    background-color: #ca862c;
+    margin-bottom: 15px;
+}
+
+.roomTitle {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Testimonials Section */
+.testimonials {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.testimonialCard {
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.testimonialCard .text {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.testimonialCard .author {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.testimonialCard hr {
+    width: 60%;
+    margin: 15px auto;
+    border: 0.5px solid rgb(212, 212, 212);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.reviews {
+    font-size: 14px;
+    color: #777;
+}
+
+.arrowBtn {
+    background: #ac8c66;
+    padding: 0 10px;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.arrowBtn:hover {
+    color: #ca862c;
+}

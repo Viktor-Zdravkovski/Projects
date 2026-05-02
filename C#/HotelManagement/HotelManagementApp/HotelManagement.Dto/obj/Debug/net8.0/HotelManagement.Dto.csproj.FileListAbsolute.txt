@@ -1,0 +1,15 @@
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\bin\Debug\net8.0\HotelManagement.Dto.deps.json
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\bin\Debug\net8.0\HotelManagement.Dto.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\bin\Debug\net8.0\HotelManagement.Dto.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\bin\Debug\net8.0\HotelManagement.Domain.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\bin\Debug\net8.0\HotelManagement.Domain.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\obj\Debug\net8.0\HotelManagement.Dto.csproj.AssemblyReference.cache
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\obj\Debug\net8.0\HotelManagement.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\obj\Debug\net8.0\HotelManagement.Dto.AssemblyInfoInputs.cache
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\obj\Debug\net8.0\HotelManagement.Dto.AssemblyInfo.cs
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\obj\Debug\net8.0\HotelManagement.Dto.csproj.CoreCompileInputs.cache
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\obj\Debug\net8.0\HotelMan.98D043B8.Up2Date
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\obj\Debug\net8.0\HotelManagement.Dto.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\obj\Debug\net8.0\refint\HotelManagement.Dto.dll
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\obj\Debug\net8.0\HotelManagement.Dto.pdb
+C:\Users\justi\OneDrive\Desktop\Hotel Management\HotelManagementApp\HotelManagement.Dto\obj\Debug\net8.0\ref\HotelManagement.Dto.dll

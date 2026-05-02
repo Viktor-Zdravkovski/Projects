@@ -1,0 +1,148 @@
+.menuSection {
+    position: relative;
+    background-color: #3d402c;
+    color: #fff;
+    padding: 100px 5% 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.foodImgRight {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.foodImgLeft {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 60px;
+    position: relative;
+    display: inline-block;
+}
+
+.menuContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.tabs {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.tab:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.activeTab {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid #ca862c;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.menuItem:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.itemHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #f0c330;
+}
+
+.separator {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 5px 0;
+}
+
+.itemDescription {
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+.itemIngredients {
+    font-size: 0.9rem;
+    color: #d9d9d9;
+}
+
+/* Mini title below everything */
+.miniCTA {
+    margin-top: 80px;
+    font-size: 1.3rem;
+    color: #f0c330;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    border: 2px solid #f0c330;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.miniCTA:hover {
+    background-color: #f0c330;
+    color: #1a3d2f;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 900px) {
+
+    .foodImgLeft,
+    .foodImgRight {
+        display: none;
+    }
+}
